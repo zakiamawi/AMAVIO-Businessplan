@@ -334,3 +334,90 @@ Checkliste vor Investorversand:
 - [ ] Risiken werden offen und aktiv gemanagt dargestellt
 - [ ] Funding-Bedarf ist direkt an Meilensteine gekoppelt
 - [ ] Story ist in 5 Minuten ohne Zusatzkontext verständlich
+
+---
+
+## 10) AMAVIO Vorbefüllung (Stand: Finanzmodell v1.7 FINAL)
+
+### 10.1 Kernzahlen (bereits aus Modell befüllbar)
+
+| Bereich | Year 1 | Year 2 | Year 3 |
+|---|---:|---:|---:|
+| Planumsatz (EUR) | 93.500 | 269.000 | 442.000 |
+| Variable External Cost Rate | 10 % | 12 % | 15 % |
+| Monthly Overhead (EUR/Monat) | 1.600 | 2.200 | 3.200 |
+| Founder Gross Compensation (EUR/Monat) | 2.500 | 3.500 | 5.000 |
+| Project Coordination Staff (EUR/Monat) | 0 | 4.000 | 9.000 |
+| Depreciation (EUR/Jahr) | 2.000 | 3.000 | 5.000 |
+| Capex (EUR/Jahr) | 2.000 | 8.000 | 15.000 |
+| Minimum Liquidity (EUR) | 10.000 | 15.000 | 25.000 |
+
+Zusätzliche Modellparameter:
+- Geplante Startfinanzierung: **25.000 EUR** (500 EUR Stammkapital + 24.500 EUR dokumentierter Beitrag/Darlehen)
+- Dokumentiert erhaltene Startfinanzierung (Live): **0 EUR** (vor Live-Nutzung aktualisieren)
+- Standard Day Rate (interne Kalibrierung): **900 EUR/Tag**
+- Billable Founder Days: **102 / 130 / 140**
+- Downside Revenue Factor: **45 %**
+- Growth Revenue Factor: **125 %**
+- Tax Reserve Rate (Planungsreserve): **30 %** des positiven EBT
+
+### 10.2 Revenue-Blueprint (aus Contract_Cash)
+
+Year 1 (93.500 EUR):
+- Blueprint 01: 12.500
+- Blueprint 02: 12.500
+- Launch 01: 29.500
+- Office Setup 01: 15.000
+- Retainer 01: 13.500
+- Add-ons 01: 10.500
+
+Year 2 (269.000 EUR):
+- Blueprint 03/04/05: je 21.000
+- Launch 02/03: je 50.000
+- Office Setup 02: 25.000
+- Retainer 02: 72.000
+- Add-ons 02: 9.000
+
+Year 3 (442.000 EUR):
+- Blueprint 06/07/08/09: je 21.000
+- Launch 04/05: je 55.000
+- Office Setup 03/04: je 28.000
+- Retainer 03: 144.000
+- Add-ons 03: 48.000
+
+### 10.3 Zahlungslogik (direkt für Deck/Plan verwendbar)
+- Blueprint: **40 / 40 / 20**
+- Launch: **30 / 30 / 30 / 10**
+- Office Setup: **50 / 30 / 20**
+- Retainer: monatlich im Voraus
+- Add-ons: periodisch gemäß freigegebenem Scope
+
+### 10.4 Vorbefüllung für Kapitel 6 (mit AMAVIO-Baseline)
+
+#### 6.1 Executive Summary (Vorbefüllt)
+- Traktion in einer Zahl: **Planumsatz wächst von 93,5 TEUR auf 442 TEUR in 3 Jahren**
+- Kapitalbedarf + Zielmeilenstein: **25 TEUR Startfinanzierung geplant; Live-Gate bleibt an dokumentierten Mittelzufluss gekoppelt**
+- Warum jetzt: **Cash- und Steuerreserven sind modellseitig als Führungslogik bereits verankert**
+
+#### 6.6 Geschäftsmodell & Pricing (Vorbefüllt)
+- Pricing-Logik: **Paketbasiert (Blueprint, Launch, Office Setup) + Retainer + Add-ons**
+- Preis-zu-Wert-Argument: **Launch-Baseline 29,5 TEUR als bindender Mindestanker im Modell**
+
+#### 6.7 Go-to-Market Plan (Vorbefüllt)
+- Kanalportfolio (aus Leistungslogik ableitbar): **Founder-led Sales + Partner + Folgegeschäft über Retainer/Add-ons**
+- Quartalsziele (Startpunkt): **aus Startmonaten M3/M6/M7/M10 im Zahlungssteuerungsblatt ableiten**
+
+#### 6.9 Unit Economics & Finanzlogik (Vorbefüllt)
+- Bruttomargen-Logik: **über variable Kostenquote 10/12/15 % gesteuert**
+- Break-even-Schwelle: **TBD – im Modell vorhanden, aktuell ohne gespeicherte Ergebniswerte im Export**
+
+#### 6.13 Funding-Case (Vorbefüllt)
+- Kapitalbedarf: **25.000 EUR geplant**
+- Runway bis: **TBD – abhängig von dokumentiertem Funding-Zufluss (Live-Wert aktuell 0 EUR)**
+- Nächster Value-Inflection-Point: **Übergang von Year 1 auf Year 2 Umsatzsprung (93,5 TEUR → 269 TEUR)**
+
+### 10.5 Offene Lücken (gezielt nachziehen)
+- CAC, LTV, Payback, NRR, Burn Multiple: **TBD (separat aus Live-Daten oder sauber berechneter Modellversion ergänzen)**
+- Exakte EBITDA/EBT/Net-Income Werte pro Jahr: **TBD (im Export aktuell ohne gespeicherte Zahlenwerte)**
+- Wettbewerbsmatrix mit externen Benchmarks: **TBD**
+- Risiko-Wahrscheinlichkeiten und Schwellwerte: **TBD**

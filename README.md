@@ -8,3 +8,4 @@ Die Vorlage enthält zusätzlich:
 - Kapitel-für-Kapitel Ausfüllstruktur
 - Seiten-Blueprint für Layout/Design
 - KPI-Canvas und finalen Qualitäts-Gate
+- Vorbefüllte AMAVIO-Basiswerte aus dem Finanzmodell v1.7 FINAL
