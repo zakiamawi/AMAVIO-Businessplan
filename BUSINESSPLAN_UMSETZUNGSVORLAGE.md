@@ -421,3 +421,90 @@ Year 3 (442.000 EUR):
 - Exakte EBITDA/EBT/Net-Income Werte pro Jahr: **TBD (im Export aktuell ohne gespeicherte Zahlenwerte)**
 - Wettbewerbsmatrix mit externen Benchmarks: **TBD**
 - Risiko-Wahrscheinlichkeiten und Schwellwerte: **TBD**
+
+---
+
+## 11) KPI-Nachbefüllungsplan (TBD → messbar)
+
+### 11.1 KPI-Definitionen mit Rechenlogik
+
+| KPI | Formel | Primärquelle | Status |
+|---|---|---|---|
+| CAC | (Sales+Marketing-Kosten Periode) / Anzahl Neukunden | Kostenblöcke + CRM | TBD |
+| LTV | ARPA × Bruttomarge × erwartete Kundenlaufzeit | Umsatzmix + Marge + Retention | TBD |
+| LTV/CAC | LTV / CAC | abgeleitet | TBD |
+| Payback Period | CAC / monatlicher Deckungsbeitrag je Neukunde | CAC + Contribution | TBD |
+| Gross Margin | (Umsatz – direkte variable Kosten) / Umsatz | Assumptions + P&L | **teilweise befüllt** |
+| NRR | (Start-MRR + Expansion – Contraction – Churn) / Start-MRR | Abrechnung/CRM | TBD |
+| Burn Multiple | Net Burn / Net New ARR | Cash + ARR | TBD |
+| Runway | Verfügbare Liquidität / monatlicher Net Burn | Monthly_Cash | TBD |
+
+### 11.2 Sofort nutzbare Startwerte aus v1.7 FINAL
+
+- Gross-Margin-Proxy aus variabler Kostenquote:
+  - Year 1: **90 %** (1 - 10 %)
+  - Year 2: **88 %** (1 - 12 %)
+  - Year 3: **85 %** (1 - 15 %)
+- Umsatz-Leitplanke:
+  - Year 1: **93,5 TEUR**
+  - Year 2: **269 TEUR**
+  - Year 3: **442 TEUR**
+- Mindestliquidität als Steuerungsgrenze:
+  - Year 1: **10 TEUR**
+  - Year 2: **15 TEUR**
+  - Year 3: **25 TEUR**
+
+### 11.3 Datenpunkte, die noch zwingend erhoben werden müssen
+
+1. Neukunden je Monat/Quartal (für CAC, Win Rate, Payback)
+2. Kanalzuordnung pro Opportunity (Inbound/Outbound/Partner/Founder-led)
+3. Sales-Aufwand je Kanal (für kanalgenauen CAC)
+4. Bestandsumsatzbewegung (für NRR: Expansion/Contraction/Churn)
+5. Monatsgenauer Net Burn (für Runway und Burn Multiple)
+
+### 11.4 KPI-Zielkorridore für interne Steuerung (Arbeitsannahmen)
+
+> Diese Korridore sind interne Steuerungswerte, keine externen Marktversprechen.
+
+- LTV/CAC: **> 3,0**
+- Payback: **< 12 Monate**
+- Gross Margin: **> 80 %**
+- Pipeline Coverage: **> 3,0x des Quartalsziels**
+- Runway: **mind. 9 Monate, Ziel 12+ Monate**
+
+---
+
+## 12) 30/60/90-Tage Exekutionsplan (ab heute)
+
+### Tag 1–30: Datenfundament + Story-Fokus
+- CRM-/Sheet-Struktur auf KPI-Erfassung ausrichten (CAC, Win Rate, NRR).
+- Einheitliche Deal-Phasen und Kanal-Tags verbindlich setzen.
+- Wettbewerberliste final (5–7) und Bewertungsachsen fixieren.
+- Executive Summary auf 1 Seite finalisieren.
+
+Deliverables:
+- Vollständige KPI-Datenerfassungsvorlage
+- Erste belastbare Wettbewerbsmatrix
+- Finale 1-Seiten-Executive-Summary
+
+### Tag 31–60: Quantifizierung + Investor-Lesbarkeit
+- CAC, Payback, LTV/CAC auf echten Verlaufsdaten rechnen.
+- Risiko-Register mit Eintrittswahrscheinlichkeiten und Schwellwerten befüllen.
+- Funding-Use je Budgetblock an KPI-Effekt koppeln.
+- Deck auf „eine Seite = eine Aussage“ hart kürzen.
+
+Deliverables:
+- KPI-Board mit echten Monatswerten
+- Risk Heatmap mit Mitigation-Ownern
+- Funding-Folie mit Outcome-Kaskade
+
+### Tag 61–90: Proof + DD-Readiness
+- Referenz- und Proof-Material (Kundenstimmen, Cases, Vorher/Nachher) bündeln.
+- Vollständigen 5-Minuten-Readability-Test mit 3 externen Lesern durchführen.
+- Due-Diligence-Paket finalisieren (Finanzmodell, Quellen, Verträge, Compliance).
+- Q&A-Runden simulieren und schwache Stellen nachschärfen.
+
+Deliverables:
+- Investor-versandfähiges Deck
+- DD-ready Dokumentenpaket
+- Q&A-Log mit finalen Antworten
