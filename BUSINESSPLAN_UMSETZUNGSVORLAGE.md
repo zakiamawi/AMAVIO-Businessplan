@@ -170,3 +170,167 @@ Wenn eine Frage nicht in unter 30 Sekunden beantwortbar ist:
 - [ ] Executive Summary auf 1 Seite verdichten
 - [ ] Alle Seiten auf Raster/Farblogik/Ein-Aussage-Prinzip angleichen
 - [ ] Finalen 5-Minuten-Readability-Test durchführen
+
+---
+
+## 6) Kapitel-für-Kapitel Überarbeitungsvorlage (direkt ausfüllbar)
+
+Für jedes Kapitel konsequent ausfüllen:
+- **Kernaussage der Seite**
+- **Belegtyp** (KPI, Kundenstimme, Benchmark, Pilotdaten, Finanzmodell)
+- **Callout-Zahl** (größte Zahl der Seite)
+- **Entscheidungsfrage für Investor** (welche Unsicherheit wird reduziert?)
+
+### 6.1 Executive Summary (1 Seite)
+- Kernaussage:
+- Problem in einem Satz:
+- Lösung in einem Satz:
+- Traktion in einer Zahl:
+- Kapitalbedarf + Zielmeilenstein:
+- Warum jetzt:
+
+### 6.2 Problem & Dringlichkeit (1–2 Seiten)
+- Kundensegment:
+- Top-3 Pain Points (mit Messwert):
+- Wirtschaftlicher Schaden ohne Lösung:
+- Dringlichkeitstreiber (Markt, Regulierung, Kosten):
+
+### 6.3 Lösung & Produktlogik (2 Seiten)
+- Lösungsarchitektur in 3 Bausteinen:
+- Vorher/Nachher-Effekt:
+- Time-to-Value:
+- Proof of Feasibility:
+
+### 6.4 Markt & Segmentfokus (2 Seiten)
+- TAM / SAM / SOM:
+- Primärer Beachhead-Markt:
+- Segmentpriorisierung (A/B/C):
+- Begründung der Fokusreihenfolge:
+
+### 6.5 Wettbewerb & Positionierung (1 Seite)
+- Relevante Alternativen:
+- Differenzierungskriterien:
+- Eigener strategischer Vorteil:
+- Wo Wettbewerber aktuell stärker sind + Gegenstrategie:
+
+### 6.6 Geschäftsmodell & Pricing (1 Seite)
+- Pricing-Logik:
+- Zahlungsmodell:
+- Upsell-/Expansion-Pfade:
+- Preis-zu-Wert-Argument:
+
+### 6.7 Go-to-Market Plan (2 Seiten)
+- Kanalportfolio:
+- Funnel pro Kanal:
+- CAC je Kanal:
+- Sales Cycle je Segment:
+- Quartalsziele (Neukunden/ARR):
+
+### 6.8 Traktion & Proof (1–2 Seiten)
+- Bisherige Kernsignale:
+- Conversion-/Nutzungsdaten:
+- Referenzkunden/Partner:
+- Lernkurve der letzten 6 Monate:
+
+### 6.9 Unit Economics & Finanzlogik (2 Seiten)
+- ACV/ARPA:
+- Bruttomarge:
+- CAC / LTV:
+- Payback:
+- Break-even-Schwelle:
+
+### 6.10 Risiken & Mitigation (1 Seite)
+- Risiko 1 + Gegenmaßnahme:
+- Risiko 2 + Gegenmaßnahme:
+- Risiko 3 + Gegenmaßnahme:
+- Frühindikatoren mit Schwellwert:
+
+### 6.11 Roadmap 12–24 Monate (1 Seite)
+- Q1–Q2 Meilensteine:
+- Q3–Q4 Meilensteine:
+- Year-2 Erweiterung:
+- KPI pro Meilenstein + Owner:
+
+### 6.12 Team & Governance (1 Seite)
+- Schlüsselrollen heute:
+- Kritische Hires:
+- Governance-/Reporting-Rhythmus:
+- Warum das Team diese Kategorie gewinnen kann:
+
+### 6.13 Funding-Case (1 Seite)
+- Kapitalbedarf:
+- Mittelverwendung nach Blöcken:
+- KPI-Wirkung pro Block:
+- Runway bis:
+- Nächster Value-Inflection-Point:
+
+### 6.14 Exit-/Skalierungspfad (1 Seite)
+- Geografischer Skalierungspfad:
+- Produktseitige Skalierungshebel:
+- Strategische Exit-Optionen:
+- Trigger für Exit-Readiness:
+
+### 6.15 Anhang
+- Detailtabellen
+- Methodik
+- Datenquellen
+- Zusatznachweise
+
+---
+
+## 7) Seiten-Blueprint für starkes Design (pro Seite gleich anwenden)
+
+### A) Header-Zone (oben, 15–20 %)
+- Kapitelkennung + klare Headlines
+- Subheadline mit Kontext (max. 1 Zeile)
+
+### B) Insight-Zone (Mitte, 55–65 %)
+- 1 Primärvisual (Chart/Matrix/Prozess)
+- 2–3 unterstützende Datenpunkte
+- Kein Fließtextblock über 4 Zeilen
+
+### C) Decision-Zone (unten, 15–20 %)
+- „So what?“ in einem Satz
+- Investor-Relevanz (Risiko reduziert / Upside erhöht)
+- Nächste Seite logisch anschließen
+
+Regeln:
+- Eine dominante Farbe + eine Akzentfarbe pro Seite.
+- Maximal ein Diagrammtyp pro Seite.
+- Jede Seite muss ohne Vortrag verständlich sein.
+
+---
+
+## 8) KPI-Canvas (einheitliche Kennzahlendefinition)
+
+Für jede KPI einmalig definieren:
+- KPI-Name:
+- Definition:
+- Berechnungsformel:
+- Datenquelle:
+- Messfrequenz:
+- Owner:
+- Zielwert (Q+1 / Q+2 / Q+4):
+- Warnschwelle:
+
+Pflicht-KPIs:
+- Pipeline Coverage
+- Win Rate
+- CAC
+- Payback Period
+- Gross Margin
+- NRR (falls relevant)
+- Burn Multiple
+- Runway
+
+---
+
+## 9) Finaler Qualitäts-Gate vor Versand
+
+Checkliste vor Investorversand:
+- [ ] Jede Seite hat genau eine Kernaussage
+- [ ] Jede Kernaussage hat einen klaren Beleg
+- [ ] Zahlen sind konsistent zwischen Deck und Finanzmodell
+- [ ] Risiken werden offen und aktiv gemanagt dargestellt
+- [ ] Funding-Bedarf ist direkt an Meilensteine gekoppelt
+- [ ] Story ist in 5 Minuten ohne Zusatzkontext verständlich
