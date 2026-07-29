@@ -1,0 +1,33 @@
+{
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp"
+    },
+    "composio": {
+      "type": "http",
+      "url": "https://api.composio.dev/mcp",
+      "env": {
+        "COMPOSIO_API_KEY": "${COMPOSIO_API_KEY}"
+      }
+    },
+    "brightdata": {
+      "type": "http",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.brightdata%2Fbrightdata-mcp/versions/latest",
+      "env": {
+        "BRIGHTDATA_API_KEY": "${BRIGHTDATA_API_KEY}"
+      }
+    },
+    "plori": {
+      "type": "http",
+      "url": "https://api.plori.ai/mcp",
+      "env": {
+        "PLORI_API_KEY": "${PLORI_API_KEY}"
+      }
+    },
+    "azure": {
+      "type": "http",
+      "url": "https://api.mcp.github.com/v0.1/servers/com.microsoft%2Fazure/versions/latest"
+    }
+  }
+}
