@@ -81,7 +81,7 @@ export function RequestPanel() {
 
         <label>
           Was soll AMAVIO einordnen?
-          <textarea name="message" defaultValue={prompt} rows={4} />
+          <textarea name="message" value={prompt} readOnly rows={4} />
         </label>
 
         <div className="form-grid">

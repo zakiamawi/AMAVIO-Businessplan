@@ -49,9 +49,11 @@ export function AiOrchestrationStudio({ agents, flow, scenarios }: Props) {
           {scenarios.map((scenario) => (
             <button
               key={scenario.id}
+              id={`tab-${scenario.id}`}
               role="tab"
               type="button"
               aria-selected={activeScenario?.id === scenario.id}
+              aria-controls={`panel-${scenario.id}`}
               className={activeScenario?.id === scenario.id ? "active" : ""}
               onClick={() => setActiveScenarioId(scenario.id)}
             >
@@ -60,7 +62,13 @@ export function AiOrchestrationStudio({ agents, flow, scenarios }: Props) {
           ))}
         </div>
         {activeScenario ? (
-          <article className="scenario-detail" role="tabpanel" aria-live="polite">
+          <article 
+            id={`panel-${activeScenario.id}`}
+            className="scenario-detail" 
+            role="tabpanel" 
+            aria-labelledby={`tab-${activeScenario.id}`}
+            aria-live="polite"
+          >
             <p>
               <strong>Challenge:</strong> {activeScenario.challenge}
             </p>
