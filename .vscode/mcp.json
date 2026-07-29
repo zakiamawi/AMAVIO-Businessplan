@@ -6,7 +6,10 @@
     },
     "composio": {
       "type": "http",
-      "url": "https://api.composio.dev/mcp"
+      "url": "https://api.composio.dev/mcp",
+      "env": {
+        "COMPOSIO_API_KEY": "${COMPOSIO_API_KEY}"
+      }
     },
     "brightdata": {
       "type": "http",
@@ -25,10 +28,6 @@
     "azure": {
       "type": "http",
       "url": "https://api.mcp.github.com/v0.1/servers/com.microsoft%2Fazure/versions/latest"
-    },
-    "guru": {
-      "type": "http",
-      "url": "https://api.mcp.github.com/v0.1/servers/com.getguru%2Fmcp-server/versions/latest"
     }
   }
 }
