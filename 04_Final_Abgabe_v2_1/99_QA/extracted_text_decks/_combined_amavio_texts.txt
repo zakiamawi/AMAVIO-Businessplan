@@ -1,0 +1,555 @@
+===== AMAVIO_Living_Employer_Decision_Deck_v5_2_FINAL.pptx =====
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+01
+ARBEITGEBER-ENTSCHEIDUNGSDECK
+Internationale Fachkräfte
+sollen arbeitsfähig
+starten.
+AMAVIO Living organisiert Wohnen, Bezugsfertigkeit und Ankunft in einem verantworteten Prozess.
+AMAVIO Living · Workforce Housing & Integration
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+02
+DIE OPERATIVE REALITÄT
+Der Arbeitsvertrag löst die wichtigste operative Frage noch nicht.
+Zwischen Zusage und erstem Arbeitstag müssen fünf Abhängigkeiten sauber zusammengeführt werden.
+01
+Bedarf
+Kohorte, Standort, Startfenster
+02
+Wohnlösung
+Optionen, Budget, Pendelzeit
+03
+Bezugsfertigkeit
+Ausstattung, Übergabe, Dokumente
+04
+Ankunft
+Zimmer, Schlüssel, Orientierung
+05
+Stabilisierung
+30/60/90-Tage, Eskalation
+Ein kontrollierter Start schützt Recruiting-Investment, Teams und neue Mitarbeitende.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+03
+DAS BETRIEBSSYSTEM
+AMAVIO macht aus vielen Parteien einen steuerbaren Projektpfad.
+Wir strukturieren die Zusammenarbeit; Verträge, Genehmigungen und Fremdkosten bleiben bei den zuständigen Parteien.
+1
+Entscheidungsreife
+Bedarf, Zielbild, Budgetroute
+2
+Launch Management
+Taktung, Partner, Status, Abnahme
+3
+Stabiler Übergang
+Einzug, Issue Log, 30-Tage Review
+AMAVIO Living ist Projekt- und Implementierungspartner – keine Wohnraum- oder Rechtsgarantie.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+04
+DIE FREIGABEN
+Ein guter Launch beginnt mit fünf bestätigten Entscheidungen.
+Freigaben machen Risiken sichtbar, bevor Budget, Teams oder Bewohner in einen unklaren Prozess geraten.
+01
+Scope
+02
+Budget
+03
+Daten
+04
+Kapazität
+05
+Change
+„Klarheit vor Geschwindigkeit schützt den Arbeitsstart.“
+AMAVIO Launch Principle
+Diese Gates werden vor jeder verbindlichen Leistungserbringung dokumentiert.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+06
+DER LAUNCH-RAHMEN
+Der Cohort Landing Launch gibt einer Rekrutierungswelle eine belastbare Taktung.
+Beispiel für einen klar begrenzten Auftrag – mit dokumentiertem Status statt ungeprüften Versprechen.
+1
+Stadt
+klarer Standort- und Entscheidungsrahmen
+≤20
+Ankünfte
+definierte Kohorte und Einzugstaktung
+4
+Wochen
+Stabilisierung nach dem Einzug
+1
+Readout
+Status, offene Punkte, nächste Entscheidung
+Keine Garantie für Mietvertrag, Visa, Anerkennung, Lieferverfügbarkeit oder Arbeitsbeginn.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+07
+ROLLENKLARHEIT
+Die Verantwortung bleibt dort, wo sie hingehört.
+AMAVIO steuert Projekt, Status und Eskalation. Der Arbeitgeber entscheidet, Partner liefern ihre fachliche Leistung.
+1
+Arbeitgeber entscheidet
+Zielbild, Budget, Abnahme
+2
+AMAVIO steuert
+Plan, Status, Issues, Eskalation
+3
+Partner liefern
+Objekt, Leistung, Freigabe, Übergabe
+Kein Ersatz für Vermieter-, Rechts-, Visa- oder Arbeitgeberpflichten – sondern klare Schnittstellensteuerung.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+09
+DIE SCHUTZLOGIK
+Fünf Regeln schützen Budget, Vertrauen und Lieferfähigkeit.
+Ein sauberer Projektstart verhindert, dass informelle Entscheidungen später zu Risiken, Mehrkosten oder Rework werden.
+01
+Scope
+02
+Kosten
+03
+Daten
+04
+Abnahme
+05
+Change
+„Verlässlichkeit entsteht, wenn auch der Ausnahmefall geregelt ist.“
+AMAVIO Delivery Principle
+Jede Erweiterung wird vor Umsetzung sichtbar gemacht und bestätigt.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+10
+DIE READINESS DISCOVERY
+45 Minuten trennen dringlichen Bedarf von teurer Hektik.
+Wir bewerten nicht nur die Nachfrage, sondern auch die Voraussetzungen für eine sichere Umsetzung.
+01  Kohorte und Startfenster
+02  Standort und Pendellogik
+03  Budgetroute und Entscheider
+04  Bestehende Wohnoptionen
+05  Freigaben und Fremdkosten
+06  Die wichtigste offene Stop-Frage
+Ergebnis: eine dokumentierte Empfehlung – stoppen, Blueprint, Launch oder Übergabe an die bestehende Struktur.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+11
+DIE ENTSCHEIDUNG
+Nach der Discovery liegt eine klare nächste Entscheidung vor.
+Sie erhalten einen fokussierten Weg statt eines allgemeinen Beratungspapiers.
+01  Sofort umsetzbar – mit klaren Owners
+02  Blueprint – wenn Optionen und Budget erst geklärt werden müssen
+03  Launch – wenn Kohorte, Ort und Budgetroute belastbar sind
+04  Arrival Office – wenn der Bedarf wiederkehrt
+05  Übergabe – wenn Ihre interne Struktur bereits passend ist
+06  Stop – wenn ein kritisches Gate offen bleibt
+Empfohlener Start: Discovery → passende Leistung → dokumentierte Umsetzung.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+12
+Ein verlässlicher Start ist ein Wettbewerbsvorteil.
+AMAVIO Living verbindet Housing, Bezugsfertigkeit und Ankunft in einer verantworteten Lieferlogik – damit internationale Teams nicht nur rekrutiert werden, sondern wirklich starten können.
+Startpunkt
+45-Minuten Readiness Discovery
+AMAVIO Holding UG (haftungsbeschränkt) · Düsseldorf
+AMAVIO Living · Workforce Housing & Integration
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und Produktarchitektur (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+
+===== AMAVIO_Living_Investor_Readiness_Deck_v3_2_FINAL.pptx =====
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+01
+INVESTOR READINESS
+Workforce Housing
+wird zur Infrastruktur,
+wenn Hiring skaliert.
+AMAVIO Living startet kapitalarm mit produktisierten Projekt- und Serviceumsätzen – vor eigener Objektbindung.
+Investor Readiness · interne Strategiegrundlage · keine Anlage- oder Finanzierungsaufforderung
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+02
+DAS KUNDENPROBLEM
+Recruiting wird erst wertvoll, wenn der Arbeitsstart gelingt.
+Zwischen Personalzusage und tatsächlicher Arbeitsaufnahme fehlt Arbeitgebern häufig eine integrierte Operating Function.
+HR
+hat die Zusage
+aber oft keinen Housing- und Arrival-Prozess
+Objekte
+müssen bereit sein
+bevor die Kohorte tatsächlich ankommt
+Teams
+brauchen Stabilität
+damit Ankunft nicht zusätzlich belastet
+AMAVIO
+schließt die Lücke
+als definierter Projekt- und Servicepartner
+Positionierung: Workforce Housing & Integration – kein unkontrollierter Objektbetreiber.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+03
+DIE MARKTEINTRITTSLOGIK
+Proof zuerst. Asset-Risiko erst nach einem wiederholbaren Servicekern.
+Der erste Cash-Generator ist entscheidungsfähige Projekt- und Implementierungsleistung – nicht ein vorfinanziertes Betreiberportfolio.
+01
+Blueprint
+Bedarf, Budgetroute, Entscheidung
+02
+Launch
+Koordinierte Umsetzung und Abnahme
+03
+Office
+Wiederholbarer Betrieb mit SLA
+„Objekte sind eine spätere Einzelentscheidung – kein Wachstumsreflex.“
+AMAVIO Capital Discipline
+Eigene Anmietung oder Betrieb nur nach Nachfrage-, Rechts-, Finanz- und Exit-Gate.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+04
+DIE UMSATZLOGIK
+Das Modell skaliert zuerst über wiederholbare Serviceumsätze.
+Basiscase-Planannahmen: Produktumsatz vor Asset-Umsatz; kein externer Forecast und keine Zusicherung.
+Planjahr 1
+93.500 € Umsatz
+Planjahr 2
+269.000 € Umsatz
+Planjahr 3
+442.000 € Umsatz
+Asset-Modell
+nur nach Sondergate
+Quelle: internes 36-Monats-Finanzmodell v1.7; alle Werte sind steuerbare Planannahmen.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+05
+DIE BEWEISKETTE
+Wachstum wird erst investierbar, wenn Delivery wiederholbar wird.
+Die ersten Mandate liefern nicht nur Umsatz, sondern die operativen Belege für Preis, Qualität und Skalierbarkeit.
+01
+Bezahlter Pilot
+Anzahlung, Scope, Abnahme
+02
+Delivery Evidence
+Stunden, Zeit, Budget, Qualität
+03
+Wiederholung
+SLA, Partnerqualität, Folgeauftrag
+04
+Capital Readiness
+Cash, Unit Economics, Asset Case
+Investor Readiness folgt dokumentierter Delivery – nicht der anderen Richtung.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+06
+DER OPERATING VORTEIL
+Mit jedem Mandat wird die Lieferlogik wertvoller.
+AMAVIO sammelt kein beliebiges Datenvolumen, sondern strukturiert die wiederkehrenden Entscheidungen im Projektalltag.
+Bedarfssignal
+Kohorte, Ort, Zeit, Budget
+Lieferwissen
+Partner, Kosten, Durchlaufzeiten
+Qualitätsdaten
+Abnahme, Issues, Feedback
+Playbook
+SOPs, Reporting, Eskalationslogik
+Digitalisierung folgt erst nach Rollenfreigabe und realer Prozesswiederholung.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+07
+DIE KAPITALGATES
+Kapital soll Evidenz beschleunigen – nicht Unklarheit finanzieren.
+Vor einer Asset- oder Plattformfinanzierung müssen die Grundlagen sauber dokumentiert und operativ nachweisbar sein.
+G0
+Rechts- & Wohnmodell
+G1
+Marke & Domain
+G2
+Datenschutz & Tools
+G3
+Bezahlter Pilot
+G4
+Cash & Economics
+Status: interne Strategiegrundlage; externe Marktfreigaben bleiben projekt- und fachprüfungsabhängig.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+08
+DIE NÄCHSTEN NACHWEISE
+Die ersten 90 Tage messen Wahrheit – nicht Aufmerksamkeit.
+Für ein späteres Investmentgespräch zählen konkrete Belege, nicht eine lange Liste möglicher Optionen.
+01
+Pilot
+unterschriebener Scope und Anzahlung
+02
+Abnahme
+Zeit, Kosten, Qualität, Kundennutzen
+03
+Wiederholung
+zweiter Auftrag oder Office-Retainer
+04
+Kapitalpfad
+geprüfter Cash- und Asset Case
+Die Reihenfolge ist verbindlich: liefern, messen, standardisieren, erst dann kapitalisieren.
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+09
+Workforce Housing
+ist kein Nebenprozess.
+Entscheidend ist, ob Arbeitgeber den Arbeitsstart ohne neue interne Abteilung organisieren können.
+AMAVIO Living
+Workforce Housing & Integration
+Investor Readiness · Pre-Pilot · keine Anlage- oder Finanzierungsaufforderung
+[Sources]
+- Internal: AMAVIO Businessplan v1.7 und 36-Monats-Finanzmodell v1.7 (interne Planannahmen, Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+
+===== AMAVIO_Living_One_Pager_v2_2_FINAL.pptx =====
+[Sources]
+- Internal: AMAVIO Produktarchitektur und Businessplan v1.7 (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+
+===== AMAVIO_Living_Partner_Capability_Deck_v3_2_FINAL.pptx =====
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+01
+PARTNER-PROFIL
+Lokale Kompetenz
+braucht einen
+verlässlichen Rahmen.
+AMAVIO Living verbindet ausgewählte Partner zu einem klaren Lieferpfad.
+Partner Brief · Gesprächsgrundlage
+[Sources]
+- Internal: AMAVIO P1 Partner- und CRM-Playbook sowie Rollen- und Gate-Logik (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+02
+DIE PARTNERROLLE
+Wir bauen keine lange Partnerliste. Wir bauen Lieferfähigkeit.
+Jede Partnerschaft besetzt eine klar definierte Rolle im Wohn- und Arrival-Prozess.
+01
+Wohnraum
+Vermieter, Betreiber, Makler, Objektpartner
+02
+Bezugsfertigkeit
+Möbel, Handwerk, Internet, Übergabe
+03
+Ankunft
+Orientierung, Sprache, Community, Support
+AMAVIO aktiviert Partner nur dort, wo Fähigkeit, Kapazität und Projektanforderung zusammenpassen.
+[Sources]
+- Internal: AMAVIO P1 Partner- und CRM-Playbook sowie Rollen- und Gate-Logik (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+03
+DIE QUALIFIZIERUNG
+Gemeinsame Projekte beginnen mit einer nachvollziehbaren Eignung.
+Vor dem ersten Mandat klären wir Erwartungen, Durchführbarkeit und die Grenzen der Zusammenarbeit.
+01
+Rolle
+02
+Kapazität
+03
+Qualität
+04
+Eskalation
+05
+Übergabe
+Verlässlichkeit entsteht aus klaren Zusagen – nicht aus vagen Absichten.
+[Sources]
+- Internal: AMAVIO P1 Partner- und CRM-Playbook sowie Rollen- und Gate-Logik (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+04
+DER PARTNERNUTZEN
+Passende Aufträge sind besser als offene Erwartungshaltung.
+AMAVIO bündelt den Bedarf, hält den Auftraggeber in der Verantwortung und macht jeden Entscheidungspunkt sichtbar.
+Klar
+Scope
+eine konkret beschriebene Leistung
+Planbar
+Freigaben
+Kosten und Zuständigkeiten sichtbar
+Fair
+Rollen
+Leistung dort, wo Expertise liegt
+Sauber
+Übergabe
+dokumentierte Abnahme und Issue Log
+Eine Partnerschaft ist kein Rahmenversprechen, sondern ein belastbares Projektmatch.
+[Sources]
+- Internal: AMAVIO P1 Partner- und CRM-Playbook sowie Rollen- und Gate-Logik (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+05
+DER PROJEKTPFAD
+Vier Schritte machen Zusammenarbeit für beide Seiten planbar.
+Wir starten nicht mit einer pauschalen Anfrage, sondern mit der Frage, ob Aufgabe und Fähigkeit wirklich zusammenpassen.
+01
+Capability Call
+Leistung, Region, Kapazität, Rollen
+02
+Partnerprofil
+Preislogik, Nachweise, Eskalation
+03
+Projekt-Match
+Kohorte, Objekt, Zeitachse
+04
+SOW & Delivery
+Freigaben, Übergaben, Feedback
+Die konkrete Beauftragung erfolgt immer projektbezogen und schriftlich.
+[Sources]
+- Internal: AMAVIO P1 Partner- und CRM-Playbook sowie Rollen- und Gate-Logik (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+06
+DIE GRENZEN
+Partnerschaften bleiben stark, wenn Zuständigkeiten sichtbar bleiben.
+AMAVIO koordiniert. Partner liefern ihre eigene Fachleistung. Vertragliche und rechtliche Verantwortung bleibt klar zugeordnet.
+01
+Fähigkeit
+02
+Grenze
+03
+Daten
+04
+Eskalation
+05
+Abnahme
+Klare Grenzen schützen die Qualität auf beiden Seiten.
+[Sources]
+- Internal: AMAVIO P1 Partner- und CRM-Playbook sowie Rollen- und Gate-Logik (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+AMAVIO
+LIVING
+WORKFORCE HOUSING & INTEGRATION
+07
+DER NÄCHSTE SCHRITT
+Lassen Sie uns Ihre lokale Fähigkeit präzise einordnen.
+Ein 30-Minuten Capability Call zeigt, ob und wo eine Zusammenarbeit für beide Seiten sinnvoll ist.
+„Wir suchen nicht die längste Partnerliste.
+Wir suchen die verlässlichste Lieferkette.“
+AMAVIO Partner Principle
+Capability Call
+Rolle · Region · Kapazität · Nachweise · nächstes Projektfenster
+AMAVIO Living · Workforce Housing & Integration
+[Sources]
+- Internal: AMAVIO P1 Partner- und CRM-Playbook sowie Rollen- und Gate-Logik (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.
+
+

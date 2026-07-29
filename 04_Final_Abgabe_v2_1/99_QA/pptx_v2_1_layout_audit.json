@@ -1,0 +1,593 @@
+{
+  "AMAVIO_Living_Employer_Decision_Deck_v5_1_FINAL.pptx": {
+    "file": "AMAVIO_Living_Employer_Decision_Deck_v5_1_FINAL.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text_shapes": 8,
+        "text_chars": 270,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "01"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "text_shapes": 23,
+        "text_chars": 523,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "02"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          },
+          {
+            "a": "Kohorte, Standort, Startfenster",
+            "b": "02",
+            "overlap_ratio_smaller": 0.33
+          },
+          {
+            "a": "Optionen, Budget, Pendelzeit",
+            "b": "03",
+            "overlap_ratio_smaller": 0.33
+          },
+          {
+            "a": "Zimmer, Schlüssel, Orientierung",
+            "b": "05",
+            "overlap_ratio_smaller": 0.33
+          }
+        ]
+      },
+      {
+        "slide": 3,
+        "text_shapes": 17,
+        "text_chars": 484,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "03"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 4,
+        "text_shapes": 20,
+        "text_chars": 418,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "04"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 5,
+        "text_shapes": 22,
+        "text_chars": 681,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "05"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 6,
+        "text_shapes": 20,
+        "text_chars": 515,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "06"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 7,
+        "text_shapes": 17,
+        "text_chars": 480,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "07"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 8,
+        "text_shapes": 22,
+        "text_chars": 625,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "08"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 9,
+        "text_shapes": 20,
+        "text_chars": 436,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "09"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 10,
+        "text_shapes": 14,
+        "text_chars": 505,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "10"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 11,
+        "text_shapes": 14,
+        "text_chars": 593,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "11"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 12,
+        "text_shapes": 10,
+        "text_chars": 422,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "12"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      }
+    ]
+  },
+  "AMAVIO_Living_Investor_Readiness_Deck_v3_1_FINAL.pptx": {
+    "file": "AMAVIO_Living_Investor_Readiness_Deck_v3_1_FINAL.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text_shapes": 8,
+        "text_chars": 330,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "01"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "text_shapes": 20,
+        "text_chars": 583,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "02"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 3,
+        "text_shapes": 19,
+        "text_chars": 573,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "03"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 4,
+        "text_shapes": 16,
+        "text_chars": 416,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "04"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 5,
+        "text_shapes": 20,
+        "text_chars": 508,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "05"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 6,
+        "text_shapes": 16,
+        "text_chars": 474,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "06"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 7,
+        "text_shapes": 18,
+        "text_chars": 438,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "07"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 8,
+        "text_shapes": 20,
+        "text_chars": 500,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "08"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 9,
+        "text_shapes": 9,
+        "text_chars": 304,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "09"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      }
+    ]
+  },
+  "AMAVIO_Living_One_Pager_v2_1_FINAL.pptx": {
+    "file": "AMAVIO_Living_One_Pager_v2_1_FINAL.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text_shapes": 21,
+        "text_chars": 655,
+        "min_font_pt": 7.5,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "01"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      }
+    ]
+  },
+  "AMAVIO_Living_Partner_Capability_Deck_v3_1_FINAL.pptx": {
+    "file": "AMAVIO_Living_Partner_Capability_Deck_v3_1_FINAL.pptx",
+    "slides": [
+      {
+        "slide": 1,
+        "text_shapes": 8,
+        "text_chars": 216,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "01"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          },
+          {
+            "a": "WORKFORCE HOUSING & INTEGRATION",
+            "b": "01",
+            "overlap_ratio_smaller": 1.0
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "text_shapes": 17,
+        "text_chars": 459,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "02"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 3,
+        "text_shapes": 18,
+        "text_chars": 348,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "03"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 4,
+        "text_shapes": 20,
+        "text_chars": 505,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "04"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 5,
+        "text_shapes": 20,
+        "text_chars": 499,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "05"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 6,
+        "text_shapes": 18,
+        "text_chars": 353,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "06"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      },
+      {
+        "slide": 7,
+        "text_shapes": 12,
+        "text_chars": 454,
+        "min_font_pt": 6.75,
+        "title_candidates": [
+          "AMAVIO",
+          "LIVING",
+          "WORKFORCE HOUSING & INTEGRATION",
+          "07"
+        ],
+        "overlap_warnings": [
+          {
+            "a": "AMAVIO",
+            "b": "LIVING",
+            "overlap_ratio_smaller": 0.98
+          }
+        ]
+      }
+    ]
+  }
+}
