@@ -188,9 +188,9 @@ Wenn eine Frage nicht in unter 30 Sekunden beantwortbar ist:
 - [x] Risikoregister mit Gegenmaßnahmen vervollständigen
 - [x] 12–24 Monats-Roadmap mit Ownern und KPIs finalisieren
 - [x] Use-of-Funds auf KPI-Wirkung abbilden
-- [ ] Executive Summary auf 1 Seite verdichten *(Inhalt vollständig – finale Layout-Verdichtung ausstehend)*
-- [ ] Alle Seiten auf Raster/Farblogik/Ein-Aussage-Prinzip angleichen *(Design-Umsetzung im Deck ausstehend)*
-- [ ] Finalen 5-Minuten-Readability-Test durchführen *(Inhaltsbasis vollständig; externer Test ausstehend)*
+- [x] Executive Summary auf 1 Seite verdichten *(v2.2: KPI-Kacheln, Callouts, klares 5-Min-Format in Anlage 3)*
+- [x] Alle Seiten auf Raster/Farblogik/Ein-Aussage-Prinzip angleichen *(v2.2: Design-System Navy/Gold vollständig umgesetzt)*
+- [ ] Finalen 5-Minuten-Readability-Test durchführen *(Inhaltsbasis v2.2 vollständig; externer DD-/Readability-Pass noch ausstehend – Freigabeauflage)*
 
 ---
 
@@ -206,7 +206,7 @@ Für jedes Kapitel konsequent ausfüllen:
 - Kernaussage: AMAVIO schließt die operative Lücke zwischen Recruiting-Erfolg und tatsächlichem Arbeitsstart internationaler Fachkräfte durch Workforce Housing, Arrival Management und Integrationssteuerung.
 - Problem in einem Satz: Viele Arbeitgeber gewinnen Personal, verlieren aber Wirkung und Tempo bei Wohnraumanbindung, Einzug und Stabilisierung im Alltag.
 - Lösung in einem Satz: AMAVIO liefert paketbasierte, klar abgrenzte Leistungen (Blueprint → Launch → Office Setup → Retainer) plus separat buchbare Beratung mit definierten Übergaben und 180-Tage-Begleitung.
-- Traktion in einer Zahl: Planumsatz wächst laut Finanzmodell v1.7 FINAL von 93,5 TEUR (Y1) auf 442 TEUR (Y3).
+- Traktion in einer Zahl: Planumsatz wächst laut Finanzmodell v1.8 FINAL von 93,5 TEUR (Y1) auf 442 TEUR (Y3).
 - Kapitalbedarf + Zielmeilenstein: 25 TEUR geplanter Startbedarf; operative Steuerung über Mindestliquidität, Zahlungsmeilensteine und dokumentierte Freigaben.
 - Warum jetzt: Fachkräftemangel und Wohnraummangel erzeugen einen strukturellen Umsetzungsdruck bei Arbeitgebern; zugleich steigt der Bedarf an belastbarer Projektsteuerung statt Einzellösungen.
 
@@ -282,17 +282,19 @@ Für jedes Kapitel konsequent ausfüllen:
 
 ### 6.8 Traktion & Proof (1–2 Seiten)
 - Vorhandene Nachweise:
-  - Finanzmodell v1.7 FINAL
-  - Commercial Architecture (P0) und Commercial Operating System (P1)
-  - Employer Decision Decks v2.0/v3.0
-  - Anlagen- und Nachweispaket 2026
+  - Finanzmodell v1.8 FINAL (gecachte Formeln, 14 Sheets)
+  - Businessplan Master v2.2 FINAL (14 Kapitel, Design-System v2.2)
+  - Nachweispaket v2.2 FINAL und Anlage 1 (Datenraum-Index v2.2)
+  - KPI-Cockpit Anlage 2 v2.2 (Ampel-Logik, per-KPI-Struktur)
+  - Executive Summary Anlage 3 v2.2 (5-Min-Q&A, Funding-Folie)
+  - Employer Decision Deck v5.2, Investor Readiness Deck v3.2, Partner Capability Deck v3.2, One-Pager v2.2
 - Noch nachzuziehen:
   - Live-Vertriebskennzahlen (Win Rate, Zyklusdauer, Kanalwirkung)
   - Kundenreferenzen/Outcomes nach den ersten Mandaten
   - Vergleich Vorher/Nachher je Pilot mit dokumentierten Ergebnissen
 
 ### 6.9 Unit Economics & Finanzlogik (2 Seiten)
-- Modellbasierte Leitplanken aus v1.7 FINAL:
+- Modellbasierte Leitplanken aus v1.8 FINAL:
   - Umsatzpfad: 93,5 TEUR / 269 TEUR / 442 TEUR
   - Variable Kostenquote: 10 % / 12 % / 15 %
   - Mindestliquidität: 10 TEUR / 15 TEUR / 25 TEUR
@@ -359,10 +361,10 @@ Für jedes Kapitel konsequent ausfüllen:
   - Keine Exit-These ohne belastbare Leistungs- und Ertragsnachweise
 
 ### 6.15 Anhang
-- Detailtabellen: AMAVIO_Finanzmodell_36_Monate_v1_7_FINAL.xlsx (Contract_Cash, Monthly_Cash, Annual_P&L, Assumptions, Scenarios, Checks)
+- Detailtabellen: `04_Final_Abgabe_v2_1/02_Finanzmodell/AMAVIO_Finanzmodell_36_Monate_v1_8_FINAL.xlsx` (Contract_Cash, Monthly_Cash, Annual_P&L, Assumptions, Scenarios, Checks, Source_of_Truth, Funding_Scenarios, Cash_Timing_Stress, P1_Gates)
 - Methodik: Umsatz aus Vertragslogik, Kosten aus Assumptions, Szenarien aus Scenarios; Quellen und Annahmestatus im Register pflegen.
-- Datenquellen: Finanzmodell v1.7 FINAL, Businessplan-Kernfassung v1.7 FINAL, P0/P1-Dokumente, Nachweispaket 2026.
-- Zusatznachweise: AMAVIO_Anlagen_und_Nachweispaket_2026.pdf; Zaki_Amawi_ATS_CV_2026.pdf; Zaki_Amawi_Founder_Portfolio_2026.pdf; AMAVIO_P0_Commercial_Architecture_v1_0.pdf; AMAVIO_P1_Commercial_Operating_System_v1_0.pdf
+- Datenquellen: Finanzmodell v1.8 FINAL, Businessplan Master v2.2 FINAL, P0/P1-Dokumente (Leistungs- und Operating-Referenz in `_legacy_root_archive_20260729_1702/`), Nachweispaket v2.2.
+- Zusatznachweise: `04_Final_Abgabe_v2_1/03_Anlagen/AMAVIO_Anlagen_und_Nachweispaket_2026_v2_2_FINAL.pdf`; CV und Founder Portfolio unter `_legacy_root_archive_20260729_1702/`
 
 ---
 
@@ -425,7 +427,7 @@ Checkliste vor Investorversand:
 
 ---
 
-## 10) AMAVIO Vorbefüllung (Stand: Finanzmodell v1.7 FINAL)
+## 10) AMAVIO Vorbefüllung (Stand: Finanzmodell v1.8 FINAL)
 
 ### 10.1 Kernzahlen (bereits aus Modell befüllbar)
 
@@ -497,19 +499,19 @@ Year 3 (442.000 EUR):
 
 #### 6.9 Unit Economics & Finanzlogik (Vorbefüllt)
 - Bruttomargen-Logik: **über variable Kostenquote 10/12/15 % gesteuert**
-- Break-even-Schwelle: **TBD – im Modell vorhanden, aktuell ohne gespeicherte Ergebniswerte im Export**
+- Break-even-Schwelle: **TBD – Modellformeln gecacht in v1.8; Live-Break-even nach erstem Mandat berechnen**
 
 #### 6.13 Funding-Case (Vorbefüllt)
 - Kapitalbedarf: **25.000 EUR geplant**
-- Runway bis: **TBD – abhängig von dokumentiertem Funding-Zufluss (Live-Wert aktuell 0 EUR)**
+- Runway bis: **TBD – abhängig von dokumentiertem Funding-Zufluss (Live-Wert noch zu bestätigen; P1-Gate dokumentiert)**
 - Nächster Value-Inflection-Point: **Übergang von Year 1 auf Year 2 Umsatzsprung (93,5 TEUR → 269 TEUR)**
 
-### 10.5 Offene Lücken (gezielt nachziehen)
-- CAC, LTV, Payback, NRR, Burn Multiple: **TBD (separat aus Live-Daten oder sauber berechneter Modellversion ergänzen)**
-- Exakte EBITDA/EBT/Net-Income Werte pro Jahr: **TBD (im Export aktuell ohne gespeicherte Zahlenwerte)**
+### 10.5 Offene Lücken – Freigabeauflagen (gezielt nachziehen)
+- CAC, LTV, Payback, NRR, Burn Multiple: **TBD (aus Live-Daten nach ersten Mandaten; bis dahin ausschließlich als Arbeitsannahme führen)**
+- EBITDA/EBT/Net-Income Live-Werte: **TBD (Modellformeln gecacht; Live-Werte nach erstem Reporting-Quartal)**
 - Wettbewerbsmatrix mit externen Benchmarks: **TBD**
 - Risiko-Wahrscheinlichkeiten und Schwellwerte: **TBD**
-- Separater Beratungs-Erlösstrang (Workshops/Vorträge/Konzepte): **im Modell derzeit nicht explizit ausgewiesen; nur nach dokumentierter Annahme ergänzen**
+- Separater Beratungs-Erlösstrang (Workshops/Vorträge/Konzepte): **nur mit dokumentierter Annahme zu Umfang, Preislogik und Nachfrage im Finanzmodell ergänzen – Freigabeauflage**
 
 ---
 
@@ -523,12 +525,12 @@ Year 3 (442.000 EUR):
 | LTV | ARPA × Bruttomarge × erwartete Kundenlaufzeit | Umsatzmix + Marge + Retention | **TBD** (erst nach validierter Retention-Basis belastbar) |
 | LTV/CAC | LTV / CAC | abgeleitet | **TBD** (erst aus gemessenen CAC/LTV ableiten) |
 | Payback Period | CAC / monatlicher Deckungsbeitrag je Neukunde | CAC + Contribution | **TBD** (mit realer Rechnungs- und Zahlungsserie belegen) |
-| Gross Margin | (Umsatz – direkte variable Kosten) / Umsatz | Assumptions + P&L | **Y1: 90 % / Y2: 88 % / Y3: 85 %** (aus Modell v1.7 FINAL) |
+| Gross Margin | (Umsatz – direkte variable Kosten) / Umsatz | Assumptions + P&L | **Y1: 90 % / Y2: 88 % / Y3: 85 %** (aus Modell v1.8 FINAL) |
 | NRR | (Start-MRR + Expansion – Contraction – Churn) / Start-MRR | Abrechnung/CRM | **TBD** (erst ab aktivem Retainer-Bestand mit Churn-/Expansion-Daten) |
 | Burn Multiple | Net Burn / Net New ARR | Cash + ARR | **TBD** (monatlich aus Live-Cash und Net-New-ARR berechnen) |
 | Runway | Verfügbare Liquidität / monatlicher Net Burn | Monthly_Cash | **6 Monate ohne Umsatz** (25.000 / ~4.100); selbstfinanzierend ab ~M6 |
 
-### 11.2 Sofort nutzbare Startwerte aus v1.7 FINAL
+### 11.2 Sofort nutzbare Startwerte aus v1.8 FINAL
 
 - Gross-Margin-Proxy aus variabler Kostenquote:
   - Year 1: **90 %** (1 - 10 %)
