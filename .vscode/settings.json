@@ -6,5 +6,6 @@
     "cursor-global": true,
     "cursor-workspace": true
   },
-  "DockerRun.DisableDockerrc": true
+  "DockerRun.DisableDockerrc": true,
+  "claudeCodeChat.permissions.yoloMode": false
 }
