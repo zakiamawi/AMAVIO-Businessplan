@@ -206,9 +206,10 @@ Für jedes Kapitel konsequent ausfüllen:
 - Kernaussage: AMAVIO schließt die operative Lücke zwischen Recruiting-Erfolg und tatsächlichem Arbeitsstart internationaler Fachkräfte durch Workforce Housing, Arrival Management und Integrationssteuerung.
 - Problem in einem Satz: Viele Arbeitgeber gewinnen Personal, verlieren aber Wirkung und Tempo bei Wohnraumanbindung, Einzug und Stabilisierung im Alltag.
 - Lösung in einem Satz: AMAVIO liefert paketbasierte, klar abgrenzte Leistungen (Blueprint → Launch → Office Setup → Retainer) plus separat buchbare Beratung mit definierten Übergaben und 180-Tage-Begleitung.
-- Traktion in einer Zahl: Planumsatz wächst laut Finanzmodell v1.7 FINAL von 93,5 TEUR (Y1) auf 442 TEUR (Y3).
+- Traktion in einer Zahl: Planumsatz wächst laut Finanzmodell v1.7 FINAL von 93,5 TEUR (Y1) auf 442 TEUR (Y3). Werte sind Plan-/Modellwerte, keine gebuchte Ist-Traktion.
 - Kapitalbedarf + Zielmeilenstein: 25 TEUR geplanter Startbedarf; operative Steuerung über Mindestliquidität, Zahlungsmeilensteine und dokumentierte Freigaben.
 - Warum jetzt: Fachkräftemangel und Wohnraummangel erzeugen einen strukturellen Umsetzungsdruck bei Arbeitgebern; zugleich steigt der Bedarf an belastbarer Projektsteuerung statt Einzellösungen.
+- Umfangsanker: Operative Pakete plus separat buchbare Beratung; Eigenimmobilien nur als perspektivischer Baustein, nicht als Kernumsatz.
 
 ### 6.2 Problem & Dringlichkeit (1–2 Seiten)
 - Kundensegment: Krankenhäuser, Pflegeeinrichtungen und weitere Arbeitgeber mit wiederkehrenden internationalen Ankunftsbedarfen.

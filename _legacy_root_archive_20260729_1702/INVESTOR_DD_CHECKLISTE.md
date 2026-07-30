@@ -14,6 +14,7 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 - [ ] 180-Tage-Begleitprogramm je operativem Paket dokumentiert
 - [ ] Separat buchbare Beratungsleistungen sauber abgegrenzt
 - [ ] Workshops, Vorträge und Konzepterstellung als Umsatzbausteine beschrieben
+- [ ] Eigenimmobilien nur als perspektivischer Baustein ausgewiesen, nicht als Kernumsatz
 - [ ] Scope-Abgrenzung + Annahmekriterien dokumentiert
 - [ ] Ressourcen- und Kapazitätsplanung hinterlegt
 - [ ] Qualitäts- und Übergabeprozess klar beschrieben
@@ -73,3 +74,7 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 - [ ] Offene Punkte klar als TBD markiert (mit Termin zur Schließung)
 - [ ] Datenraumstruktur fertig und für externen Zugriff vorbereitet
 - [ ] Keine alten 30/60/90-Tage-Angaben widersprechen dem 180-Tage-Ansatz
+- [ ] Alle Markt-, Umsatz- und KPI-Aussagen ohne Live-Beleg sind als Annahme oder TBD gekennzeichnet
+- [ ] Operative Pakete und separat buchbare Beratung sind in allen Dokumenten getrennt ausgewiesen
+- [ ] Rollen, Freigaben, Vollmachten und Fremdkosten sind konsistent zwischen Businessplan, Deck und Datenraum beschrieben
+- [ ] Externer Readability-/DD-Check vor Versand durchgeführt und dokumentiert

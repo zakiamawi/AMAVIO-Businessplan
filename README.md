@@ -34,3 +34,13 @@ Arbeits- und Release-Übersicht für den AMAVIO Businessplan nach dem Coach-Term
 - Live-KPI-Daten nachziehen (CAC, LTV, NRR, Payback, Burn Multiple)
 - Beratungsumsätze im Finanzmodell nur separat und mit dokumentierter Annahmelogik ergänzen
 - Abschließender externer Readability-/DD-Check vor Versand durchführen
+
+## Coach-Freigabe-Gates (finale QA)
+
+Diese Gates spiegeln die Coach-Anforderungen und werden gegen die DD-Checkliste geprüft (`_legacy_root_archive_20260729_1702/INVESTOR_DD_CHECKLISTE.md`, §9):
+
+- 180-Tage-Begleitprogramm in jedem operativen Paket verankert; keine 30/60/90-Tage-Restformulierungen mehr im Umlauf
+- Operative Pakete und separat buchbare Beratung durchgängig getrennt ausgewiesen (Businessplan, Deck, Finanzmodell, Datenraum)
+- Rollen, Freigaben, Vollmachten und Fremdkosten konsistent beschrieben und zwischen den Dokumenten identisch
+- Eigenimmobilien nur als perspektivischer Baustein geführt, nicht als Kernumsatz
+- Alle Markt-, Umsatz- und KPI-Aussagen ohne Live-Beleg sind als Annahme oder TBD gekennzeichnet
