@@ -9,7 +9,7 @@
       "command": "npx",
       "args": ["-y", "composio-mcp@latest"],
       "env": {
-        "COMPOSIO_API_KEY": "ck_tLERob4fOtv3biftzNl8"
+        "COMPOSIO_API_KEY": "${COMPOSIO_API_KEY}"
       }
     },
     "brightdata": {
@@ -17,7 +17,7 @@
       "command": "npx",
       "args": ["-y", "mcp-remote@latest", "https://api.mcp.github.com/v0.1/servers/io.github.brightdata%2Fbrightdata-mcp/versions/latest"],
       "env": {
-        "BRIGHTDATA_API_KEY": "260e36c0-1703-474e-bc4a-1774154c6d08"
+        "BRIGHTDATA_API_KEY": "${BRIGHTDATA_API_KEY}"
       }
     },
     "plori": {
@@ -25,7 +25,7 @@
       "command": "npx",
       "args": ["-y", "mcp-remote@latest", "https://api.plori.ai/mcp"],
       "env": {
-        "PLORI_API_KEY": "plori_sk_e9984d37518680110107bd732a6d5224efe5cd62070f83b2"
+        "PLORI_API_KEY": "${PLORI_API_KEY}"
       }
     },
     "azure": {
