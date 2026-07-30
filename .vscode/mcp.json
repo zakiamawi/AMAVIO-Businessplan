@@ -32,6 +32,14 @@
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "mcp-remote@latest", "https://api.mcp.github.com/v0.1/servers/com.microsoft%2Fazure/versions/latest"]
+    },
+    "guru": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-remote@latest", "https://api.getguru.com/mcp"],
+      "env": {
+        "GURU_API_TOKEN": "${GURU_API_TOKEN}"
+      }
     }
   }
 }
