@@ -34,3 +34,12 @@ Arbeits- und Release-Übersicht für den AMAVIO Businessplan nach dem Coach-Term
 - Live-KPI-Daten nachziehen (CAC, LTV, NRR, Payback, Burn Multiple)
 - Beratungsumsätze im Finanzmodell nur separat und mit dokumentierter Annahmelogik ergänzen
 - Abschließender externer Readability-/DD-Check vor Versand durchführen
+
+## MCP-Konfiguration (sicher)
+
+- `.vscode/mcp.json` nutzt ausschließlich Umgebungsvariablen für externe MCP-Keys.
+- Erforderliche Variablen lokal setzen:
+  - `COMPOSIO_API_KEY`
+  - `BRIGHTDATA_API_KEY`
+  - `PLORI_API_KEY`
+- Keine API-Keys im Klartext in Repository-Dateien eintragen.
