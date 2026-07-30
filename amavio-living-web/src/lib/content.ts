@@ -44,7 +44,7 @@ export const services = [
     name: "Cohort Landing Launch",
     price: "Projekt anfragen",
     note: "Quelle nennt ab 29.500 EUR netto zzgl. Fremdkosten.",
-    text: "Gibt einer Rekrutierungswelle eine Taktung: Projektplan, Partnerkoordination, Bezugsfertigkeit, Einzug und 30/60/90-Tage-Stabilisierung.",
+    text: "Gibt einer Rekrutierungswelle eine Taktung: Projektplan, Partnerkoordination, Bezugsfertigkeit, Einzug und 180-Tage-Begleitprogramm (Orientierung, Community, Stabilisierung).",
   },
   {
     name: "Housing & Arrival Office",
