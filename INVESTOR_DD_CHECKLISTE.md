@@ -11,6 +11,9 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 
 ## 2) Produkt, Leistung und Deliverability
 - [ ] Klare Leistungsbeschreibung je Paket (Blueprint / Launch / Office Setup)
+- [ ] 180-Tage-Begleitprogramm je operativem Paket dokumentiert
+- [ ] Separat buchbare Beratungsleistungen sauber abgegrenzt
+- [ ] Workshops, Vorträge und Konzepterstellung als Umsatzbausteine beschrieben
 - [ ] Scope-Abgrenzung + Annahmekriterien dokumentiert
 - [ ] Ressourcen- und Kapazitätsplanung hinterlegt
 - [ ] Qualitäts- und Übergabeprozess klar beschrieben
@@ -21,6 +24,8 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 - [ ] 5–7 relevante Wettbewerber inkl. „Do Nothing“-Alternative
 - [ ] Vergleichsachsen mit kaufrelevanten Kriterien definiert
 - [ ] Differenzierungsbelege für AMAVIO je Kriterium hinterlegt
+- [ ] Marktanalyse zu Fachkräftemangel, Wohnraummangel und Workforce Housing vertieft
+- [ ] Beratungsbedarf als eigenständige Nachfrage im Markt argumentiert
 - [ ] Risiken aus Marktdynamik inkl. Gegenmaßnahmen beschrieben
 
 ## 4) Vertrieb und Go-to-Market
@@ -33,6 +38,7 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 ## 5) Finanzen und KPI-Qualität
 - [ ] Finanzmodell v1.7 FINAL konsistent mit Deck und Businessplan
 - [ ] Umsatzpfad 93,5 / 269 / 442 TEUR durch Vertragslogik belegbar
+- [ ] Beratungsumsätze (Workshops/Vorträge/Konzepte) nur separat und als Annahme modelliert, falls noch ohne Ist-Daten
 - [ ] Annahmen (Kostenquoten, Overhead, Compensation, Capex) transparent
 - [ ] KPI-Formeln für CAC, LTV, Payback, NRR, Burn Multiple dokumentiert
 - [ ] Datenherkunft je KPI eindeutig benannt
@@ -43,9 +49,11 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 - [ ] Mindestliquiditätsgrenzen und Runway-Logik definiert
 - [ ] Funding-Use je Budgetblock an KPI-Outcome gekoppelt
 - [ ] Downside-/Base-/Growth-Maßnahmenpakete operativ vorbereitet
+- [ ] Fremdkosten, Vollmachten und Freigaben klar beschrieben
 
 ## 7) Team, Governance, Reporting
 - [ ] Rollen-/Verantwortungsmatrix vollständig
+- [ ] Rollen zwischen AMAVIO, Arbeitgeber, Kandidaten/Bewohnern und Partnern klar getrennt
 - [ ] Kritische Hires mit Timing und Budget hinterlegt
 - [ ] Monatlicher KPI-Review-Rhythmus festgelegt
 - [ ] Entscheidungs- und Eskalationspfade dokumentiert
@@ -64,3 +72,4 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 - [ ] Q&A-Simulation mit 25 kritischen Fragen durchgeführt
 - [ ] Offene Punkte klar als TBD markiert (mit Termin zur Schließung)
 - [ ] Datenraumstruktur fertig und für externen Zugriff vorbereitet
+- [ ] Keine alten 30/60/90-Tage-Angaben widersprechen dem 180-Tage-Ansatz

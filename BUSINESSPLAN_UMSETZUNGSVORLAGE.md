@@ -10,7 +10,7 @@ Ziel: klare Investoren-Story, belastbare Kennzahlen und konsistentes Design.
 - Top-3 messbare Pain Points aufführen:
   - Kostenproblem (€/Monat oder €/Mitarbeiter)
   - Zeitproblem (Tage/Wochen bis Entscheidung)
-  - Qualitätsproblem (Fluktuation, Fehlbesetzung, Produktivität)
+  - Qualitätsproblem (Verzögerungen, Integrationsabbrüche, Produktivität)
 - Nachweisquellen nennen: Interviews, Pilotdaten, Benchmarks.
 - Eine klare Leitthese formulieren: „Ohne Lösung X verliert Kunde Y jährlich Z.“
 
@@ -83,6 +83,27 @@ Ziel: klare Investoren-Story, belastbare Kennzahlen und konsistentes Design.
   - Strategische Käufergruppen
   - Mögliche Trigger (Marktanteil, ARR-Schwellen, Datenmoat)
 - Kapitalmarkt-/M&A-Readiness-Faktoren benennen.
+
+### 1.9 Coach-Integration: Leistungslogik, Rollen und 180-Tage-Begleitung
+- Operative Pakete nicht als Kurzprojekte formulieren, sondern als **180-Tage-Begleitprogramme** mit klaren Meilensteinen, Review-Schleifen und Übergabepunkten.
+- **Beratung separat buchbar** ausweisen:
+  - Strategie- und Konzeptberatung
+  - Workshops / Vorträge / Fachveranstaltungen
+  - Konzepterstellung für Mitarbeitergewinnung, Wohnraumanbindung und Workforce Housing
+  - Plattform- und Prozessberatung als optionale Zusatzleistung
+- Umsatzlogik trennen:
+  - operative Pakete = Umsetzung + Begleitung
+  - Beratung = eigenständige Leistung mit kleinerem Scope und klarer Honorarbasis
+- Rollen- und Freigabelogik ergänzen:
+  - AMAVIO = Konzeption, Koordination, Umsetzung im vereinbarten Scope
+  - Arbeitgeber = Freigaben, Daten, interne Entscheidungen, operative Mitwirkung
+  - Kandidaten/Bewohner = Mitwirkung, Unterlagen, Verfügbarkeit, Einwilligungen
+  - Externe Partner = Fachleistungen, Handwerk, IT, Möblierung, Recht, Marketing, je nach Freigabe
+- Fremdkosten und Vollmachten realistisch beschreiben:
+  - Kosten werden nur nach Freigabe oder dokumentierter Vollmacht ausgelöst
+  - Fremdleistungen bleiben sauber vom AMAVIO-Honorar getrennt
+  - Datenschutz, Dokumentation und Auftragsklärung explizit erwähnen
+- Eigenimmobilien nur als perspektivischer Baustein führen; nicht als Kernumsatz.
 
 ---
 
@@ -182,205 +203,165 @@ Für jedes Kapitel konsequent ausfüllen:
 - **Entscheidungsfrage für Investor** (welche Unsicherheit wird reduziert?)
 
 ### 6.1 Executive Summary (1 Seite)
-- Kernaussage: AMAVIO transformiert den Employer-Branding-Prozess für den deutschen Mittelstand – von reaktiver Einzelmaßnahme zu strategisch gesteuertem, messbarem Arbeitgeberprofil mit klarem ROI.
-- Problem in einem Satz: Mittelständische Unternehmen verlieren täglich qualifizierte Bewerber, weil ihr Arbeitgeberprofil nicht systematisch aufgebaut, kommuniziert und gesteuert wird.
-- Lösung in einem Satz: AMAVIO liefert skalierbare, paketbasierte Employer-Branding-Lösungen (Blueprint → Launch → Retainer) mit definierten Deliverables, messbarem Outcome und schneller Time-to-Value.
-- Traktion in einer Zahl: Planumsatz wächst von 93,5 TEUR (Y1) auf 442 TEUR (Y3) – **+373 % in 3 Jahren**.
-- Kapitalbedarf + Zielmeilenstein: 25 TEUR Startfinanzierung; Zielmeilenstein: Cashflow-positiv ab Month 6, Break-even im laufenden Betrieb.
-- Warum jetzt: Demografischer Wandel und Fachkräftemangel erzeugen strukturelle Dauernachfrage; KI-Tools senken Produktionskosten für Employer-Branding-Content signifikant und stärken die AMAVIO-Marge nachhaltig.
+- Kernaussage: AMAVIO schließt die operative Lücke zwischen Recruiting-Erfolg und tatsächlichem Arbeitsstart internationaler Fachkräfte durch Workforce Housing, Arrival Management und Integrationssteuerung.
+- Problem in einem Satz: Viele Arbeitgeber gewinnen Personal, verlieren aber Wirkung und Tempo bei Wohnraumanbindung, Einzug und Stabilisierung im Alltag.
+- Lösung in einem Satz: AMAVIO liefert paketbasierte, klar abgrenzte Leistungen (Blueprint → Launch → Office Setup → Retainer) plus separat buchbare Beratung mit definierten Übergaben und 180-Tage-Begleitung.
+- Traktion in einer Zahl: Planumsatz wächst laut Finanzmodell v1.7 FINAL von 93,5 TEUR (Y1) auf 442 TEUR (Y3).
+- Kapitalbedarf + Zielmeilenstein: 25 TEUR geplanter Startbedarf; operative Steuerung über Mindestliquidität, Zahlungsmeilensteine und dokumentierte Freigaben.
+- Warum jetzt: Fachkräftemangel und Wohnraummangel erzeugen einen strukturellen Umsetzungsdruck bei Arbeitgebern; zugleich steigt der Bedarf an belastbarer Projektsteuerung statt Einzellösungen.
 
 ### 6.2 Problem & Dringlichkeit (1–2 Seiten)
-- Kundensegment: Mittelständische Arbeitgeber in DACH, 50–500 Mitarbeiter, Wachstumsphase oder Transformationsdruck, ohne dediziertes Employer-Branding-Team.
-- Top-3 Pain Points (mit Messwert):
-  1. **Kostenproblem:** Fehlbesetzungskosten 30–150 % eines Jahresgehalts je Hierarchiestufe; ø 25.000–60.000 EUR je Fehlbesetzung (Benchmark: Kienbaum/DIHK).
-  2. **Zeitproblem:** Time-to-Hire im Mittelstand ø 60–90 Tage; jede offene Stelle kostet täglich Produktivität und Kundenergebnis.
-  3. **Qualitätsproblem:** Bewerberqualität sinkt durch reaktive Jobpostings; Fluktuation im ersten Jahr bei 20–35 % ohne strukturiertes Markenversprechen und Onboarding.
-- Wirtschaftlicher Schaden ohne Lösung: Bei 5 Fehlbesetzungen/Jahr × ø 40.000 EUR = **200.000 EUR/Jahr vermeidbarer Schaden** – ohne Opportunitätskosten aus unbesetzten Stellen.
-- Dringlichkeitstreiber (Markt, Regulierung, Kosten): Demografischer Wandel (Fachkräftelücke DE 2030: >5 Mio. Personen); zunehmender Wettbewerb um Talente zwischen Mittelstand und Konzernen; steigende Bewerbererwartungen an Arbeitgeberkommunikation und -erlebnis.
+- Kundensegment: Krankenhäuser, Pflegeeinrichtungen und weitere Arbeitgeber mit wiederkehrenden internationalen Ankunftsbedarfen.
+- Top-3 Pain Points (projektbezogen messbar):
+  1. **Koordinationsproblem:** Mehrere interne und externe Parteien ohne einheitliche Steuerung.
+  2. **Zeitproblem:** Verzögerungen zwischen Personalzusage und arbeitsfähiger Ankunft.
+  3. **Qualitätsproblem:** Uneinheitliche Übergaben bei Wohnen, Behördenwegen und Alltagseinbindung.
+- Wirtschaftlicher Schaden ohne Lösung: Nicht als fixe Marktzahl behaupten, sondern je Mandat transparent über interne Aufwände, Verzögerungstage und Eskalationskosten des Arbeitgebers dokumentieren.
+- Dringlichkeitstreiber: Fachkräftemangel, regionale Wohnraumknappheit, wachsender Compliance- und Dokumentationsbedarf bei sensiblen Personaldaten und externen Beauftragungen.
 
 ### 6.3 Lösung & Produktlogik (2 Seiten)
-- Lösungsarchitektur in 3 Bausteinen:
-  1. **Blueprint (Strategie):** Employer-Branding-Strategie, Zielgruppen-Canvas, Positionierungsdokument – Grundlage für alle weiteren Maßnahmen. Scope: 40/40/20 Zahlungsplan, ab 12.500 EUR.
-  2. **Launch (Umsetzung):** Operative Umsetzung der Arbeitgeberkommunikation – Kanäle, Content, Kampagnen, Karriereseite, Bewerbungsprozess-Design. Scope: 30/30/30/10 Zahlungsplan, ab 29.500 EUR.
-  3. **Retainer + Add-ons (Steuerung):** Laufendes Employer-Branding-Management, monatliches KPI-Reporting, iterative Optimierung. Monatlich im Voraus; Add-ons nach freigegebenem Scope.
-- Vorher/Nachher-Effekt: **Vorher:** unstrukturierte Einzelmaßnahmen, keine Messbarkeit, hohe Fluktuation. **Nachher:** strukturierte Bewerberpipeline, messbare Stellen-KPIs, sinkende Fehlbesetzungsquote, stabileres Onboarding.
-- Time-to-Value: Erste strategische Deliverables (Blueprint-Output) in **4–8 Wochen**; erste Marktpräsenz nach Launch in **8–16 Wochen**.
-- Proof of Feasibility: Finanzmodell v1.7 FINAL auf Basis 102 Billable-Founder-Days bei 900 EUR/Tag; Revenue-Blueprint direkt aus Vertragslogik (Contract_Cash) ableitbar und geprüft.
+- Lösungsarchitektur in 4 Bausteinen:
+  1. **Blueprint (Strategie):** Bedarfsklärung, Wohnraumstrategie, Rollen-/Freigabelogik, Business Case.
+  2. **Launch (Umsetzung):** Objekt- und Partnerkoordination, Vertrags- und Umsetzungssteuerung bis Bezugsfertigkeit.
+  3. **Office Setup (Betriebsfähigkeit):** Prozesse, Dokumentation, Übergaben und Reporting-Struktur beim Arbeitgeber.
+  4. **Retainer + Add-ons:** Laufende Stabilisierung, KPI-Review, Nachsteuerung und Erweiterungen.
+- Jedes operative Paket enthält ein **180-Tage-Begleitprogramm**:
+  - Tag 1–30: Scope, Rollen, Freigaben, Datengrundlage
+  - Tag 31–90: Umsetzung, Steuerung, dokumentierte Entscheidungslogik
+  - Tag 91–180: Stabilisierung, Übergabe, Folgeoptionen
+- Separat buchbare Beratung:
+  - Konzepte für Mitarbeitergewinnung, Wohnraumanbindung und Workforce Housing
+  - Vorträge, Workshops und Fachbeiträge für Unternehmen, Messen und Veranstaltungen
+  - Prozess- und Plattformberatung mit klar abgegrenztem Leistungsumfang
+- Leistungsgrenzen explizit: AMAVIO steuert und koordiniert im vereinbarten Scope; Verfügbarkeiten, Behördenentscheidungen und Drittleistungen bleiben externe Einflussfaktoren.
 
 ### 6.4 Markt & Segmentfokus (2 Seiten)
-- TAM / SAM / SOM:
-  - **TAM:** DACH HR-Consulting & Employer Branding Markt: ~2,0 Mrd. EUR (Schätzung auf Basis IBISWorld/Statista HR-Consulting DACH)
-  - **SAM:** Mittelstand 50–500 MA, aktiver Wachstums-/Transformationsdruck, Jahresbudget > 10 TEUR für externe HR-Beratung: ~450 Mio. EUR
-  - **SOM:** Erreichbar mit Founder-led Sales und 1–2 Senior-Kapazitäten in Y1–Y3: ~2–5 Mio. EUR
-- Primärer Beachhead-Markt: Mittelstand DACH, Primärregionen NRW / Rhein-Main / München; Zielbranchen mit hohem Fachkräftemangel: IT/Tech, Pflege & Gesundheit, Logistik, produzierendes Gewerbe.
-- Segmentpriorisierung (A/B/C):
-  - **ICP-A (Priorität):** 100–300 MA, Wachstumsphase, kein internes EB-Team, Budget 15–50 TEUR/Jahr, Entscheider: GF oder HR-Leitung.
-  - **ICP-B (Einstieg):** 50–100 MA, erstes EB-Projekt, taktischer Akutbedarf, Budget 10–20 TEUR einmalig.
-  - **ICP-C (Expansion ab Y2):** 300–500 MA, EB vorhanden, Optimierungsbedarf, Retainer-Potenzial hoch.
-- Begründung der Fokusreihenfolge: ICP-A bringt höchsten ACV (Blueprint + Launch + Retainer-Kette), schnellste Entscheidung und beste Referenzfähigkeit. ICP-B dient als Einstiegssegment mit niedrigem Hürde. ICP-C als Expansionssegment ab Y2 mit stabilem Retainer-Potenzial.
+- Marktlogik: Kombinierter Bedarf aus Fachkräftemangel, Wohnraumversorgung und operativer Integrationsfähigkeit auf Arbeitgeberseite.
+- Segmentpriorisierung:
+  - **A-Segment:** Arbeitgeber mit wiederkehrenden Ankunftswellen und akutem Umsetzungsbedarf
+  - **B-Segment:** Arbeitgeber mit punktuellem Bedarf und Pilotinteresse
+  - **C-Segment:** Partner- und Multiplikatorzugänge (z. B. Verbände, Netzwerke, Fachveranstaltungen)
+- TAM/SAM/SOM: Nur mit belegbarer Methodik ausweisen (Top-down + Bottom-up). Unbelegte Größen als **Arbeitsannahmen** markieren und im Quellenregister nachziehen.
+- Regionale Fokuslogik: Start in klar priorisierten Regionen mit nachweisbarer Nachfrage, Partnerdichte und operativer Lieferfähigkeit.
 
 ### 6.5 Wettbewerb & Positionierung (1 Seite)
 - Relevante Alternativen:
 
-| Wettbewerber | Time-to-Value | Integrationsaufwand | Nachweisb. ROI | Compliance | TCO |
-|---|---|---|---|---|---|
-| Universum Global | 3–6 Monate | Hoch | Indirekt (Rankings) | Mittel | Sehr hoch |
-| Kienbaum HR | 4–8 Monate | Sehr hoch | Methodisch | Hoch | Sehr hoch |
-| TERRITORY Embrace | 2–4 Monate | Mittel | Kampagnenbasiert | Mittel | Hoch |
-| Generalist-Agenturen | 1–3 Monate | Niedrig–mittel | Kaum messbar | Niedrig | Mittel |
-| Freelancer | 2–6 Wochen | Niedrig | Variabel | Niedrig | Niedrig |
-| Do Nothing (intern) | Keine | Sehr hoch | Nicht messbar | Variabel | Versteckt hoch |
-| **AMAVIO** | **4–8 Wochen** | **Niedrig** | **Direkt messbar** | **Hoch** | **Transparent/mittel** |
+| Alternative | Typische Stärke | Typische Schwäche aus Kundensicht | AMAVIO-Positionierung |
+|---|---|---|---|
+| Interne Eigenorganisation | Direkte Kontrolle | Hoher Koordinationsaufwand, fehlende Spezialisierung | Externe Strukturierung mit klaren Übergaben |
+| Einzelanbieter (Relocation, Makler, Handwerk) | Tiefe im Teilgewerk | Medienbrüche zwischen Gewerken | End-to-End-Orchestrierung im definierten Scope |
+| Allgemeine Beratungs-/Projektanbieter | Methoden- und Präsentationsstärke | Geringere operative Tiefe in Workforce Housing | Operative Umsetzungsnähe + Steuerungsdisziplin |
+| Do Nothing / Ad-hoc | Kein externer Einkauf | Hohe interne Unsicherheit, Verzögerungsrisiko | Planbares Programm mit 180-Tage-Logik |
 
-- Differenzierungskriterien: Time-to-Value, TCO-Transparenz, direkt messbarer ROI, Mittelstandsfokus, Founder-Zugang ohne Senior-Markup.
-- Eigener strategischer Vorteil: Paketbasierte Lieferlogik mit festen Scope-Grenzen und messbaren Deliverables; Founder liefert Senior-Expertise direkt – kein Junior-Staffing-Risiko, kein Agency-Overhead.
-- Wo Wettbewerber aktuell stärker sind + Gegenstrategie: Große Agenturen (Brand-Reputation, internationale Reichweite) → Gegenstrategie: DACH-Mittelstand als Spezialnische, Referenzkunden in Zielbranchen aufbauen. Freelancer (Preis) → Gegenstrategie: Systemlogik + Zuverlässigkeit + Retainer-Erweiterung als Mehrwert.
+- Differenzierungskriterien: Verantwortungslogik, Entscheidungsgates, Transparenz bei Fremdkosten, dokumentierte Übergaben, optionaler Ausbau über Retainer.
+- Wettbewerbsnachteile offen benennen: Begrenzte Anfangskapazität und geringer Markenhebel in der Frühphase; Gegenmaßnahme über Fokussegmente, Referenzen und standardisierte Delivery.
 
 ### 6.6 Geschäftsmodell & Pricing (1 Seite)
-- Pricing-Logik: Paketbasiert mit festen Leistungsblöcken und scopegesteuerter Flexibilität.
-  - **Blueprint:** ab 12.500 EUR (Strategie-Phase) | Zahlungsplan: 40 / 40 / 20
-  - **Launch:** ab 29.500 EUR (Umsetzungsphase) | Zahlungsplan: 30 / 30 / 30 / 10
-  - **Office Setup:** ab 15.000 EUR (Infrastruktur-/Prozess-Setup) | Zahlungsplan: 50 / 30 / 20
-  - **Retainer:** ab 1.125 EUR/Monat (13.500 EUR/Jahr), monatlich im Voraus
-  - **Add-ons:** nach freigegebenem Scope, periodisch
-- Zahlungsmodell: Staffelzahlungen mit projektbegleitenden Meilensteinen sichern Cashflow; Retainer monatlich im Voraus liefert stabilen Basisumsatz und schützt Liquidität.
-- Upsell-/Expansion-Pfade: Blueprint → Launch (natürlicher Folgeauftrag); Launch → Retainer (Übergang in laufende Steuerung); Retainer → Add-ons (bedarfsgesteuerte Erweiterung); ICP-B → ICP-A Upgrade bei Wachstum des Kunden.
-- Preis-zu-Wert-Argument: Launch-Paket (29.500 EUR) entspricht ca. 0,5–1 vermiedenen Fehlbesetzung (ø Fehlbesetzungskosten: 40.000–60.000 EUR); ROI-positiv schon bei erster Maßnahme.
+- Pricing-Logik: Paketbasiert, scope-gebunden, mit klaren Zahlungsmeilensteinen.
+  - **Blueprint:** ab 12.500 EUR | Zahlung: 40 / 40 / 20
+  - **Launch:** ab 29.500 EUR | Zahlung: 30 / 30 / 30 / 10
+  - **Office Setup:** ab 15.000 EUR | Zahlung: 50 / 30 / 20
+  - **Retainer:** ab 1.125 EUR/Monat
+  - **Add-ons:** nach freigegebenem Scope
+- Separat buchbare Beratungsleistungen:
+  - Workshops, Vorträge, Fachveranstaltungen, Konzept- und Sparringsformate
+  - Honorierung nach Umfang/Format; falls keine belastbare Preishistorie vorliegt, als **Annahmekorridor** kennzeichnen
+  - Beratungsumsatz separat vom operativen Paketumsatz ausweisen
+- Fremdkostenlogik: Drittleistungen, Mieten, Kautionen und behördliche Kosten sind nicht Teil des AMAVIO-Honorars und werden nur nach dokumentierter Freigabe/Vollmacht ausgelöst.
 
 ### 6.7 Go-to-Market Plan (2 Seiten)
 - Kanalportfolio:
-  - **Founder-led Sales (70–80 %):** Direktansprache, Netzwerk, Referrals – geringster CAC (~300–500 EUR), höchste Abschlussquote.
-  - **Partner/Referral (15–20 %):** Steuerberater, Unternehmensberater, HR-Tech-Plattformen als Weiterempfehler; CAC ~500–800 EUR.
-  - **Inbound/Content (5–10 %):** LinkedIn-Thought-Leadership, Case Studies, Webinare – langfristiger Aufbau; CAC ~1.000–2.000 EUR.
-- Funnel pro Kanal:
-  - Founder-led: Erstkontakt → Qualifikation → Discovery Call → Angebot → Close; Conversion Lead→Close: ~25–35 %
-  - Partner: Empfehlung → Direktgespräch → Angebot → Close; Conversion Lead→Close: ~40–50 %
-  - Inbound: Content-Lead → Nurturing → Discovery Call → Close; Conversion Lead→Close: ~10–15 %
-- CAC je Kanal:
-  - Founder-led: ~300–500 EUR (Zeitwert Founder, kein Mediabudget)
-  - Partner: ~500–800 EUR (Provisionspuffer + Founder-Zeit)
-  - Inbound: ~1.000–2.000 EUR (Content-Investition amortisiert sich über Zeit)
-- Sales Cycle je Segment:
-  - ICP-A: 4–8 Wochen (GF-Entscheidung, Budget genehmigt)
-  - ICP-B: 2–4 Wochen (taktischer Bedarf, schnelle Entscheidung)
-  - ICP-C: 6–12 Wochen (Komitee-Entscheidung, längere Evaluierung)
-- Quartalsziele (Neukunden/ARR):
-  - Q1 Y1: 1–2 Blueprint-Projekte | Kumuliert ARR ~25 TEUR
-  - Q2 Y1: 1 Launch + 1 Blueprint | Kumuliert ARR ~55 TEUR
-  - Q3 Y1: Launch + Office Setup + erster Retainer aktiv | Kumuliert ARR ~72 TEUR
-  - Q4 Y1: Retainer-Basis stabil, Jahresziel 93,5 TEUR erreicht
+  - **Founder-led Sales:** Direkter Zugang zu Arbeitgebern und Entscheidern
+  - **Partner-/Referral-Kanal:** Fachpartner, Netzwerke, Multiplikatoren
+  - **Fachsichtbarkeit:** Vorträge, Workshops, Veranstaltungsformate
+  - **Content/Inbound:** Gezielte Fachinhalte als Vertrauensaufbau
+- Funnel-Logik: Erstkontakt → Qualifizierung → Bedarfsworkshop → Angebot → Pilot/Abschluss.
+- Kennzahlenlogik: Conversion, Sales Cycle und CAC pro Kanal messen; bis zur Live-Datenbasis ausschließlich als Arbeitsannahmen führen.
+- Quartalsziele an Finanzmodell ausrichten (Year-1-Umsatzpfad 93,5 TEUR), nicht über unbelegte Volumenversprechen.
 
 ### 6.8 Traktion & Proof (1–2 Seiten)
-- Bisherige Kernsignale: Finanzmodell v1.7 FINAL validiert; Leistungsarchitektur (P0 Commercial Architecture + P1 Commercial Operating System) dokumentiert; Employer Decision Deck v3.0 fertiggestellt; vollständiges DD-Paket (Anlagen & Nachweispaket 2026) erstellt.
-- Conversion-/Nutzungsdaten: *(Ab Go-Live mit Live-Vertriebsdaten zu ergänzen: Win Rate, Discovery-Call-zu-Angebot-Quote, Angebot-zu-Close-Quote, durchschnittlicher Sales Cycle.)*
-- Referenzkunden/Partner: *(Nach ersten Projektabschlüssen mit Kundennamen, -stimmen und messbaren Outcomes ergänzen.)*
-- Lernkurve der letzten 6 Monate: Vollständige Businessplan-Dokumentation auf v1.7 FINAL skaliert; kommerzielle Architektur und Operating System strukturiert; Investor-Deck auf v3.0 weiterentwickelt; Zahlungslogik und Revenue-Blueprint operativ verankert; DD-readiness hergestellt.
+- Vorhandene Nachweise:
+  - Finanzmodell v1.7 FINAL
+  - Commercial Architecture (P0) und Commercial Operating System (P1)
+  - Employer Decision Decks v2.0/v3.0
+  - Anlagen- und Nachweispaket 2026
+- Noch nachzuziehen:
+  - Live-Vertriebskennzahlen (Win Rate, Zyklusdauer, Kanalwirkung)
+  - Kundenreferenzen/Outcomes nach den ersten Mandaten
+  - Vergleich Vorher/Nachher je Pilot mit dokumentierten Ergebnissen
 
 ### 6.9 Unit Economics & Finanzlogik (2 Seiten)
-- ACV/ARPA:
-  - Y1: ~15.600 EUR/Engagement (93.500 EUR / ~6 Projekte)
-  - Y2: ~29.900 EUR/Engagement (269.000 EUR / ~9 Projekte)
-  - Y3: ~36.800 EUR/Engagement (442.000 EUR / ~12 Projekte)
-- Bruttomarge:
-  - Y1: **90 %** (variable Kostenquote 10 % aus Modell)
-  - Y2: **88 %** (variable Kostenquote 12 %)
-  - Y3: **85 %** (variable Kostenquote 15 %)
-- CAC / LTV:
-  - Y1: CAC ~400 EUR | LTV ~28.100 EUR (15.600 × 90 % × 2 Jahre) → **LTV/CAC ~70x**
-  - Y2: CAC ~750 EUR | LTV ~52.600 EUR (29.900 × 88 % × 2 Jahre) → **LTV/CAC ~70x**
-  - Y3: CAC ~1.200 EUR | LTV ~62.600 EUR (36.800 × 85 % × 2 Jahre) → **LTV/CAC ~52x**
-  - *(Alle CAC-Werte auf Basis Founder-Zeit-Proxy + Marketingbudget aus Overhead-Anteil; bei Wachstum mit echten CRM-Daten zu kalibrieren.)*
-- Payback:
-  - Monatlicher Deckungsbeitrag je Neukunde Y2: 29.900 × 88 % / 12 = ~2.190 EUR/Monat
-  - Payback Period: 750 EUR CAC / 2.190 EUR = **< 1 Monat** (Projektvorauszahlung strukturell gesichert)
-- Break-even-Schwelle:
-  - Monatliche Fixkosten Y1: Overhead 1.600 + Founder-Komp. 2.500 + Abschreibung anteilig ≈ **4.270 EUR/Monat**
-  - Break-even Jahresumsatz Y1: ~47.500 EUR (bei 90 % Marge) → erreichbar ab ~5 Blueprint-Äquivalenten / Jahr
-  - Modellzeitpunkt: cashflow-positiv ab **Month 4–6** (abhängig von Projekt-Startmonaten M3/M6 aus Zahlungssteuerung)
+- Modellbasierte Leitplanken aus v1.7 FINAL:
+  - Umsatzpfad: 93,5 TEUR / 269 TEUR / 442 TEUR
+  - Variable Kostenquote: 10 % / 12 % / 15 %
+  - Mindestliquidität: 10 TEUR / 15 TEUR / 25 TEUR
+- Finanzlogik:
+  - Zahlungen meilensteinbasiert zur Liquiditätsabsicherung
+  - Retainer-Anteil als Stabilitätsbaustein
+  - Downside-/Base-/Growth-Szenarien im Modell nutzen
+- Kennzahlen wie CAC, LTV, NRR, Payback nur mit eindeutiger Datenherkunft ausweisen; bis dahin als Annahme markieren.
 
 ### 6.10 Risiken & Mitigation (1 Seite)
-- Risiko 1: **Konjunktureinbruch / HR-Budgetkürzungen**
-  - Eintrittswahrsch.: Mittel | Auswirkung: Hoch
-  - Gegenmaßnahme: Downside-Szenario im Modell (45 % Revenue Factor); ROI-Argumentation schärfen (Fehlbesetzungskosten > Consulting-Kosten); Retainer-Anteil für Basisumsatz systematisch erhöhen.
-  - Frühindikator: ifo-Geschäftsklima < 95 über 2 Quartale; Budgetfragen häufen sich in Sales-Gesprächen.
-- Risiko 2: **Founder-Dependency / Kapazitätslimit**
-  - Eintrittswahrsch.: Hoch (strukturell) | Auswirkung: Sehr hoch
-  - Gegenmaßnahme: Project Coordination Staff ab Y2 (4.000 EUR/Monat im Modell); vollständige Prozessdokumentation in Y1 abschließen; Subcontractor-Netzwerk parallel aufbauen.
-  - Frühindikator: Billable-Auslastung > 85 % über 6 Wochen; mehr als 2 parallele Projekte ohne Kapazitätspuffer.
-- Risiko 3: **Regulatorisches Risiko §34c / DSGVO**
-  - Eintrittswahrsch.: Niedrig | Auswirkung: Hoch
-  - Gegenmaßnahme: Klare Scope-Abgrenzung in allen Verträgen (keine Arbeitsvermittlung); AV-Verträge mit Kunden für HR-Datenzugriff; Rechtsberatung Q1 Y1 fest einplanen.
-  - Frühindikator: Kundenanfragen mit Vermittlungscharakter; Änderungen im regulatorischen Umfeld §34c.
-- Frühindikatoren mit Schwellwert:
-  - Win Rate < 15 % über 60 Tage: Sales-Messaging und ICP-Definition überarbeiten
-  - Liquidität < 10 TEUR (Y1-Mindestgrenze): Sofortmaßnahme – Zahlungspush bei offenen Rechnungen + Kostensperre
-  - Retainer-Churn > 1 Kunde/Quartal: Sofortige Retention-Analyse und -Maßnahmen
+- Risiko 1: **Nachfrageschwankung / Budgetdruck beim Arbeitgeber**
+  - Mitigation: Pilotfähige Einstiegspakete, klare ROI-Dokumentation, Ausbau über Folgepakete statt Overcommitment.
+- Risiko 2: **Founder- und Kapazitätsabhängigkeit**
+  - Mitigation: Standardisierte Prozessdokumentation, definierte Handover-Punkte, geplanter Kapazitätsausbau.
+- Risiko 3: **Regulatorik, Datenschutz, Vollmachten**
+  - Mitigation: Klare Vertrags- und Rollenlogik, dokumentierte Freigaben, saubere Trennung von Koordination und Rechts-/Fachprüfung.
+- Risiko 4: **Externe Lieferabhängigkeit (Wohnraum, Handwerk, Behörden)**
+  - Mitigation: Lieferantenportfolio, Entscheidungsalternativen, frühe Eskalationsmechanik und transparente Kundenkommunikation.
 
 ### 6.11 Roadmap 12–24 Monate (1 Seite)
-- Q1–Q2 Meilensteine:
-  - **Produkt/Ops:** Leistungspakete mit Scope-Dokumenten finalisiert; Buchhaltung + CRM-Setup operativ | KPI: Go-Live-Struktur fertig | Owner: Founder
-  - **GTM:** Netzwerk-Outreach gestartet, 20+ Erstkontakte, 5+ Discovery Calls | KPI: 1–2 Blueprint-Angebote raus | Owner: Founder
-  - **Finance:** Erste Projektzahlungen eingegangen, Liquidität > 10 TEUR | KPI: ARR kumuliert > 25 TEUR | Owner: Founder
-- Q3–Q4 Meilensteine:
-  - **Produkt:** Erster Retainer mit Kunde aktiv (Retainer ARR > 13.500 EUR) | Owner: Founder
-  - **GTM:** Erster Launch-Auftrag gewonnen; erste Referenz aktiviert; 1 Referral-Lead | Owner: Founder
-  - **Finance:** KPI-Dashboard operativ; Monats-Reporting läuft; Jahresziel 93,5 TEUR im Korridor | Owner: Founder
-- Year-2 Erweiterung:
-  - **Team:** Project Coordinator eingestellt (Trigger: Auslastung > 85 % / 6 Wochen) | KPI: 80 % Coordinator-Auslastung ab M14 | Owner: Founder
-  - **Revenue:** Blueprint 03–05 + Launch 02–03 aktiv; ARR > 180 TEUR bis Q2 Y2 | Owner: Founder + Coordinator
-  - **Funding:** Erste externe Wachstumsfinanzierung geprüft (optional); 2+ Investorengespräche | Owner: Founder
-- KPI pro Meilenstein + Owner: Alle KPIs in Y1 mit Founder als primärem Owner; ab Y2 operative KPIs (Projekt-Tracking, Rechnungsstellung) an Coordinator übergeben.
+- Q1–Q2:
+  - Pakete, Rollenlogik und Vollmachtsprozess finalisieren
+  - Pilotmandate akquirieren und 180-Tage-Struktur konsequent anwenden
+  - KPI-Erfassung für Vertrieb, Delivery und Liquidität scharf schalten
+- Q3–Q4:
+  - Referenzfähige Pilotnachweise aufbauen
+  - Retainer- und Folgegeschäft systematisch entwickeln
+  - DD-Dokumentation und Reporting-Standards konsolidieren
+- Year 2:
+  - Kapazitätsausbau gemäß Nachfragebeleg
+  - Regionale Ausweitung entlang belastbarer Delivery-Qualität
 
 ### 6.12 Team & Governance (1 Seite)
 - Schlüsselrollen heute:
-  - **Founder (Zaki Amawi):** Strategie, Delivery, Sales, Finanzen – 102 Billable Days Y1 bei 900 EUR/Tag. Vollständiges Senior-Profil in Zaki_Amawi_ATS_CV_2026.pdf und Founder_Portfolio_2026.pdf dokumentiert.
-- Kritische Hires:
-  - **Project Coordination Staff (ab Y2, M13+):** 4.000 EUR/Monat – operativer Support, Kunden-Touchpoints, Reporting-Routine. Trigger: Auslastung > 85 % über 6 Wochen.
-  - **Senior Employer Branding Specialist (ab Y3, Subcontractor oder FTE):** Kapazitätserweiterung für Launch-Projekte. Budget im Y3-Kostenmodell berücksichtigt (9.000 EUR/Monat Staffing + höherer Overhead).
-- Governance-/Reporting-Rhythmus:
-  - Wöchentlich: Interner Projekt-Fortschritt + Pipeline-Update
-  - Monatlich: KPI-Review (Pipeline Coverage, Liquidität, Umsatz vs. Plan, Burn)
-  - Quartalsweise: Strategie-Check (Meilensteine, Kanalperformance, Pricing-Review)
-  - Investor-Update: Monatlich per Template (Pipeline-Status, Revenue vs. Plan, Runway, offene Themen)
-- Warum das Team diese Kategorie gewinnen kann: Founder bringt direkte Senior-Expertise mit Marktkenntnis im DACH-Mittelstand; kein Junior-Staffing-Risiko in der Lieferung; schlankes Kostenmodell ermöglicht profitables Wirtschaften ab erstem Kundenprojekt; vollständig dokumentiertes kommerzielles System (P0 + P1) als Skalierungsgrundlage.
+  - **Founder (Zaki Amawi):** Strategie, Vertrieb, Delivery, Finanzsteuerung.
+- Rollenlogik im Projekt:
+  - **AMAVIO:** Konzeption, Koordination, Steuerung, Reporting
+  - **Arbeitgeber:** Freigaben, Datenbereitstellung, interne Entscheidungen
+  - **Kandidaten/Bewohner:** Mitwirkung, Unterlagen, Einwilligungen
+  - **Externe Partner:** Fachleistungen auf Basis definierter Beauftragung
+- Vollmachten / Freigaben:
+  - Fremdkosten nur mit dokumentierter Freigabe oder Vollmacht
+  - Beauftragungen, Behördenkontakte und Übergaben revisionsfähig dokumentieren
+- Personalaufbau: Erst bei nachgewiesener Nachfrage und stabiler Prozessqualität skalieren.
 
 ### 6.13 Funding-Case (1 Seite)
-- Kapitalbedarf: **25.000 EUR** (500 EUR Stammkapital + 24.500 EUR dokumentierter Beitrag/Darlehen)
-- Mittelverwendung nach Blöcken:
-  - **Setup & Legal (15 %):** ~3.750 EUR – GmbH-Gründung, Vertragswerke, §34c-Prüfung, Rechtsberatung Q1
-  - **Technologie & Tools (20 %):** ~5.000 EUR – CRM, Projektmanagement, Design-Tools, Buchhaltungssoftware (Capex Y1: 2.000 EUR im Modell)
-  - **Sales & Marketing (25 %):** ~6.250 EUR – LinkedIn-Premium, Content-Produktion, Netzwerkevents, Akquisekosten Y1
-  - **Betriebskapital & Reserve (40 %):** ~10.000 EUR – Mindestliquiditätspuffer (10 TEUR Modellgrenze Y1), Überbrückung bis erste Projektzahlungseingänge
-- KPI-Wirkung pro Block:
-  - Legal: Risikominimierung §34c; saubere Vertragsgrundlage für alle Kunden → DD-ready ab Tag 1
-  - Tech: CAC-Reduktion durch CRM-gesteuerten Funnel; KPI-Tracking ab Go-Live operationalisiert
-  - Sales: Ziel 5+ Discovery Calls/Monat ab M2; Win Rate > 25 %; erste Projekte ab M3
-  - Betriebskapital: Runway ≥ 6 Monate ohne Umsatz; Liquidität dauerhaft > 10 TEUR (Modellgrenze)
-- Runway bis: **Month 6 ohne Umsatz** (25.000 EUR / ~4.100 EUR Monatsfixkosten Y1); mit Umsatz ab M3: Selbstfinanzierung ab M6.
-- Nächster Value-Inflection-Point: **Übergang Y1 → Y2** (93,5 TEUR → 269 TEUR; +188 %); Retainer-Basis stabil, Coordinator eingestellt, externe Wachstumsfinanzierung optional prüfbar.
+- Kapitalbedarf: **25.000 EUR** geplant (500 EUR Stammkapital + 24.500 EUR dokumentierter Beitrag/Darlehen).
+- Mittelverwendung:
+  - Setup/Legal/Compliance
+  - Tools, Reporting und operative Steuerung
+  - Vertriebsanlauf und Marktbearbeitung
+  - Betriebskapitalreserve
+- Wirkung: Jede Mittelverwendung mit KPI- und Risikowirkung verknüpfen; unbelegte Wirkannahmen explizit als Annahme kennzeichnen.
+- Finanzmodell-Auswirkung: Zusätzliche Beratungsumsätze nur als separater Erlösstrang modellieren, wenn Umfang, Preislogik und Nachfrageannahme dokumentiert sind.
 
 ### 6.14 Exit-/Skalierungspfad (1 Seite)
-- Geografischer Skalierungspfad:
-  - Y1–Y2: DACH-Kernmarkt (NRW, Rhein-Main, München) – Founder-led, referenzbasiert
-  - Y3–Y4: DACH vollständig + erste Projekte CH/AT; Partner-Netzwerk aktiv
-  - Y5+: Skalierung über Partnermodell oder Lizenzierung in weitere EU-Märkte (NL, BE, Nordics)
-- Produktseitige Skalierungshebel:
-  - Retainer-Anteil am Gesamtumsatz erhöhen: Y1: 14 % → Y3: 33 % (144 TEUR / 442 TEUR)
-  - Standardisierung der Paketdokumentation für Coordinator- und Junior-Delivery
-  - Digitale Add-ons (Templates, Selbst-Assessments, Tools) für skalierbare Margenerweiterung
-- Strategische Exit-Optionen:
-  - **Buy-and-Build:** Übernahme durch HR-Tech oder Employer-Branding-Agentur (TERRITORY, Kienbaum, Universum)
-  - **Strategische Käufer:** Unternehmensberatungen (Big4 HR-Practices), Personaldienstleister mit Beratungsambition
-  - **Trigger für Exit-Readiness:** ARR-Schwelle > 1 Mio. EUR; Marktanteilsbeleg DACH-Mittelstand; Datenmoat aus Retainer-Kunden-Insights
-- Kapitalmarkt-/M&A-Readiness-Faktoren:
-  - Saubere Buchführung und KPI-Dokumentation ab Y1 (vollständige DD-readiness hergestellt)
-  - Retainer-Vertragsbasis als Umsatzqualitätsnachweis (vorhersehbarer Revenue-Anteil)
-  - Skalierbare Prozessdokumentation (P0 + P1) als Grundlage für Staffing-Erweiterung und Transition
+- Skalierungspfad:
+  - Erst operative Exzellenz im Kernsegment
+  - Danach regionale Ausweitung und Partnerstruktur
+  - Danach optionale Produktisierung einzelner Module
+- Eigenimmobilien: Nur perspektivischer Baustein nach belastbarem Kerngeschäft und klarer Kapital-/Risikologik.
+- Strategische Optionen:
+  - Partnerschaften, Buy-and-Build, selektive Beteiligungs- oder M&A-Optionen
+  - Keine Exit-These ohne belastbare Leistungs- und Ertragsnachweise
 
 ### 6.15 Anhang
-- Detailtabellen: AMAVIO_Finanzmodell_36_Monate_v1_7_FINAL.xlsx (Revenue-Blueprint, Monthly Cash Flow, Assumptions, Checks)
-- Methodik: Umsatzplanung basiert auf Vertragslogik (Contract_Cash-Blatt); Kostenplanung auf Assumptions-Blatt; Zahlungssteuerung auf Payment-Schedule-Blatt; Sensitivitäten (Base / Downside 45 % / Growth 125 %) dokumentiert.
-- Datenquellen: Finanzmodell v1.7 FINAL; Kienbaum Vergütungsstudie (Fehlbesetzungskosten-Benchmark); Statista HR-Consulting DACH Marktdaten; ifo Institut (Konjunkturfrühindikatoren).
+- Detailtabellen: AMAVIO_Finanzmodell_36_Monate_v1_7_FINAL.xlsx (Contract_Cash, Monthly_Cash, Annual_P&L, Assumptions, Scenarios, Checks)
+- Methodik: Umsatz aus Vertragslogik, Kosten aus Assumptions, Szenarien aus Scenarios; Quellen und Annahmestatus im Register pflegen.
+- Datenquellen: Finanzmodell v1.7 FINAL, Businessplan-Kernfassung v1.7 FINAL, P0/P1-Dokumente, Nachweispaket 2026.
 - Zusatznachweise: AMAVIO_Anlagen_und_Nachweispaket_2026.pdf; Zaki_Amawi_ATS_CV_2026.pdf; Zaki_Amawi_Founder_Portfolio_2026.pdf; AMAVIO_P0_Commercial_Architecture_v1_0.pdf; AMAVIO_P1_Commercial_Operating_System_v1_0.pdf
 
 ---
@@ -528,6 +509,7 @@ Year 3 (442.000 EUR):
 - Exakte EBITDA/EBT/Net-Income Werte pro Jahr: **TBD (im Export aktuell ohne gespeicherte Zahlenwerte)**
 - Wettbewerbsmatrix mit externen Benchmarks: **TBD**
 - Risiko-Wahrscheinlichkeiten und Schwellwerte: **TBD**
+- Separater Beratungs-Erlösstrang (Workshops/Vorträge/Konzepte): **im Modell derzeit nicht explizit ausgewiesen; nur nach dokumentierter Annahme ergänzen**
 
 ---
 
@@ -537,13 +519,13 @@ Year 3 (442.000 EUR):
 
 | KPI | Formel | Primärquelle | Status |
 |---|---|---|---|
-| CAC | (Sales+Marketing-Kosten Periode) / Anzahl Neukunden | Kostenblöcke + CRM | **Y1: ~400 EUR / Y2: ~750 EUR / Y3: ~1.200 EUR** (Schätzung Founder-Zeit-Proxy) |
-| LTV | ARPA × Bruttomarge × erwartete Kundenlaufzeit | Umsatzmix + Marge + Retention | **Y1: ~28.100 EUR / Y2: ~52.600 EUR / Y3: ~62.600 EUR** (2-Jahres-Basis) |
-| LTV/CAC | LTV / CAC | abgeleitet | **Y1: ~70x / Y2: ~70x / Y3: ~52x** (mit Live-CRM-Daten zu kalibrieren) |
-| Payback Period | CAC / monatlicher Deckungsbeitrag je Neukunde | CAC + Contribution | **< 1 Monat** (Projektvorauszahlung strukturell gesichert) |
+| CAC | (Sales+Marketing-Kosten Periode) / Anzahl Neukunden | Kostenblöcke + CRM | **TBD** (bis zur ersten belastbaren Live-Datenreihe nur Arbeitsannahme) |
+| LTV | ARPA × Bruttomarge × erwartete Kundenlaufzeit | Umsatzmix + Marge + Retention | **TBD** (erst nach validierter Retention-Basis belastbar) |
+| LTV/CAC | LTV / CAC | abgeleitet | **TBD** (erst aus gemessenen CAC/LTV ableiten) |
+| Payback Period | CAC / monatlicher Deckungsbeitrag je Neukunde | CAC + Contribution | **TBD** (mit realer Rechnungs- und Zahlungsserie belegen) |
 | Gross Margin | (Umsatz – direkte variable Kosten) / Umsatz | Assumptions + P&L | **Y1: 90 % / Y2: 88 % / Y3: 85 %** (aus Modell v1.7 FINAL) |
-| NRR | (Start-MRR + Expansion – Contraction – Churn) / Start-MRR | Abrechnung/CRM | **Zielkorridor: 115–130 %** (Retainer + Add-ons; Live-Messung ab Retainer-Start) |
-| Burn Multiple | Net Burn / Net New ARR | Cash + ARR | **N/A ab M6** (Cashflow-positiv); Presales-Phase < 6 Monate mit 25 TEUR Puffer |
+| NRR | (Start-MRR + Expansion – Contraction – Churn) / Start-MRR | Abrechnung/CRM | **TBD** (erst ab aktivem Retainer-Bestand mit Churn-/Expansion-Daten) |
+| Burn Multiple | Net Burn / Net New ARR | Cash + ARR | **TBD** (monatlich aus Live-Cash und Net-New-ARR berechnen) |
 | Runway | Verfügbare Liquidität / monatlicher Net Burn | Monthly_Cash | **6 Monate ohne Umsatz** (25.000 / ~4.100); selbstfinanzierend ab ~M6 |
 
 ### 11.2 Sofort nutzbare Startwerte aus v1.7 FINAL
@@ -581,37 +563,42 @@ Year 3 (442.000 EUR):
 
 ---
 
-## 12) 30/60/90-Tage Exekutionsplan (ab heute)
+## 12) 180-Tage-Begleitprogramm (ab heute)
 
-### Tag 1–30: Datenfundament + Story-Fokus
+### Phase 1 – Tag 1–30: Datenfundament + Scope-Klarheit
 - CRM-/Sheet-Struktur auf KPI-Erfassung ausrichten (CAC, Win Rate, NRR).
 - Einheitliche Deal-Phasen und Kanal-Tags verbindlich setzen.
 - Wettbewerberliste final (5–7) und Bewertungsachsen fixieren.
 - Executive Summary auf 1 Seite finalisieren.
+- 180-Tage-Programm in allen operativen Paketen explizit verankern.
+- Beratungsangebote und operative Pakete sauber voneinander abgrenzen.
 
 Deliverables:
 - Vollständige KPI-Datenerfassungsvorlage
 - Erste belastbare Wettbewerbsmatrix
 - Finale 1-Seiten-Executive-Summary
 
-### Tag 31–60: Quantifizierung + Investor-Lesbarkeit
+### Phase 2 – Tag 31–90: Quantifizierung + operative Stabilisierung
 - CAC, Payback, LTV/CAC auf echten Verlaufsdaten rechnen.
 - Risiko-Register mit Eintrittswahrscheinlichkeiten und Schwellwerten befüllen.
 - Funding-Use je Budgetblock an KPI-Effekt koppeln.
 - Deck auf „eine Seite = eine Aussage“ hart kürzen.
+- Rollen- und Vollmachtslogik in den operativen Prozessen dokumentieren.
 
 Deliverables:
 - KPI-Board mit echten Monatswerten
 - Risk Heatmap mit Mitigation-Ownern
 - Funding-Folie mit Outcome-Kaskade
 
-### Tag 61–90: Proof + DD-Readiness
+### Phase 3 – Tag 91–180: Proof + DD-Readiness + Übergabe
 - Referenz- und Proof-Material (Kundenstimmen, Cases, Vorher/Nachher) bündeln.
 - Vollständigen 5-Minuten-Readability-Test mit 3 externen Lesern durchführen.
 - Due-Diligence-Paket finalisieren (Finanzmodell, Quellen, Verträge, Compliance).
 - Q&A-Runden simulieren und schwache Stellen nachschärfen.
+- Abschluss-Review, Folgeangebote und Übergabeformate vorbereiten.
 
 Deliverables:
 - Investor-versandfähiges Deck
 - DD-ready Dokumentenpaket
 - Q&A-Log mit finalen Antworten
+- 180-Tage-Begleitprogramm als Standardprozess dokumentiert
