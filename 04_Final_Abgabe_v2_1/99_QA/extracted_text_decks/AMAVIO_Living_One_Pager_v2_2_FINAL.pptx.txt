@@ -1,0 +1,4 @@
+[Sources]
+- Internal: AMAVIO Produktarchitektur und Businessplan v1.7 (Stand 28. Juli 2026).
+- Editorial image retained from the AMAVIO source deck where shown.
+- Prices are net starting prices; scope, third-party costs and acceptance remain project-specific.

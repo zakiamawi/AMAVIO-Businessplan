@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Bildmotiv-Platzhalter: AMAVIO Community Campus</title>
+  <desc id="desc">Ein warmer, moderner Gemeinschaftsraum mit Co-Working, Café-Bar, Shared Kitchen, langer Tafel und Pflanzen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8ead1"/>
+      <stop offset=".45" stop-color="#d7ad74"/>
+      <stop offset="1" stop-color="#163f39"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0" stop-color="#fdf4de" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#95b0a4" stop-opacity=".45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <path d="M0 640 C210 550 410 710 650 626 C900 539 1100 565 1400 662 L1400 900 L0 900 Z" fill="#123b36" opacity=".83"/>
+  <rect x="95" y="118" width="410" height="360" rx="38" fill="url(#glass)" opacity=".88"/>
+  <rect x="150" y="172" width="124" height="90" rx="16" fill="#214c45"/>
+  <rect x="302" y="172" width="124" height="90" rx="16" fill="#214c45" opacity=".82"/>
+  <rect x="165" y="324" width="250" height="42" rx="21" fill="#fff3d6"/>
+  <rect x="610" y="134" width="270" height="120" rx="60" fill="#fff4d9" opacity=".9"/>
+  <circle cx="705" cy="194" r="44" fill="#bc6b4e"/>
+  <rect x="930" y="118" width="345" height="360" rx="172" fill="#f5dfb2" opacity=".72"/>
+  <rect x="996" y="185" width="212" height="226" rx="28" fill="#19433d"/>
+  <path d="M650 565 C745 510 872 510 980 565" stroke="#f7dfaa" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <rect x="470" y="604" width="460" height="50" rx="25" fill="#f8e7bf"/>
+  <rect x="520" y="680" width="360" height="34" rx="17" fill="#b86d51"/>
+  <g fill="#214c45">
+    <path d="M1110 610 C1062 562 1072 494 1118 448 C1164 494 1164 563 1110 610Z"/>
+    <path d="M228 614 C180 566 190 498 236 452 C282 498 282 567 228 614Z"/>
+  </g>
+  <g fill="#fff8ec" font-family="Arial, sans-serif">
+    <text x="122" y="536" font-size="30">Co-Working</text>
+    <text x="628" y="304" font-size="30">Café</text>
+    <text x="980" y="536" font-size="30">Shared Kitchen</text>
+    <text x="495" y="772" font-size="34">Gemeinsam kochen, essen, lernen, ankommen</text>
+  </g>
+</svg>
