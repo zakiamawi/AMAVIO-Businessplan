@@ -1,0 +1,149 @@
+{
+  "results": [
+    {
+      "viewport": "desktop",
+      "route": "/",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\desktop_home.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nWohnen\nArbeitgeber\nBewohner\nImmobilienpartner\nSo funktioniert es\nStandorte\nKontakt\nAnfrage\nArbeitgeber\nCampus\nBewohner\nModelle\nPartner\nPlattform\n\nWORKFORCE HOUSING & INTEGRATION\n\nAMAVIO Living\n\nWohnen. Ankommen. Dazugehören.\n\nAMAVIO baut die nächste Generation von Workforce Living: m",
+      "h1": "AMAVIO Living",
+      "hasHorizontalOverflow": false,
+      "linkCount": 24,
+      "scrollWidth": 1425,
+      "title": "AMAVIO Living | Workforce Housing & Integration",
+      "width": 1425
+    },
+    {
+      "viewport": "desktop",
+      "route": "/arbeitgeber",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\desktop_employer.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nWohnen\nArbeitgeber\nBewohner\nImmobilienpartner\nSo funktioniert es\nStandorte\nKontakt\nWohnraum finden\n\nFÜR ARBEITGEBER\n\nInternationale Mitarbeitende sollen nicht nur unterschreiben, sondern starten können.\n\nAMAVIO strukturiert Wohnbedarf, Standortprüfung, Bezugsfertigkeit, Ankunft und S",
+      "h1": "Internationale Mitarbeitende sollen nicht nur unterschreiben, sondern starten können.",
+      "hasHorizontalOverflow": false,
+      "linkCount": 14,
+      "scrollWidth": 1425,
+      "title": "Für Arbeitgeber | AMAVIO Living",
+      "width": 1425
+    },
+    {
+      "viewport": "desktop",
+      "route": "/so-funktioniert-es",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\desktop_process.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nWohnen\nArbeitgeber\nBewohner\nImmobilienpartner\nSo funktioniert es\nStandorte\nKontakt\nWohnraum finden\n\nSO FUNKTIONIERT ES\n\nEin digital geführter Weg vom Bedarf bis zur Zugehörigkeit.\n\nAMAVIO trennt frühe Anfrage, geprüfte Entscheidung, Umsetzung und Stabilisierung, damit Menschen und Ar",
+      "h1": "Ein digital geführter Weg vom Bedarf bis zur Zugehörigkeit.",
+      "hasHorizontalOverflow": false,
+      "linkCount": 13,
+      "scrollWidth": 1425,
+      "title": "So funktioniert es | AMAVIO Living",
+      "width": 1425
+    },
+    {
+      "viewport": "desktop",
+      "route": "/kontakt",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\desktop_contact.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nWohnen\nArbeitgeber\nBewohner\nImmobilienpartner\nSo funktioniert es\nStandorte\nKontakt\nWohnraum finden\n\nKONTAKT\n\nDer beste nächste Schritt beginnt mit einer sauberen Einordnung.\n\nNutzen Sie die strukturierte Erstaufnahme für Arbeitgeberbedarf, Wohnraumanfrage oder Partnerschaft. Die Anfr",
+      "h1": "Der beste nächste Schritt beginnt mit einer sauberen Einordnung.",
+      "hasHorizontalOverflow": false,
+      "linkCount": 13,
+      "scrollWidth": 1425,
+      "title": "Kontakt und Anfrage | AMAVIO Living",
+      "width": 1425
+    },
+    {
+      "viewport": "desktop",
+      "route": "/datenschutz",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\desktop_privacy.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nDatenschutz\n\nDie Anfragefläche übermittelt die eingegebenen Daten nur dann an einen serverseitig konfigurierten HTTPS-Bearbeitungskanal. Ohne diese Konfiguration wird keine erfolgreiche Zustellung bestätigt.\n\nVerantwortlicher wird im finalen Datenschutztext mit den geprüften Pflichtd",
+      "h1": "Datenschutz",
+      "hasHorizontalOverflow": false,
+      "linkCount": 6,
+      "scrollWidth": 1440,
+      "title": "Datenschutz – Pflichtangaben noch nicht vollständig | AMAVIO Living",
+      "width": 1440
+    },
+    {
+      "viewport": "desktop",
+      "route": "/impressum",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\desktop_imprint.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nImpressum\n\nAnbieter: AMAVIO Holding UG (haftungsbeschränkt), Düsseldorf.\n\nDer vollständige Handelsregisterauszug wurde in den verfügbaren Textquellen nicht mit allen Pflichtangaben extrahiert. Adresse, Registergericht, Registernummer und vertretungsberechtigte Person werden hier erst",
+      "h1": "Impressum",
+      "hasHorizontalOverflow": false,
+      "linkCount": 6,
+      "scrollWidth": 1440,
+      "title": "Impressum – Pflichtangaben noch nicht vollständig | AMAVIO Living",
+      "width": 1440
+    },
+    {
+      "viewport": "mobile",
+      "route": "/",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\mobile_home.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nWohnen\nArbeitgeber\nBewohner\nImmobilienpartner\nSo funktioniert es\nStandorte\nKontakt\nAnfrage\nArbeitgeber\nCampus\nBewohner\nModelle\nPartner\nPlattform\n\nWORKFORCE HOUSING & INTEGRATION\n\nAMAVIO Living\n\nWohnen. Ankommen. Dazugehören.\n\nAMAVIO baut die nächste Generation von Workforce Living: m",
+      "h1": "AMAVIO Living",
+      "hasHorizontalOverflow": false,
+      "linkCount": 24,
+      "scrollWidth": 375,
+      "title": "AMAVIO Living | Workforce Housing & Integration",
+      "width": 375
+    },
+    {
+      "viewport": "mobile",
+      "route": "/arbeitgeber",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\mobile_employer.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nWohnen\nArbeitgeber\nBewohner\nImmobilienpartner\nSo funktioniert es\nStandorte\nKontakt\nWohnraum finden\n\nFÜR ARBEITGEBER\n\nInternationale Mitarbeitende sollen nicht nur unterschreiben, sondern starten können.\n\nAMAVIO strukturiert Wohnbedarf, Standortprüfung, Bezugsfertigkeit, Ankunft und S",
+      "h1": "Internationale Mitarbeitende sollen nicht nur unterschreiben, sondern starten können.",
+      "hasHorizontalOverflow": false,
+      "linkCount": 14,
+      "scrollWidth": 375,
+      "title": "Für Arbeitgeber | AMAVIO Living",
+      "width": 375
+    },
+    {
+      "viewport": "mobile",
+      "route": "/so-funktioniert-es",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\mobile_process.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nWohnen\nArbeitgeber\nBewohner\nImmobilienpartner\nSo funktioniert es\nStandorte\nKontakt\nWohnraum finden\n\nSO FUNKTIONIERT ES\n\nEin digital geführter Weg vom Bedarf bis zur Zugehörigkeit.\n\nAMAVIO trennt frühe Anfrage, geprüfte Entscheidung, Umsetzung und Stabilisierung, damit Menschen und Ar",
+      "h1": "Ein digital geführter Weg vom Bedarf bis zur Zugehörigkeit.",
+      "hasHorizontalOverflow": false,
+      "linkCount": 13,
+      "scrollWidth": 375,
+      "title": "So funktioniert es | AMAVIO Living",
+      "width": 375
+    },
+    {
+      "viewport": "mobile",
+      "route": "/kontakt",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\mobile_contact.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nWohnen\nArbeitgeber\nBewohner\nImmobilienpartner\nSo funktioniert es\nStandorte\nKontakt\nWohnraum finden\n\nKONTAKT\n\nDer beste nächste Schritt beginnt mit einer sauberen Einordnung.\n\nNutzen Sie die strukturierte Erstaufnahme für Arbeitgeberbedarf, Wohnraumanfrage oder Partnerschaft. Die Anfr",
+      "h1": "Der beste nächste Schritt beginnt mit einer sauberen Einordnung.",
+      "hasHorizontalOverflow": false,
+      "linkCount": 13,
+      "scrollWidth": 375,
+      "title": "Kontakt und Anfrage | AMAVIO Living",
+      "width": 375
+    },
+    {
+      "viewport": "mobile",
+      "route": "/datenschutz",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\mobile_privacy.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nDatenschutz\n\nDie Anfragefläche übermittelt die eingegebenen Daten nur dann an einen serverseitig konfigurierten HTTPS-Bearbeitungskanal. Ohne diese Konfiguration wird keine erfolgreiche Zustellung bestätigt.\n\nVerantwortlicher wird im finalen Datenschutztext mit den geprüften Pflichtd",
+      "h1": "Datenschutz",
+      "hasHorizontalOverflow": false,
+      "linkCount": 6,
+      "scrollWidth": 375,
+      "title": "Datenschutz – Pflichtangaben noch nicht vollständig | AMAVIO Living",
+      "width": 375
+    },
+    {
+      "viewport": "mobile",
+      "route": "/impressum",
+      "screenshot": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\99_QA\\website_preview_checks_20260731\\mobile_imprint.png",
+      "bodyTextStart": "A\nAMAVIO\nLIVING\nImpressum\n\nAnbieter: AMAVIO Holding UG (haftungsbeschränkt), Düsseldorf.\n\nDer vollständige Handelsregisterauszug wurde in den verfügbaren Textquellen nicht mit allen Pflichtangaben extrahiert. Adresse, Registergericht, Registernummer und vertretungsberechtigte Person werden hier erst",
+      "h1": "Impressum",
+      "hasHorizontalOverflow": false,
+      "linkCount": 6,
+      "scrollWidth": 375,
+      "title": "Impressum – Pflichtangaben noch nicht vollständig | AMAVIO Living",
+      "width": 375
+    }
+  ],
+  "logs": []
+}

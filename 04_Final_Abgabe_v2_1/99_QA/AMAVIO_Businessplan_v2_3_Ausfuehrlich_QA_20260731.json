@@ -1,0 +1,25 @@
+{
+  "source": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\01_Businessplan\\AMAVIO_Living_Businessplan_Master_2026_v2_2_FINAL.docx",
+  "output": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\01_Businessplan\\AMAVIO_Living_Businessplan_Master_2026_v2_3_AUSFUEHRLICH_ARBEITSSTAND.docx",
+  "before": {
+    "paragraphs": 337,
+    "tables": 92
+  },
+  "after": {
+    "paragraphs": 355,
+    "tables": 98,
+    "text_chars": 65544
+  },
+  "checks": {
+    "v1.7": 0,
+    "v1_7": 0,
+    "92.000": 0,
+    "93.500": 3,
+    "269.000": 1,
+    "442.000": 2,
+    "25.000": 3,
+    "29.500": 1
+  },
+  "created_at": "2026-07-31",
+  "note": "Existing v2.2 FINAL preserved. v2.3 Arbeitsstand appends a controlled reviewer/coach-readiness section."
+}

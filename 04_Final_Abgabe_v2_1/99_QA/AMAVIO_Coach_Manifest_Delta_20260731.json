@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-07-31T20:26:54+02:00",
+  "purpose": "Hash delta for artifacts created after coach_manifest_hashes_20260731.json",
+  "baseline_manifest_verified": {
+    "path": "04_Final_Abgabe_v2_1/99_QA/coach_manifest_hashes_20260731.json",
+    "matched_files": 11,
+    "mismatched_files": 0
+  },
+  "artifacts": [
+    {
+      "path": "04_Final_Abgabe_v2_1/01_Businessplan/AMAVIO_Living_Businessplan_Master_2026_v2_3_AUSFUEHRLICH_ARBEITSSTAND.docx",
+      "classification": "supplemental_working_state",
+      "size_bytes": 97805,
+      "sha256": "8e4be58ffebb80c89c3fc6e9c3ada473ecb87b530d08e8d2ed42b9cf12d1896a"
+    },
+    {
+      "path": "04_Final_Abgabe_v2_1/01_Businessplan/AMAVIO_Living_Businessplan_Master_2026_v2_3_AUSFUEHRLICH_ARBEITSSTAND.pdf",
+      "classification": "supplemental_working_state",
+      "size_bytes": 889990,
+      "sha256": "698c920f4cc983fa9cdfb133c701c2c5f4feded99a13c8ad7f4f4959a7015543"
+    },
+    {
+      "path": "04_Final_Abgabe_v2_1/05_Coach_Paket/AMAVIO_Coach_Readiness_Paket_20260731.docx",
+      "classification": "coach_preview",
+      "size_bytes": 50282,
+      "sha256": "940e3187352abb44fa67b04532ca05582000c8533eaded801db04481ef19dab4"
+    },
+    {
+      "path": "04_Final_Abgabe_v2_1/05_Coach_Paket/AMAVIO_Coach_Readiness_Paket_20260731.pdf",
+      "classification": "coach_preview",
+      "size_bytes": 37966,
+      "sha256": "5768a77448e5713a615bb56de3423396ef5b7ce5747d33b8463de99c3341481a"
+    },
+    {
+      "path": "04_Final_Abgabe_v2_1/05_Coach_Paket/AMAVIO_Coach_Readiness_Paket_20260731_QA.json",
+      "classification": "qa_evidence",
+      "size_bytes": 292,
+      "sha256": "45bfaaa7f838e10fc9fd76af1bd00de936c7ac27ee7e2a93e8da6fb81b92c8af"
+    }
+  ]
+}

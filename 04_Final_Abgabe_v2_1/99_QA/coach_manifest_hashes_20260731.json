@@ -1,0 +1,79 @@
+[
+  {
+    "path": "04_Final_Abgabe_v2_1\\01_Businessplan\\AMAVIO_Living_Businessplan_Master_2026_v2_2_FINAL.docx",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\01_Businessplan\\AMAVIO_Living_Businessplan_Master_2026_v2_2_FINAL.docx",
+    "exists": true,
+    "size_bytes": 95122,
+    "sha256": "3bd645500966ed7c78a7af1175edd8925032d096ece20965d325f1068c5ed3a1"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\01_Businessplan\\AMAVIO_Living_Businessplan_Master_2026_v2_2_FINAL.pdf",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\01_Businessplan\\AMAVIO_Living_Businessplan_Master_2026_v2_2_FINAL.pdf",
+    "exists": true,
+    "size_bytes": 868673,
+    "sha256": "90144a4f7cdc4afdcbb1054b36997a65937c74518569a4fea819e62b2c1688ed"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\02_Finanzmodell\\AMAVIO_Finanzmodell_36_Monate_v1_8_FINAL.xlsx",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\02_Finanzmodell\\AMAVIO_Finanzmodell_36_Monate_v1_8_FINAL.xlsx",
+    "exists": true,
+    "size_bytes": 106663,
+    "sha256": "a0df280bba02f7274155730e82eb3b2ba1932809a78ebed753ff061c434f1bd7"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Employer_Decision_Deck_v5_2_FINAL.pptx",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Employer_Decision_Deck_v5_2_FINAL.pptx",
+    "exists": true,
+    "size_bytes": 1915159,
+    "sha256": "d75195393d0a86ecafc16a06ed6205e39a19c3ece79478a223d018dd8e910fd4"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Investor_Readiness_Deck_v3_2_FINAL.pptx",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Investor_Readiness_Deck_v3_2_FINAL.pptx",
+    "exists": true,
+    "size_bytes": 2345720,
+    "sha256": "03476ed7ee120d5bc81115157cc528ce96e71d615de4a16d34857c7d06c1770c"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_One_Pager_v2_2_FINAL.pptx",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_One_Pager_v2_2_FINAL.pptx",
+    "exists": true,
+    "size_bytes": 1870992,
+    "sha256": "b581189aec42822d7782a8fb2f998ff4e72c147d4dcec3c4fa70b8cc99cb68c0"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Partner_Capability_Deck_v3_2_FINAL.pptx",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Partner_Capability_Deck_v3_2_FINAL.pptx",
+    "exists": true,
+    "size_bytes": 2163821,
+    "sha256": "d990e7ac35f8bac4ff5e9963ba2713b4d7f974028d5fb94c1ef72888cc2d3b3d"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Employer_Decision_Deck_v5_2_FINAL.pdf",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Employer_Decision_Deck_v5_2_FINAL.pdf",
+    "exists": true,
+    "size_bytes": 487591,
+    "sha256": "70b9537a2368e94c3f2eeece1f1eb9d63c423ff586b426b7f43affacac2b346b"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Investor_Readiness_Deck_v3_2_FINAL.pdf",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Investor_Readiness_Deck_v3_2_FINAL.pdf",
+    "exists": true,
+    "size_bytes": 510988,
+    "sha256": "427e96301a7acdfc5e5241d34d339d998fcc0a53e07ccbd7d2d1d89f997ae70f"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_One_Pager_v2_2_FINAL.pdf",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_One_Pager_v2_2_FINAL.pdf",
+    "exists": true,
+    "size_bytes": 256889,
+    "sha256": "7af6ae27494234989c7e173a81353d9b65d84f8f994ff8bb05b516bbf76d294e"
+  },
+  {
+    "path": "04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Partner_Capability_Deck_v3_2_FINAL.pdf",
+    "absolute_path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Partner_Capability_Deck_v3_2_FINAL.pdf",
+    "exists": true,
+    "size_bytes": 460687,
+    "sha256": "c347a1c625c7d33c326fd523fa5b6b311efb60dca5eef9cb7720e786f4bdb5aa"
+  }
+]

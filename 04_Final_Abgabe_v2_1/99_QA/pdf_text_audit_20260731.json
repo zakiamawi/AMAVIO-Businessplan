@@ -1,0 +1,104 @@
+[
+  {
+    "path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\01_Businessplan\\AMAVIO_Living_Businessplan_Master_2026_v2_2_FINAL.pdf",
+    "page_count": 57,
+    "text_chars": 159536,
+    "empty_text_pages": [],
+    "risk_hits": {
+      "93.500": [
+        2,
+        38,
+        42,
+        43,
+        45,
+        49,
+        50,
+        53,
+        57
+      ],
+      "269.000": [
+        2,
+        42,
+        43,
+        45,
+        49,
+        53,
+        57
+      ],
+      "442.000": [
+        2,
+        42,
+        43,
+        45,
+        49,
+        52,
+        53,
+        57
+      ],
+      "25.000": [
+        2,
+        40,
+        41,
+        42,
+        43,
+        44,
+        49,
+        51,
+        56
+      ],
+      "29.500": [
+        7,
+        36,
+        42,
+        56
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Employer_Decision_Deck_v5_2_FINAL.pdf",
+    "page_count": 12,
+    "text_chars": 6202,
+    "empty_text_pages": [],
+    "risk_hits": {
+      "29.500": [
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Investor_Readiness_Deck_v3_2_FINAL.pdf",
+    "page_count": 9,
+    "text_chars": 4294,
+    "empty_text_pages": [],
+    "risk_hits": {
+      "93.500": [
+        4
+      ],
+      "269.000": [
+        4
+      ],
+      "442.000": [
+        4
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_One_Pager_v2_2_FINAL.pdf",
+    "page_count": 1,
+    "text_chars": 676,
+    "empty_text_pages": [],
+    "risk_hits": {
+      "29.500": [
+        1
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\zakia\\OneDrive\\Dokumente\\GitHub\\AMAVIO-Businessplan\\04_Final_Abgabe_v2_1\\04_Decks\\AMAVIO_Living_Partner_Capability_Deck_v3_2_FINAL.pdf",
+    "page_count": 7,
+    "text_chars": 2960,
+    "empty_text_pages": [],
+    "risk_hits": {}
+  }
+]
