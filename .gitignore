@@ -1,0 +1,6 @@
+# Local Codex / browser QA artifacts
+.playwright-mcp/
+
+# Local OS / editor noise
+.DS_Store
+Thumbs.db
