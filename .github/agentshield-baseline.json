@@ -18,25 +18,25 @@
       "severity": "high",
       "category": "permissions",
       "title": "CLAUDE.md is world-writable and group-writable (0o666)",
-      "file": "amavio-living-web\\CLAUDE.md",
+      "file": "amavio-living-web/CLAUDE.md",
       "evidence": "permissions: 0o666",
-      "fingerprint": "permissions-claude-md-world-writable::amavio-living-web\\CLAUDE.md::permissions: 0o666"
+      "fingerprint": "permissions-claude-md-world-writable::amavio-living-web/CLAUDE.md::permissions: 0o666"
     },
     {
       "id": "permissions-no-block",
       "severity": "medium",
       "category": "permissions",
       "title": "No permissions block configured",
-      "file": ".vscode\\settings.json",
-      "fingerprint": "permissions-no-block::.vscode\\settings.json::"
+      "file": ".vscode/settings.json",
+      "fingerprint": "permissions-no-block::.vscode/settings.json::"
     },
     {
       "id": "hooks-no-pretooluse",
       "severity": "medium",
       "category": "misconfiguration",
       "title": "No PreToolUse security hooks configured",
-      "file": ".vscode\\settings.json",
-      "fingerprint": "hooks-no-pretooluse::.vscode\\settings.json::"
+      "file": ".vscode/settings.json",
+      "fingerprint": "hooks-no-pretooluse::.vscode/settings.json::"
     }
   ]
 }
