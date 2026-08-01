@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Loop System"
+  short_description: "Kostenoptimierte Sub-Agent-Workflows"
+  default_prompt: "Use $agent-loop-system to plan a cost-aware sub-agent workflow for this task."
