@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AMAVIO Living Web
 
-## Getting Started
+Next.js 16 App-Router website for AMAVIO Living. Public content is sourced from
+`src/lib/content.ts`; no real property inventory or unverified legal data is
+created by the application.
 
-First, run the development server:
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`. Without `SITE_URL`, metadata uses this local
+origin and `robots.txt` blocks indexing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Copy `.env.example` to `.env.local`:
 
-## Learn More
+- `SITE_URL`: build-time canonical production origin. It must be a valid HTTPS
+  origin and cannot use a reserved `.example` domain.
+- `INQUIRY_WEBHOOK_URL`: server-only HTTPS endpoint receiving validated inquiry
+  JSON. When absent or invalid, the API returns `503` and the UI does not report
+  success.
 
-To learn more about Next.js, take a look at the following resources:
+`SITE_URL` is evaluated while Next.js statically builds metadata, `robots.txt`,
+and `sitemap.xml`. It must be present and correct before **each
+environment-specific `npm run build`**. Changing it in a running deployment
+does not update those artifacts; rebuild and redeploy the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`npm run build` automatically runs:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run validate:site-url
+```
 
-## Deploy on Vercel
+The validator loads the same production `.env*` files through Next.js,
+rejects malformed configured values with one actionable error, and warns when
+the local no-index fallback is used.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Webhook delivery uses a 10-second timeout, rejects redirects, and treats
+non-success responses as delivery failures. The receiver must decide retention,
+access, deletion, and notification behavior.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Structure
+
+- `src/app`: pages, metadata routes, and `/api/inquiries`
+- `src/components`: shared navigation, footer, and request UI
+- `src/lib/content.ts`: current structured concept content
+- `src/lib/site-url.ts`: validated canonical URL configuration
+- `docs`: architecture, deployment, privacy, and security readiness notes
+
+## Validation
+
+```bash
+npm run lint
+npm run validate:site-url
+npm run build
+```
+
+The legal pages intentionally remain marked incomplete until verified mandatory
+company and processing details are supplied.

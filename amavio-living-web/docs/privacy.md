@@ -1,6 +1,13 @@
 # Datenschutz
 
-- V1 speichert Formulardaten nicht dauerhaft.
-- Datenschutzseite enthält Platzhalter für geprüfte Pflichtdaten.
-- Vollständige Verantwortlichenangaben werden erst aus Handelsregister/Impressumsquelle übernommen.
-- Für P1 erforderlich: Verzeichnis der Verarbeitungstätigkeiten, Aufbewahrungsfristen, Auskunfts- und Löschprozess.
+- Formulardaten werden über den Next.js-Server an den konfigurierten
+  HTTPS-Webhook-Empfänger übertragen.
+- Die Web-App enthält keine eigene Datenbank für Anfragen. Persistenz und
+  Speicherdauer hängen jedoch vom tatsächlich konfigurierten Empfänger ab.
+- Ohne Webhook-Konfiguration wird keine Zustellung und kein Erfolg behauptet.
+- Die öffentliche Datenschutzseite bleibt ausdrücklich unvollständig.
+
+Vor Produktion müssen Verantwortlicher, Empfänger/Auftragsverarbeitung,
+Rechtsgrundlage, Zwecke, Aufbewahrungsfristen, Betroffenenrechte sowie
+Auskunfts- und Löschprozesse anhand des realen Systems verbindlich dokumentiert
+werden.

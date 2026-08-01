@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import { PageHeader, PageHero } from "@/components/page-chrome";
 import { rolloutRegions } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Standorte",
+  description:
+    "AMAVIO Start- und Wachstumsregionen mit transparenter Prüf- statt Verfügbarkeitslogik.",
+  alternates: { canonical: "/standorte" },
+};
 
 export default function StandortePage() {
   return (

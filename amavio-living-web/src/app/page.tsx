@@ -1,6 +1,7 @@
+import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
-import { BrandMark } from "@/components/brand-mark";
+import { MotionReveal } from "@/components/animation/motion-reveal";
+import { PageHeader } from "@/components/page-chrome";
 import { RequestPanel } from "@/components/request-panel";
 import { SectionLabel } from "@/components/section-label";
 import {
@@ -20,25 +21,34 @@ import {
   sourceNotes,
 } from "@/lib/content";
 
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
+
+const homeSectionLinks = [
+  { label: "Arbeitgeber", href: "#arbeitgeber" },
+  { label: "Campus", href: "#campus" },
+  { label: "Bewohner", href: "#bewohner" },
+  { label: "Modelle", href: "#preise" },
+  { label: "Partner", href: "#partner" },
+  { label: "Plattform", href: "#plattform" },
+] as const;
+
 export default function Home() {
   return (
     <main id="top">
-      <header className="site-header">
-        <BrandMark />
-        <nav aria-label="Hauptnavigation">
-          <a href="#arbeitgeber">Arbeitgeber</a>
-          <a href="#campus">Campus</a>
-          <a href="#bewohner">Bewohner</a>
-          <a href="#preise">Modelle</a>
-          <a href="#partner">Partner</a>
-          <a href="#plattform">Plattform</a>
-        </nav>
-        <a className="nav-action" href="#anfrage">
-          Anfrage
-        </a>
-      </header>
+      <PageHeader
+        actionHref="/kontakt"
+        actionLabel="Anfrage"
+        sectionLinks={homeSectionLinks}
+      />
 
-      <section className="hero-section" aria-label="AMAVIO Living Start">
+      <MotionReveal
+        ariaLabel="AMAVIO Living Start"
+        as="section"
+        className="hero-section"
+        eager
+      >
         <div className="hero-copy">
           <p className="eyebrow">{company.descriptor}</p>
           <h1>{company.brand}</h1>
@@ -75,9 +85,9 @@ export default function Home() {
             <strong>Wohnen + Community + Plattform</strong>
           </div>
         </div>
-      </section>
+      </MotionReveal>
 
-      <section className="wayfinder" id="wege">
+      <MotionReveal as="section" className="wayfinder" id="wege">
         <SectionLabel
           eyebrow="Nutzerführung"
           title="Drei Wege, ein Betriebssystem."
@@ -93,7 +103,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-      </section>
+      </MotionReveal>
 
       <section className="operating-system" id="arbeitgeber">
         <div>
@@ -333,19 +343,6 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="site-footer">
-        <BrandMark />
-        <p>
-          {company.legalName} · {company.location}. Anbieterkennzeichnung wird
-          ergänzt, sobald der vollständige Handelsregisterauszug mit Adresse,
-          Registergericht, Registernummer und vertretungsberechtigter Person als
-          geprüfte Quelle vorliegt.
-        </p>
-        <div>
-          <Link href="/impressum">Impressum</Link>
-          <Link href="/datenschutz">Datenschutz</Link>
-        </div>
-      </footer>
     </main>
   );
 }

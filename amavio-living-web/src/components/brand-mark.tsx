@@ -1,6 +1,12 @@
-export function BrandMark() {
+import Link from "next/link";
+
+export function BrandMark({ light = false }: { light?: boolean }) {
   return (
-    <a className="brand-mark" href="/" aria-label="AMAVIO Living Startseite">
+    <Link
+      className={`brand-mark${light ? " brand-mark-light" : ""}`}
+      href="/"
+      aria-label="AMAVIO Living Startseite"
+    >
       <span className="brand-symbol" aria-hidden="true">
         A
       </span>
@@ -8,6 +14,6 @@ export function BrandMark() {
         <strong>AMAVIO</strong>
         <small>LIVING</small>
       </span>
-    </a>
+    </Link>
   );
 }

@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import { PageHeader, PageHero } from "@/components/page-chrome";
 import { operatingSteps } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "So funktioniert es",
+  description:
+    "Der AMAVIO Prozess vom strukturierten Bedarf über Wohnlösung und Ankunft bis zur Stabilisierung.",
+  alternates: { canonical: "/so-funktioniert-es" },
+};
 
 export default function SoFunktioniertEsPage() {
   return (

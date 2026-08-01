@@ -7,7 +7,8 @@
 - `Service`: Name, Preislogik, Leistungsbeschreibung, Quellenhinweis
 - `HousingConcept`: Slug, Titel, Standortlogik, Badge, Zielgruppe, Beschreibung, Merkmale
 - `CampusFeature`: Community- und Raumfeatures
-- `Inquiry`: Profil, Nachricht, Name, E-Mail, Einwilligung, Status
+- `Inquiry`: Profil, Nachricht, Name, E-Mail, Einwilligung, Referenz,
+  Eingangszeitpunkt und Zustellstatus
 
 ## CMS-Vorbereitung
 

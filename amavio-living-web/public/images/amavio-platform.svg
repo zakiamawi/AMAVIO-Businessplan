@@ -3,12 +3,12 @@
   <desc id="desc">Abstrakte Plattformoberfläche mit Standortnetz, Statuspunkten und Ankunftsprozess.</desc>
   <defs>
     <linearGradient id="screen" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0d2c28"/>
-      <stop offset=".55" stop-color="#23564d"/>
+      <stop offset="0" stop-color="#071523"/>
+      <stop offset=".55" stop-color="#10243e"/>
       <stop offset="1" stop-color="#e1b96f"/>
     </linearGradient>
   </defs>
-  <rect width="1400" height="900" fill="#0e2b27"/>
+  <rect width="1400" height="900" fill="#071523"/>
   <rect x="120" y="90" width="1160" height="720" rx="56" fill="url(#screen)"/>
   <path d="M205 620 C395 430 536 528 680 360 C840 174 1000 318 1195 176" fill="none" stroke="#f3d998" stroke-width="14" stroke-linecap="round" opacity=".86"/>
   <g fill="#fff8ec">
@@ -23,5 +23,5 @@
   <rect x="820" y="570" width="300" height="48" rx="24" fill="rgba(255,248,236,.23)"/>
   <rect x="820" y="646" width="210" height="48" rx="24" fill="rgba(255,248,236,.18)"/>
   <text x="230" y="220" fill="#fff8ec" font-family="Arial, sans-serif" font-size="42">AMAVIO OS</text>
-  <text x="225" y="743" fill="#173f3a" font-family="Arial, sans-serif" font-size="26">Bedarf → Match → Einzug → Community</text>
+  <text x="225" y="743" fill="#10243e" font-family="Arial, sans-serif" font-size="26">Bedarf → Match → Einzug → Community</text>
 </svg>

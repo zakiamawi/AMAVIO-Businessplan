@@ -4,14 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "validate:site-url": "node scripts/validate-site-url.mjs",
+    "prebuild": "npm run validate:site-url",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@react-three/postprocessing": "^3.0.4",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.25",
+    "motion": "^12.43.0",
     "next": "16.2.12",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "three": "^0.185.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

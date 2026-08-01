@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Fraunces } from "next/font/google";
+import { SiteFooter } from "@/components/page-chrome";
+import { getSiteUrl, hasProductionSiteUrl } from "@/lib/site-url";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -18,10 +20,16 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "AMAVIO Living | Workforce Housing & Integration",
+  title: {
+    default: "AMAVIO Living | Workforce Housing & Integration",
+    template: "%s | AMAVIO Living",
+  },
   description:
     "AMAVIO Living organisiert Wohnen, Bezugsfertigkeit und Ankunft für Arbeitgeber mit internationalem Fachkräftebedarf.",
-  metadataBase: new URL("https://amavio-living.example"),
+  metadataBase: getSiteUrl(),
+  robots: hasProductionSiteUrl()
+    ? { index: true, follow: true }
+    : { index: false, follow: false, noarchive: true },
   openGraph: {
     title: "AMAVIO Living",
     description: "Wohnen. Ankommen. Dazugehören.",
@@ -36,7 +44,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <SiteFooter />
+      </body>
     </html>
   );
 }

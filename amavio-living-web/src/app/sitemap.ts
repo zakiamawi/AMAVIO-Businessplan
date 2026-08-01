@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next";
 import { housingConcepts } from "@/lib/content";
-
-const baseUrl = "https://amavio-living.example";
+import { getSiteUrl } from "@/lib/site-url";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = getSiteUrl();
   const routes = [
     "",
     "/wohnen",
@@ -19,12 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...routes.map((route) => ({
-      url: `${baseUrl}${route}`,
-      lastModified: new Date(),
+      url: new URL(route || "/", baseUrl).toString(),
+      changeFrequency: "monthly" as const,
     })),
     ...housingConcepts.map((concept) => ({
-      url: `${baseUrl}/wohnen/${concept.slug}`,
-      lastModified: new Date(),
+      url: new URL(`/wohnen/${concept.slug}`, baseUrl).toString(),
+      changeFrequency: "monthly" as const,
     })),
   ];
 }

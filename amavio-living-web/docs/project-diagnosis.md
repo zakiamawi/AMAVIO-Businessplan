@@ -34,5 +34,6 @@ P0 umfasst Startseite, Wohnen-Übersicht, Wohnkonzept-Detailseiten, Arbeitgebers
 
 - Keine realen verfügbaren Einheiten im Code.
 - Medien sind Platzhalter und als Visualisierung zu behandeln.
-- Terminbuchung ist vorbereitet, aber nicht mit Kalender verbunden.
+- Anfragezustellung benötigt einen realen HTTPS-Webhook-Empfänger.
+- Terminbuchung und Kalenderintegration sind nicht implementiert.
 - Deployment-Ziel und echte Domain sind noch offen.

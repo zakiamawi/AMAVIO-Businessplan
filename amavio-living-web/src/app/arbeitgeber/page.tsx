@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader, PageHero } from "@/components/page-chrome";
 import { services, launchGates } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Für Arbeitgeber",
+  description:
+    "Wohnbedarf, Bezugsfertigkeit, Ankunft und Stabilisierung internationaler Mitarbeitender als strukturierter Projektpfad.",
+  alternates: { canonical: "/arbeitgeber" },
+};
 
 export default function ArbeitgeberPage() {
   return (

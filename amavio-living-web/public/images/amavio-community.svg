@@ -3,25 +3,25 @@
   <desc id="desc">Abstrahierte Gruppe von Menschen in einer warmen urbanen Umgebung.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#163d39"/>
+      <stop offset="0" stop-color="#10243e"/>
       <stop offset=".52" stop-color="#7a5742"/>
       <stop offset="1" stop-color="#e1b96f"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="820" fill="url(#bg)"/>
   <circle cx="935" cy="156" r="96" fill="#f6e3b0" opacity=".65"/>
-  <path d="M0 585 C180 505 350 648 560 565 C745 491 928 510 1200 604 L1200 820 L0 820 Z" fill="#122f2d" opacity=".78"/>
+  <path d="M0 585 C180 505 350 648 560 565 C745 491 928 510 1200 604 L1200 820 L0 820 Z" fill="#071523" opacity=".78"/>
   <g transform="translate(225 250)">
     <circle cx="120" cy="70" r="56" fill="#f0c59a"/>
     <rect x="58" y="130" width="124" height="238" rx="62" fill="#f2e7cf"/>
     <circle cx="315" cy="50" r="50" fill="#8e4c38"/>
     <rect x="258" y="115" width="114" height="250" rx="57" fill="#bb6a4d"/>
     <circle cx="500" cy="82" r="58" fill="#d69e73"/>
-    <rect x="430" y="150" width="140" height="220" rx="70" fill="#214d47"/>
+    <rect x="430" y="150" width="140" height="220" rx="70" fill="#10243e"/>
     <circle cx="685" cy="62" r="52" fill="#3b2a25"/>
     <rect x="625" y="127" width="120" height="236" rx="60" fill="#f4d48d"/>
   </g>
   <rect x="742" y="128" width="226" height="70" rx="35" fill="#fff6df" opacity=".88"/>
-  <text x="786" y="174" fill="#193c37" font-family="Arial, sans-serif" font-size="27">Ankommen</text>
+  <text x="786" y="174" fill="#10243e" font-family="Arial, sans-serif" font-size="27">Ankommen</text>
   <text x="80" y="758" fill="#fff7ea" font-family="Arial, sans-serif" font-size="34" letter-spacing="0">Motiv austauschbar: Menschen & Community</text>
 </svg>
