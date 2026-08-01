@@ -1,6 +1,14 @@
 # Local Codex / browser QA artifacts
 .playwright-mcp/
 
+# AMAVIO local QA render artifacts and safety backups
+04_Final_Abgabe_v2_1/05_Coach_Paket/render_page-*.png
+04_Final_Abgabe_v2_1/99_QA/businessplan_design_pilot_*/
+04_Final_Abgabe_v2_1/99_QA/businessplan_render_checks/
+04_Final_Abgabe_v2_1/99_QA/deck_render_checks/
+04_Final_Abgabe_v2_1/99_QA/website_preview_checks_*/**/*.png
+04_Final_Abgabe_v2_1/_backups/
+
 # Local OS / editor noise
 .DS_Store
 Thumbs.db
