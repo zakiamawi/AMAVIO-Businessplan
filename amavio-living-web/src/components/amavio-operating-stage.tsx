@@ -3,7 +3,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { motion, useReducedMotion } from "motion/react";
 import { company } from "@/lib/content";
+
+const heroStagger = {
+  hidden: {},
+  show: {
+    transition: { staggerChildren: 0.09, delayChildren: 0.12 },
+  },
+};
+
+const heroRise = {
+  hidden: { opacity: 0, y: 28 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] as const },
+  },
+};
 
 type RoleKey = "Arbeitgeber" | "Bewohner" | "Partner" | "Security";
 
@@ -46,6 +63,7 @@ const navLinks = [
 
 export function AmavioOperatingStage() {
   const [activeRole, setActiveRole] = useState<RoleKey>("Arbeitgeber");
+  const reducedMotion = useReducedMotion();
   const role = roleDeck[activeRole];
 
   return (
@@ -80,22 +98,44 @@ export function AmavioOperatingStage() {
       </header>
 
       <div className="amavio-os-stage__grid">
-        <div className="amavio-os-stage__copy">
-          <p className="amavio-os-stage__eyebrow">{role.eyebrow}</p>
-          <h1>
+        <motion.div
+          className="amavio-os-stage__copy"
+          variants={heroStagger}
+          initial={reducedMotion ? false : "hidden"}
+          animate="show"
+        >
+          <motion.p variants={heroRise} className="amavio-os-stage__eyebrow">
+            {role.eyebrow}
+          </motion.p>
+          <motion.h1 variants={heroRise}>
             <span>Arrival</span>
             <span>Operating System</span>
-          </h1>
-          <p className="amavio-os-stage__descriptor">{company.descriptor}</p>
-          <p className="amavio-os-stage__claim">{role.title}</p>
-          <p className="amavio-os-stage__text">{role.body}</p>
+          </motion.h1>
+          <motion.p variants={heroRise} className="amavio-os-stage__descriptor">
+            {company.descriptor}
+          </motion.p>
+          <motion.p variants={heroRise} className="amavio-os-stage__claim">
+            {role.title}
+          </motion.p>
+          <motion.p variants={heroRise} className="amavio-os-stage__text">
+            {role.body}
+          </motion.p>
 
-          <div className="amavio-os-stage__actions" aria-label="Primäre Aktionen">
+          <motion.div
+            variants={heroRise}
+            className="amavio-os-stage__actions"
+            aria-label="Primäre Aktionen"
+          >
             <Link href="/kontakt">Readiness Discovery</Link>
             <Link href="#plattform">System erkunden</Link>
-          </div>
+          </motion.div>
 
-          <div className="amavio-os-stage__role-dock" role="tablist" aria-label="AMAVIO Rollen">
+          <motion.div
+            variants={heroRise}
+            className="amavio-os-stage__role-dock"
+            role="tablist"
+            aria-label="AMAVIO Rollen"
+          >
             {(Object.keys(roleDeck) as RoleKey[]).map((key) => (
               <button
                 key={key}
@@ -109,8 +149,8 @@ export function AmavioOperatingStage() {
                 {key}
               </button>
             ))}
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   );

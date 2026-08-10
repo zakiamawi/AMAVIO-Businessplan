@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { CSSProperties } from "react";
+import { MotionReveal } from "@/components/animation/motion-reveal";
 import { RequestPanel } from "@/components/request-panel";
 import { SectionLabel } from "@/components/section-label";
 import {
@@ -54,14 +55,14 @@ export function AmavioPremiumSections() {
     <>
       <section className="premium-journey" id="wege" aria-label="AMAVIO Journey Control">
         <div className="premium-section-marker">Journey Control</div>
-        <div className="premium-journey__head">
+        <MotionReveal className="premium-journey__head">
           <h2>Drei Wege. Ein Ziel. Verlässliche Integration.</h2>
           <p>
             AMAVIO trennt Arbeitgeberbedarf, Bewohnerankunft und Partnerfähigkeit
             früh, führt sie aber in einem gemeinsamen Operating Model zusammen.
           </p>
-        </div>
-        <div className="premium-journey__paths">
+        </MotionReveal>
+        <MotionReveal className="premium-journey__paths" delay={0.12}>
           {audiencePaths.map((path, index) => (
             <article key={path.label}>
               <span>{String(index + 1).padStart(2, "0")}</span>
@@ -71,11 +72,12 @@ export function AmavioPremiumSections() {
               <a href={path.href}>{path.cta}</a>
             </article>
           ))}
-        </div>
+        </MotionReveal>
       </section>
 
       <section className="premium-rail" id="arbeitgeber" aria-label="AMAVIO Operating Rail">
         <div className="premium-section-marker">Operating Rail</div>
+        <MotionReveal>
         <ol>
           {operatingSteps.map((step, index) => (
             <li key={step}>
@@ -85,19 +87,20 @@ export function AmavioPremiumSections() {
             </li>
           ))}
         </ol>
+        </MotionReveal>
       </section>
 
       <section className="premium-services" aria-label="AMAVIO Leistungsarchitektur">
         <div className="premium-section-marker">Services</div>
-        <div className="premium-services__copy">
+        <MotionReveal className="premium-services__copy">
           <h2>Entscheidungen treffen. Wir machen den Rest möglich.</h2>
           <p>
             Leistungen werden nicht als lose Pakete verkauft, sondern als
             belastbare Entscheidungsarchitektur: Strategie, Realisierung,
             Betrieb und Integration bleiben nachvollziehbar.
           </p>
-        </div>
-        <div className="premium-services__lanes">
+        </MotionReveal>
+        <MotionReveal className="premium-services__lanes" delay={0.1}>
           {deliveryLanes.map((lane) => (
             <article key={lane.label}>
               <strong>{lane.label}</strong>
@@ -108,12 +111,12 @@ export function AmavioPremiumSections() {
               </ul>
             </article>
           ))}
-        </div>
+        </MotionReveal>
         <aside className="premium-radar">
           <span>Ein Ansprechpartner</span>
           <strong>volle Verantwortung</strong>
         </aside>
-        <div className="premium-service-offers">
+        <MotionReveal className="premium-service-offers" delay={0.16}>
           {services.map((service) => (
             <article key={service.name}>
               <span>{service.name}</span>
@@ -122,20 +125,20 @@ export function AmavioPremiumSections() {
               <small>{service.note}</small>
             </article>
           ))}
-        </div>
+        </MotionReveal>
       </section>
 
       <section className="premium-campus" id="bewohner" aria-label="AMAVIO Campus und Community">
         <div className="premium-section-marker">Campus & Community</div>
-        <div className="premium-campus__media">
+        <MotionReveal className="premium-campus__media">
           <Image
             src="/images/amavio-campus-premium.png"
             alt="AMAVIO Community Campus mit Wohnen, Arbeit, Essen und Begegnung"
             fill
             sizes="(max-width: 900px) 100vw, 62vw"
           />
-        </div>
-        <div className="premium-campus__copy">
+        </MotionReveal>
+        <MotionReveal className="premium-campus__copy" delay={0.12}>
           <h2>Nicht nur Zimmer. Ein Space, der Ankommen wirklich möglich macht.</h2>
           <p>
             Moderne Wohn- und Begegnungsbereiche verbinden Rückzug, Arbeit,
@@ -147,19 +150,19 @@ export function AmavioPremiumSections() {
               <li key={feature}>{feature}</li>
             ))}
           </ul>
-        </div>
+        </MotionReveal>
       </section>
 
       <section className="premium-intelligence" id="standorte" aria-label="Verfügbarkeit und Standortintelligenz">
         <div className="premium-section-marker">Verfügbarkeit & Standortintelligenz</div>
-        <div className="premium-map" aria-label="Start- und Wachstumsregionen">
+        <MotionReveal className="premium-map" ariaLabel="Start- und Wachstumsregionen">
           {rolloutRegions.map((region, index) => (
             <span key={region} style={{ "--i": index } as CSSProperties}>
               {region}
             </span>
           ))}
-        </div>
-        <div className="premium-availability">
+        </MotionReveal>
+        <MotionReveal className="premium-availability" delay={0.1}>
           {availabilityExamples.map((item) => (
             <article key={`${item.city}-${item.type}`}>
               <strong>{item.city}</strong>
@@ -168,12 +171,12 @@ export function AmavioPremiumSections() {
               <small>{item.audience} · {item.timing} · {item.capacity}</small>
             </article>
           ))}
-        </div>
+        </MotionReveal>
       </section>
 
       <section className="premium-economics" id="preise" aria-label="Ökonomie und Paketlogik">
         <div className="premium-section-marker">Ökonomie & Paketlogik</div>
-        <div className="premium-models">
+        <MotionReveal className="premium-models">
           {livingModels.map((model) => (
             <article key={model.name}>
               <span>{model.name}</span>
@@ -181,8 +184,8 @@ export function AmavioPremiumSections() {
               <p>{model.text}</p>
             </article>
           ))}
-        </div>
-        <div className="premium-packages">
+        </MotionReveal>
+        <MotionReveal className="premium-packages" delay={0.1}>
           {integrationPackages.map((pack) => (
             <article key={pack.name}>
               <div>
@@ -196,7 +199,7 @@ export function AmavioPremiumSections() {
               </ul>
             </article>
           ))}
-        </div>
+        </MotionReveal>
       </section>
 
       <section className="premium-partner-platform" id="partner" aria-label="Partner Matrix und Platform OS">
@@ -221,19 +224,19 @@ export function AmavioPremiumSections() {
             </div>
           ))}
         </div>
-        <div className="premium-platform-orbit" id="plattform">
+        <MotionReveal className="premium-platform-orbit" id="plattform">
           <strong>AMAVIO OS</strong>
           {platformModules.map((module, index) => (
             <span key={module} style={{ "--i": index } as CSSProperties}>
               {module}
             </span>
           ))}
-        </div>
-        <div className="premium-partner-list">
+        </MotionReveal>
+        <MotionReveal className="premium-partner-list" delay={0.1}>
           {partnerRoles.map((role) => (
             <span key={role}>{role}</span>
           ))}
-        </div>
+        </MotionReveal>
       </section>
 
       <section className="premium-trust" id="sicherheit" aria-label="Security und Trust Launch Gates">
@@ -242,12 +245,12 @@ export function AmavioPremiumSections() {
           title="Innovativ im Erlebnis. Nüchtern bei Daten, Recht und Verantwortung."
           text="AMAVIO zeigt Kompetenz, ohne falsche Live-Versprechen zu erzeugen. Rollenmodell, Audit Trail und Portale bleiben echte P1-Gates."
         />
-        <div className="premium-trust__gates">
+        <MotionReveal className="premium-trust__gates">
           {launchGates.map((gate) => (
             <strong key={gate}>{gate}</strong>
           ))}
-        </div>
-        <div className="premium-trust__controls">
+        </MotionReveal>
+        <MotionReveal className="premium-trust__controls" delay={0.1}>
           {trustControls.map((control) => (
             <article key={control.label}>
               <span>{control.status}</span>
@@ -255,7 +258,7 @@ export function AmavioPremiumSections() {
               <p>{control.text}</p>
             </article>
           ))}
-        </div>
+        </MotionReveal>
       </section>
 
       <RequestPanel />

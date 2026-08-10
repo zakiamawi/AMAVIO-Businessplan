@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { MotionReveal } from "@/components/animation/motion-reveal";
 
 type DepartmentKey =
   | "HR"
@@ -129,7 +130,7 @@ export function AmavioCommandCenter() {
         <span />
       </div>
 
-      <div className="amavio-command-center__intro">
+      <MotionReveal className="amavio-command-center__intro">
         <p className="eyebrow">Department Command</p>
         <h2>Die Website muss wie ein Unternehmen funktionieren, nicht wie eine Broschüre.</h2>
         <p>
@@ -137,9 +138,9 @@ export function AmavioCommandCenter() {
           Bedarf, Budget, Recht, Betrieb, Frontoffice, Backoffice und Sicherheit
           greifen ineinander, bevor ein Pilot versprochen wird.
         </p>
-      </div>
+      </MotionReveal>
 
-      <div className="amavio-command-center__shell">
+      <MotionReveal className="amavio-command-center__shell" delay={0.1}>
         <div className="amavio-command-center__tabs" role="tablist" aria-label="AMAVIO Abteilungen">
           {departmentKeys.map((key) => (
             <button
@@ -221,7 +222,7 @@ export function AmavioCommandCenter() {
             <strong key={gate}>{gate}</strong>
           ))}
         </aside>
-      </div>
+      </MotionReveal>
     </section>
   );
 }
