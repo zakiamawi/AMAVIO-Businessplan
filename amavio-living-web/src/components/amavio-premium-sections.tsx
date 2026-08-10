@@ -53,7 +53,7 @@ export function AmavioPremiumSections() {
   return (
     <>
       <section className="premium-journey" id="wege" aria-label="AMAVIO Journey Control">
-        <div className="premium-section-marker">01 Journey Control</div>
+        <div className="premium-section-marker">Journey Control</div>
         <div className="premium-journey__head">
           <h2>Drei Wege. Ein Ziel. Verlässliche Integration.</h2>
           <p>
@@ -75,7 +75,7 @@ export function AmavioPremiumSections() {
       </section>
 
       <section className="premium-rail" id="arbeitgeber" aria-label="AMAVIO Operating Rail">
-        <div className="premium-section-marker">02 Operating Rail</div>
+        <div className="premium-section-marker">Operating Rail</div>
         <ol>
           {operatingSteps.map((step, index) => (
             <li key={step}>
@@ -88,7 +88,7 @@ export function AmavioPremiumSections() {
       </section>
 
       <section className="premium-services" aria-label="AMAVIO Leistungsarchitektur">
-        <div className="premium-section-marker">03 Services</div>
+        <div className="premium-section-marker">Services</div>
         <div className="premium-services__copy">
           <h2>Entscheidungen treffen. Wir machen den Rest möglich.</h2>
           <p>
@@ -126,7 +126,7 @@ export function AmavioPremiumSections() {
       </section>
 
       <section className="premium-campus" id="bewohner" aria-label="AMAVIO Campus und Community">
-        <div className="premium-section-marker">04 Campus & Community</div>
+        <div className="premium-section-marker">Campus & Community</div>
         <div className="premium-campus__media">
           <Image
             src="/images/amavio-campus-premium.png"
@@ -151,7 +151,7 @@ export function AmavioPremiumSections() {
       </section>
 
       <section className="premium-intelligence" id="standorte" aria-label="Verfügbarkeit und Standortintelligenz">
-        <div className="premium-section-marker">05 Verfügbarkeit & Standortintelligenz</div>
+        <div className="premium-section-marker">Verfügbarkeit & Standortintelligenz</div>
         <div className="premium-map" aria-label="Start- und Wachstumsregionen">
           {rolloutRegions.map((region, index) => (
             <span key={region} style={{ "--i": index } as CSSProperties}>
@@ -172,10 +172,7 @@ export function AmavioPremiumSections() {
       </section>
 
       <section className="premium-economics" id="preise" aria-label="Ökonomie und Paketlogik">
-        <div className="premium-section-marker">06 Ökonomie & Paketlogik</div>
-        <div className="premium-donut" aria-label="Wirtschaftlichkeitsübersicht">
-          <strong>Übersicht</strong>
-        </div>
+        <div className="premium-section-marker">Ökonomie & Paketlogik</div>
         <div className="premium-models">
           {livingModels.map((model) => (
             <article key={model.name}>
@@ -203,7 +200,7 @@ export function AmavioPremiumSections() {
       </section>
 
       <section className="premium-partner-platform" id="partner" aria-label="Partner Matrix und Platform OS">
-        <div className="premium-section-marker">07 Partner Capability Matrix</div>
+        <div className="premium-section-marker">Partner Capability Matrix</div>
         <div className="premium-matrix" role="table" aria-label="Partner Capability Matrix">
           <div className="premium-matrix__row premium-matrix__head" role="row">
             <span role="columnheader">Rolle</span>
@@ -241,7 +238,7 @@ export function AmavioPremiumSections() {
 
       <section className="premium-trust" id="sicherheit" aria-label="Security und Trust Launch Gates">
         <SectionLabel
-          eyebrow="08 Security & Trust Launch Gates"
+          eyebrow="Security & Trust Launch Gates"
           title="Innovativ im Erlebnis. Nüchtern bei Daten, Recht und Verantwortung."
           text="AMAVIO zeigt Kompetenz, ohne falsche Live-Versprechen zu erzeugen. Rollenmodell, Audit Trail und Portale bleiben echte P1-Gates."
         />
@@ -266,7 +263,7 @@ export function AmavioPremiumSections() {
       <section className="premium-source-faq">
         <div>
           <SectionLabel
-            eyebrow="09 Quellenlogik"
+            eyebrow="Quellenlogik"
             title="Keine erfundenen Register-, Preis- oder Bestandsdaten."
           />
           <ul>
@@ -277,7 +274,7 @@ export function AmavioPremiumSections() {
         </div>
         <div>
           <SectionLabel
-            eyebrow="10 FAQ"
+            eyebrow="FAQ"
             title="Klarheit vor Buchungsversprechen."
             text="Die wichtigsten Abgrenzungen für einen ehrlichen Start der Plattform."
           />
