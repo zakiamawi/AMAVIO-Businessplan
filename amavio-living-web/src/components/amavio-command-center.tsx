@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, type CSSProperties } from "react";
+import { useState } from "react";
 
 type DepartmentKey =
   | "HR"
@@ -111,16 +111,6 @@ export function AmavioCommandCenter() {
   const department = departments[activeDepartment];
   const activeIndex = departmentKeys.indexOf(activeDepartment);
 
-  const orbit = useMemo(
-    () =>
-      departmentKeys.map((key, index) => ({
-        key,
-        x: 50 + Math.cos((index / departmentKeys.length) * Math.PI * 2 - Math.PI / 2) * 40,
-        y: 50 + Math.sin((index / departmentKeys.length) * Math.PI * 2 - Math.PI / 2) * 36,
-      })),
-    [],
-  );
-
   const selectRelativeDepartment = (offset: number) => {
     const nextIndex = (activeIndex + offset + departmentKeys.length) % departmentKeys.length;
     setActiveDepartment(departmentKeys[nextIndex]);
@@ -176,28 +166,6 @@ export function AmavioCommandCenter() {
               {key}
             </button>
           ))}
-        </div>
-
-        <div className="amavio-command-center__map" aria-label="AMAVIO Department Orbit">
-          <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-            <path d="M 50 10 C 78 19 93 39 88 62 C 81 88 53 94 31 82 C 9 70 9 34 30 17 C 37 12 43 10 50 10" />
-            <path d="M 18 55 C 34 32 57 28 79 42" />
-            <path d="M 24 75 C 43 55 60 54 82 68" />
-          </svg>
-          {orbit.map((item) => (
-            <button
-              key={item.key}
-              type="button"
-              style={{ "--x": `${item.x}%`, "--y": `${item.y}%` } as CSSProperties}
-              data-active={activeDepartment === item.key}
-              onClick={() => setActiveDepartment(item.key)}
-              aria-label={item.key}
-              tabIndex={-1}
-            >
-              {item.key}
-            </button>
-          ))}
-          <strong>{department.area}</strong>
         </div>
 
         <article

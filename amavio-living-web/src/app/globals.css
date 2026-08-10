@@ -1438,7 +1438,7 @@ h3 {
   isolation: isolate;
   display: grid;
   min-height: 100svh;
-  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-rows: auto minmax(0, 1fr);
   gap: 0.78rem;
   overflow: hidden;
   padding: 22px max(22px, calc((100% - 1360px) / 2)) 18px;
@@ -1457,18 +1457,6 @@ h3 {
   object-fit: cover;
   filter: saturate(1.02) contrast(1.05);
   transform: scale(1.02);
-}
-
-.amavio-arrival-field {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  display: block;
-  width: 100%;
-  height: 100%;
-  opacity: 0.76;
-  mix-blend-mode: screen;
-  pointer-events: none;
 }
 
 .amavio-os-stage__shade {
@@ -1550,8 +1538,7 @@ h3 {
 
 .amavio-os-stage__grid {
   display: grid;
-  grid-template-columns: minmax(360px, 0.56fr) minmax(600px, 0.94fr);
-  gap: 1.15rem;
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
   min-height: 0;
 }
@@ -1560,7 +1547,7 @@ h3 {
   display: grid;
   gap: 0.72rem;
   align-content: center;
-  max-width: 560px;
+  max-width: 640px;
   min-width: 0;
 }
 
@@ -1690,208 +1677,6 @@ h3 {
   color: var(--linen);
 }
 
-.amavio-os-stage__workspace {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.42fr);
-  gap: 0.9rem;
-  align-items: stretch;
-  min-height: 430px;
-}
-
-.amavio-os-stage__map,
-.amavio-os-stage__console,
-.amavio-os-stage__signal-shelf article {
-  border: 1px solid rgba(255, 248, 236, 0.16);
-  border-radius: 8px;
-  background: rgba(6, 17, 15, 0.56);
-  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.32);
-  backdrop-filter: blur(20px);
-}
-
-.amavio-os-stage__map {
-  position: relative;
-  min-height: 430px;
-  overflow: hidden;
-}
-
-.amavio-os-stage__map::before {
-  position: absolute;
-  inset: 0;
-  content: "";
-  background:
-    linear-gradient(rgba(255, 248, 236, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 248, 236, 0.06) 1px, transparent 1px);
-  background-size: 52px 52px;
-  mask-image: linear-gradient(90deg, transparent, black 18%, black 82%, transparent);
-  opacity: 0.44;
-}
-
-.amavio-os-stage__map svg {
-  position: absolute;
-  inset: 8% 6%;
-  width: 88%;
-  height: 84%;
-  overflow: visible;
-}
-
-.amavio-os-stage__map path {
-  fill: none;
-  stroke: rgba(223, 181, 103, 0.92);
-  stroke-width: 0.55;
-  stroke-linecap: round;
-  stroke-dasharray: 2 1.25;
-  filter: drop-shadow(0 0 18px rgba(223, 181, 103, 0.54));
-  animation: os-route-flow 8s linear infinite;
-}
-
-.amavio-os-stage[data-motion="reduced"] .amavio-os-stage__map path {
-  animation: none;
-}
-
-.amavio-os-stage__node {
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  z-index: 2;
-  display: grid;
-  min-width: 96px;
-  transform: translate(-50%, -50%);
-  gap: 0.18rem;
-  border: 1px solid rgba(255, 248, 236, 0.2);
-  border-radius: 8px;
-  padding: 0.48rem 0.56rem;
-  background: rgba(8, 21, 19, 0.74);
-  color: var(--linen);
-  font-size: 0.76rem;
-  font-weight: 800;
-  text-align: left;
-  cursor: pointer;
-  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.32);
-}
-
-.amavio-os-stage__node span {
-  color: var(--champagne);
-  font-size: 0.68rem;
-  font-weight: 880;
-}
-
-.amavio-os-stage__node[data-active="true"] {
-  border-color: rgba(223, 181, 103, 0.86);
-  background: rgba(223, 181, 103, 0.16);
-  box-shadow: 0 0 0 1px rgba(223, 181, 103, 0.18), 0 24px 70px rgba(223, 181, 103, 0.16);
-}
-
-.amavio-os-stage__live-card {
-  position: absolute;
-  right: 18px;
-  bottom: 18px;
-  z-index: 3;
-  width: min(294px, calc(100% - 36px));
-  border: 1px solid rgba(223, 181, 103, 0.36);
-  border-radius: 8px;
-  padding: 0.82rem;
-  background: rgba(255, 248, 236, 0.1);
-  color: var(--linen);
-}
-
-.amavio-os-stage__live-card span,
-.amavio-os-stage__console-head span,
-.amavio-os-stage__signal-shelf span {
-  color: var(--champagne);
-  font-size: 0.72rem;
-  font-weight: 850;
-  text-transform: uppercase;
-}
-
-.amavio-os-stage__live-card strong,
-.amavio-os-stage__console-head strong,
-.amavio-os-stage__signal-shelf strong {
-  display: block;
-  margin-top: 0.22rem;
-  color: var(--linen);
-}
-
-.amavio-os-stage__live-card p,
-.amavio-os-stage__console p,
-.amavio-os-stage__signal-shelf p {
-  margin: 0.5rem 0 0;
-  color: rgba(255, 248, 236, 0.76);
-  line-height: 1.55;
-}
-
-.amavio-os-stage__console {
-  display: grid;
-  align-content: start;
-  gap: 0.72rem;
-  padding: 0.92rem;
-}
-
-.amavio-os-stage__console-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.8rem;
-  border-bottom: 1px solid rgba(255, 248, 236, 0.14);
-  padding-bottom: 0.9rem;
-}
-
-.amavio-os-stage__metrics {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.48rem;
-}
-
-.amavio-os-stage__metrics span {
-  border: 1px solid rgba(255, 248, 236, 0.14);
-  border-radius: 8px;
-  padding: 0.5rem 0.56rem;
-  background: rgba(255, 248, 236, 0.08);
-  color: rgba(255, 248, 236, 0.82);
-  font-size: 0.78rem;
-  font-weight: 760;
-}
-
-.amavio-os-stage__gates {
-  display: grid;
-  gap: 0.55rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.amavio-os-stage__gates li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.7rem;
-  border-top: 1px solid rgba(255, 248, 236, 0.12);
-  padding-top: 0.45rem;
-  color: rgba(255, 248, 236, 0.76);
-  font-size: 0.82rem;
-}
-
-.amavio-os-stage__gates strong {
-  color: var(--champagne);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-}
-
-.amavio-os-stage__signal-shelf {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.72rem;
-}
-
-.amavio-os-stage__signal-shelf article {
-  min-height: 104px;
-  padding: 0.72rem;
-}
-
-.amavio-os-stage__signal-shelf p {
-  font-size: 0.82rem;
-  line-height: 1.42;
-}
-
 .amavio-command-center {
   position: relative;
   isolation: isolate;
@@ -1981,16 +1766,16 @@ h3 {
 
 .amavio-command-center__shell {
   display: grid;
-  grid-template-columns: minmax(240px, 0.28fr) minmax(360px, 0.78fr) minmax(340px, 0.68fr);
+  grid-template-columns: minmax(240px, 0.3fr) minmax(0, 1fr);
   grid-template-areas:
-    "tabs map detail"
-    "tabs map workflow"
-    "evidence evidence gates";
+    "tabs detail"
+    "tabs workflow"
+    "tabs evidence"
+    "tabs gates";
   gap: 0.78rem;
 }
 
 .amavio-command-center__tabs,
-.amavio-command-center__map,
 .amavio-command-center__detail,
 .amavio-command-center__workflow,
 .amavio-command-center__evidence article,
@@ -2041,77 +1826,6 @@ h3 {
   border-color: rgba(214, 180, 106, 0.7);
   background: rgba(214, 180, 106, 0.14);
   color: var(--linen);
-}
-
-.amavio-command-center__map {
-  position: relative;
-  grid-area: map;
-  min-height: 560px;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 50% 50%, rgba(214, 180, 106, 0.14), transparent 24%),
-    linear-gradient(135deg, rgba(255, 248, 236, 0.08), rgba(255, 248, 236, 0.02));
-}
-
-.amavio-command-center__map svg {
-  position: absolute;
-  inset: 8%;
-  width: 84%;
-  height: 84%;
-  overflow: visible;
-}
-
-.amavio-command-center__map path {
-  fill: none;
-  stroke: rgba(214, 180, 106, 0.46);
-  stroke-width: 0.55;
-  stroke-dasharray: 2 1.35;
-  filter: drop-shadow(0 0 18px rgba(214, 180, 106, 0.32));
-}
-
-.amavio-command-center__map button {
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  z-index: 2;
-  transform: translate(-50%, -50%);
-  min-width: 86px;
-  border: 1px solid rgba(255, 248, 236, 0.18);
-  border-radius: 8px;
-  background: rgba(7, 21, 35, 0.7);
-  color: rgba(255, 248, 236, 0.78);
-  padding: 0.52rem 0.62rem;
-  cursor: pointer;
-  font-size: 0.75rem;
-  font-weight: 850;
-}
-
-.amavio-command-center__map button[data-active="true"] {
-  border-color: rgba(79, 210, 195, 0.82);
-  background: rgba(79, 210, 195, 0.14);
-  color: var(--linen);
-  box-shadow: 0 0 0 1px rgba(79, 210, 195, 0.18), 0 20px 60px rgba(79, 210, 195, 0.16);
-}
-
-.amavio-command-center__map > strong {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  display: grid;
-  width: min(270px, calc(100% - 40px));
-  min-height: 120px;
-  transform: translate(-50%, -50%);
-  place-items: center;
-  border: 1px solid rgba(214, 180, 106, 0.4);
-  border-radius: 8px;
-  background: rgba(6, 17, 15, 0.72);
-  color: var(--champagne);
-  padding: 1rem;
-  font-family: var(--font-display), Georgia, serif;
-  font-size: clamp(1.7rem, 3vw, 2.5rem);
-  font-weight: 650;
-  line-height: 1;
-  text-align: center;
 }
 
 .amavio-command-center__detail {
@@ -2223,12 +1937,6 @@ h3 {
   font-size: 0.86rem;
 }
 
-@keyframes os-route-flow {
-  to {
-    stroke-dashoffset: -18;
-  }
-}
-
 @keyframes command-scan {
   from {
     transform: translate3d(-18%, 0, 0);
@@ -2236,12 +1944,6 @@ h3 {
 
   to {
     transform: translate3d(18%, 0, 0);
-  }
-}
-
-@keyframes command-route {
-  to {
-    stroke-dashoffset: -14;
   }
 }
 
@@ -3434,10 +3136,6 @@ select {
     animation-duration: 20s;
   }
 
-  .amavio-command-center__map path {
-    animation: command-route 8s linear infinite;
-  }
-
   .node-b {
     animation-delay: 0.6s;
   }
@@ -3746,11 +3444,6 @@ select {
     min-height: auto;
   }
 
-  .amavio-os-stage__grid,
-  .amavio-os-stage__workspace {
-    grid-template-columns: 1fr;
-  }
-
   .amavio-os-stage__grid {
     align-items: start;
   }
@@ -3760,45 +3453,13 @@ select {
     font-size: 4.45rem;
   }
 
-  .amavio-os-stage__workspace {
-    min-height: 0;
-  }
-
-  .amavio-os-stage__console {
-    grid-template-columns: minmax(0, 1fr) minmax(220px, 0.55fr);
-  }
-
-  .amavio-os-stage__console-head,
-  .amavio-os-stage__console p {
-    grid-column: 1;
-  }
-
-  .amavio-os-stage__metrics,
-  .amavio-os-stage__gates {
-    grid-column: 2;
-    grid-row: 1 / span 3;
-  }
-
-  .amavio-os-stage__gates {
-    align-content: end;
-  }
-
-  .amavio-os-stage__signal-shelf {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .amavio-command-center__shell {
     grid-template-columns: minmax(220px, 0.32fr) minmax(0, 1fr);
     grid-template-areas:
       "tabs detail"
-      "map map"
-      "workflow workflow"
+      "tabs workflow"
       "evidence evidence"
       "gates gates";
-  }
-
-  .amavio-command-center__map {
-    min-height: 470px;
   }
 }
 
@@ -3863,32 +3524,6 @@ select {
     justify-content: flex-start;
   }
 
-  .amavio-os-stage__map {
-    min-height: 390px;
-  }
-
-  .amavio-os-stage__node {
-    min-width: 96px;
-    padding: 0.5rem;
-    font-size: 0.76rem;
-  }
-
-  .amavio-os-stage__console {
-    grid-template-columns: 1fr;
-  }
-
-  .amavio-os-stage__console-head,
-  .amavio-os-stage__console p,
-  .amavio-os-stage__metrics,
-  .amavio-os-stage__gates {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .amavio-os-stage__signal-shelf {
-    display: none;
-  }
-
   .amavio-command-center {
     padding: 3rem 12px;
   }
@@ -3912,7 +3547,6 @@ select {
     grid-template-areas:
       "tabs"
       "detail"
-      "map"
       "workflow"
       "evidence"
       "gates";
@@ -3930,10 +3564,6 @@ select {
 
   .amavio-command-center__tabs button {
     flex: 0 0 auto;
-  }
-
-  .amavio-command-center__map {
-    min-height: 410px;
   }
 
   .amavio-command-center__decision,
@@ -3999,49 +3629,11 @@ select {
     padding-inline: 0.52rem;
   }
 
-  .amavio-os-stage__map {
-    min-height: 390px;
-  }
-
-  .amavio-os-stage__map svg {
-    inset: 9% 2%;
-    width: 96%;
-  }
-
-  .amavio-os-stage__node {
-    min-width: 88px;
-  }
-
-  .amavio-os-stage__live-card {
-    right: 10px;
-    bottom: 10px;
-    width: calc(100% - 20px);
-  }
-
   .amavio-os-stage {
     min-height: 100svh;
   }
 
-  .amavio-os-stage__workspace {
-    display: none;
-  }
-
   .amavio-command-center__intro h2 {
     font-size: 2.55rem;
-  }
-
-  .amavio-command-center__map {
-    min-height: 360px;
-  }
-
-  .amavio-command-center__map button {
-    min-width: 72px;
-    padding: 0.45rem;
-    font-size: 0.66rem;
-  }
-
-  .amavio-command-center__map > strong {
-    min-height: 96px;
-    font-size: 1.45rem;
   }
 }
