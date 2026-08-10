@@ -1,23 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import { SiteFooter } from "@/components/page-chrome";
 import { getSiteUrl, hasProductionSiteUrl } from "@/lib/site-url";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const fraunces = Fraunces({
-  variable: "--font-display",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: {
@@ -43,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="de" className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable}`}>
-      <body>
+    <html lang="de">
+      <body data-amavio-build="website-command-center-2026-08-07">
         {children}
         <SiteFooter />
       </body>

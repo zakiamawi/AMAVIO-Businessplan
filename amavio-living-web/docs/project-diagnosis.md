@@ -4,7 +4,7 @@
 
 - Workspace enthält Businessplan, Finanzmodell, Anlagen, Decks und QA-Textauszüge.
 - Web-App wurde als `amavio-living-web` neu aufgesetzt, weil vorher keine Website-Codebasis vorhanden war.
-- Aktuelle Storyline stammt aus Businessplan Master v2.2, Employer Decision Deck und Partner Capability Deck.
+- Aktuelle Storyline folgt der Coach-/Förder-/IHK-/Agentur-Fassung v1.5; Master v2.9 bleibt die ausführliche Advisor-Referenz. Employer Decision Deck und Partner Capability Deck ergänzen die Zielgruppenlogik.
 
 ## Gesicherte Unternehmensangaben
 

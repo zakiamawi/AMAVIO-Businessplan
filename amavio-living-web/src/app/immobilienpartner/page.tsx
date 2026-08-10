@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader, PageHero } from "@/components/page-chrome";
 import { partnerRoles } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Für Immobilienpartner",
+  description:
+    "AMAVIO prüft Wohnraum, Umnutzung, Betrieb, Ausstattung und Übergabe realistisch, bevor aus einer Objektidee ein Projektversprechen wird.",
+  alternates: { canonical: "/immobilienpartner" },
+};
 
 export default function ImmobilienpartnerPage() {
   return (
