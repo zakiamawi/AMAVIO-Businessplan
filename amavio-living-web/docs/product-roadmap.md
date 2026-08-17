@@ -29,3 +29,10 @@
 - Mobile App
 - Partnerportal
 - Operations-Dashboard
+
+## Premium Website Blueprint
+
+Die P0/P1-Erweiterung wird in
+`docs/premium-website-p0-p1-blueprint.md` gesteuert. Diese Datei ist fuehrend
+fuer Website-Tabs, Nutzerwege, P1-Portallogik, Datenmodell, Security-Gates,
+Plugin-Einsatz und QA-Abnahme.

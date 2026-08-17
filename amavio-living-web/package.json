@@ -6,7 +6,7 @@
     "dev": "next dev",
     "validate:site-url": "node scripts/validate-site-url.mjs",
     "prebuild": "npm run validate:site-url",
-    "build": "next build",
+    "build": "node node_modules/next/dist/bin/next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },

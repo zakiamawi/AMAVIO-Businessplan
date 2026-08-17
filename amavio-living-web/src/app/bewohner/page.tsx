@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader, PageHero } from "@/components/page-chrome";
 import { campusFeatures } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Für Bewohner",
+  description:
+    "Möbliertes Wohnen, Orientierung, Community und klare nächste Schritte für Menschen, die in Deutschland ankommen.",
+  alternates: { canonical: "/bewohner" },
+};
 
 export default function BewohnerPage() {
   return (

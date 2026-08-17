@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/wohnen" },
 };
 
+export const dynamic = "force-dynamic";
+
 type SearchParams = Promise<{
   q?: string | string[];
   type?: string | string[];

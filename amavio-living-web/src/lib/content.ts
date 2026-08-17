@@ -198,6 +198,47 @@ export const platformModules = [
   "Status reporten",
 ];
 
+export const operatingSignals = [
+  {
+    label: "Demand Intake",
+    value: "3 Profile",
+    text: "Arbeitgeber, Bewohner und Partner laufen in getrennte Entscheidungslogiken ein.",
+  },
+  {
+    label: "Readiness Gates",
+    value: "5 Freigaben",
+    text: "Scope, Budget, Daten, Kapazität und Change werden vor jedem Pilot geklärt.",
+  },
+  {
+    label: "Living Journey",
+    value: "90 + 180 Tage",
+    text: "Die 90-Tage-Startphase führt Einzug und Stabilisierung; die Begleitung reicht bis Tag 180.",
+  },
+];
+
+export const trustControls = [
+  {
+    label: "Datenminimierung",
+    status: "P0 aktiv",
+    text: "Die öffentliche Anfrage sammelt nur die Daten, die für eine erste Einordnung nötig sind.",
+  },
+  {
+    label: "Webhook-Schutz",
+    status: "P0 Gate",
+    text: "Anfragen werden nur über JSON, Body-Limit und serverseitig konfigurierte Zustellung verarbeitet.",
+  },
+  {
+    label: "Rollenmodell",
+    status: "P1 Pflicht",
+    text: "Portale für Bewohner, Arbeitgeber, Partner und Admins starten erst mit sauberem RBAC.",
+  },
+  {
+    label: "Audit Trail",
+    status: "P1 Pflicht",
+    text: "Statuswechsel, Dokumente und operative Entscheidungen brauchen nachvollziehbare Ereignisse.",
+  },
+];
+
 export const rolloutRegions = [
   "Düsseldorf",
   "Ruhrgebiet",
@@ -212,7 +253,7 @@ export const partnerRoles = [
 ];
 
 export const sourceNotes = [
-  "Businessplan Master 2026 v2.2 ist führend für Storyline und Geschäftsmodell.",
+  "Businessplan v1.5 ist führend für Coach, Förderung, IHK und Agentur; Master v2.9 bleibt die ausführliche Advisor-Referenz.",
   "Finanzmodell v1.8 ist führend für Finanzwerte; Planumsatz Jahr 1: 93.500 EUR.",
   "Die bereitgestellten Promptdateien enden nach dem Homepage-Hero-Briefing; fehlende Detailseiten wurden aus Businessplan, Employer Deck und Partner Deck abgeleitet.",
   "Rechtliche Pflichtdaten werden nicht erfunden. Aktuell sichtbar: AMAVIO Holding UG (haftungsbeschränkt), Düsseldorf.",
