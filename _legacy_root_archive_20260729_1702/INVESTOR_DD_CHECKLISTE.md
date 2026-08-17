@@ -36,7 +36,7 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 - [ ] Quartalsziele mit Verantwortlichen definiert
 
 ## 5) Finanzen und KPI-Qualität
-- [ ] Finanzmodell v1.7 FINAL konsistent mit Deck und Businessplan
+- [ ] Finanzmodell v1.8 FINAL konsistent mit Deck und Businessplan
 - [ ] Umsatzpfad 93,5 / 269 / 442 TEUR durch Vertragslogik belegbar
 - [ ] Beratungsumsätze (Workshops/Vorträge/Konzepte) nur separat und als Annahme modelliert, falls noch ohne Ist-Daten
 - [ ] Annahmen (Kostenquoten, Overhead, Compensation, Capex) transparent
@@ -67,9 +67,16 @@ Ziel: Alle Kernfragen von Investoren strukturiert vorbereiten und schnell beantw
 - [ ] Funding-Folie mit Meilenstein-Kaskade
 
 ## 9) Finaler Versand-Readiness-Check
-- [ ] Alle Kernzahlen über alle Dokumente identisch
+- [ ] Alle Kernzahlen über alle Dokumente identisch (Basis: Finanzmodell v1.8 FINAL)
 - [ ] Jede zentrale Aussage hat einen Beleg
 - [ ] Q&A-Simulation mit 25 kritischen Fragen durchgeführt
 - [ ] Offene Punkte klar als TBD markiert (mit Termin zur Schließung)
 - [ ] Datenraumstruktur fertig und für externen Zugriff vorbereitet
 - [ ] Keine alten 30/60/90-Tage-Angaben widersprechen dem 180-Tage-Ansatz
+
+## 10) Offene Freigabe-Auflagen (Pflicht vor Live-Nutzung)
+- [ ] Live-KPI-Daten nachziehen (CAC, LTV, NRR, Payback, Burn Multiple) – bis dahin nur als Arbeitsannahmen ausweisen
+- [ ] Beratungsumsätze (Workshops/Vorträge/Konzepte) im Finanzmodell nur separat und mit dokumentierter Annahmelogik ergänzen
+- [ ] Abschließender externer Readability-/DD-Check vor Versand durchführen
+- [ ] Bankbeleg + Gesellschafterbeschluss für Startfinanzierung (25.000 EUR) dokumentieren
+- [ ] § 34c-Rollenklärung (Ordnungsamt-Anfrage) abschließen
