@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-08T14:31:55.939Z",
+  "baseUrl": "http://127.0.0.1:4350",
+  "engines": [
+    "Chromium",
+    "WebKit"
+  ],
+  "roles": [
+    "professional",
+    "housing",
+    "partner"
+  ],
+  "languages": [
+    "de",
+    "en"
+  ],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1024
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "matrixChecks": 24,
+  "dialogInteraction": {
+    "opened": true,
+    "initialFocus": true,
+    "escapeClosed": true,
+    "focusReturned": true
+  },
+  "mobileNavigation": {
+    "previousRoute": "H-01",
+    "currentRoute": "H-02",
+    "changed": true
+  },
+  "consoleErrors": [],
+  "failures": [],
+  "result": "PASS"
+}

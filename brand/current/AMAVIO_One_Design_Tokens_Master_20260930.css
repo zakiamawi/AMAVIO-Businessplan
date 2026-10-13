@@ -1,0 +1,110 @@
+:root {
+  /* AMAVIO One Brandbook Master-Arbeitsfassung | 2026-09-30 */
+
+  /* Brand */
+  --amavio-navy: #0b1f3a;
+  --amavio-stage-navy: #081527;
+  --amavio-app-navy: #10253d;
+  --amavio-cream: #f7f4ec;
+  --amavio-white: #ffffff;
+  --amavio-ink: #222222;
+  --amavio-neutral-gray: #6f7680;
+  --amavio-gold: #c6a35a;
+  --amavio-gold-deep: #9c7d3f;
+  --amavio-bronze-text: #7d6130;
+
+  /* Neutral */
+  --amavio-stone: #d9d0c3;
+  --amavio-line: #e2dcc9;
+  --amavio-surface-alt: #efe9d9;
+
+  /* Functional status colours: never communicate state by colour alone */
+  --amavio-confirmed-text: #234c78;
+  --amavio-confirmed-strong: #2f5c8c;
+  --amavio-confirmed-soft: #e8eef5;
+  --amavio-attention-text: #a94f45;
+  --amavio-attention-strong: #d95e52;
+  --amavio-attention-soft: #fff0ed;
+  --amavio-warning-text: #7d6130;
+  --amavio-warning-soft: #fbefd7;
+
+  /* Semantic */
+  --amavio-color-text: var(--amavio-ink);
+  --amavio-color-text-strong: var(--amavio-navy);
+  --amavio-color-text-on-dark: var(--amavio-cream);
+  --amavio-color-background: var(--amavio-cream);
+  --amavio-color-surface: var(--amavio-white);
+  --amavio-color-surface-dark: var(--amavio-stage-navy);
+  --amavio-color-border: var(--amavio-stone);
+  --amavio-color-accent: var(--amavio-gold);
+  --amavio-color-accent-text-on-light: var(--amavio-bronze-text);
+  --amavio-color-focus: var(--amavio-gold);
+
+  /* Typography */
+  --amavio-font-digital-sans: "Geist", "Segoe UI", Arial, sans-serif;
+  --amavio-font-digital-serif: "Fraunces", Georgia, serif;
+  --amavio-font-digital-mono: "Geist Mono", "SFMono-Regular", Consolas, monospace;
+  --amavio-font-app: "Geist", Inter, system-ui, "Segoe UI", Arial, sans-serif;
+  --amavio-font-office: Arial, Aptos, Calibri, sans-serif;
+  --amavio-font-office-accent: Georgia, "Times New Roman", serif;
+
+  --amavio-type-display-xl: clamp(48px, 7vw, 96px);
+  --amavio-type-display-l: clamp(40px, 5vw, 72px);
+  --amavio-type-heading-m: clamp(30px, 3.2vw, 42px);
+  --amavio-type-heading-s: clamp(22px, 2.2vw, 28px);
+  --amavio-type-lead: 18px;
+  --amavio-type-body: 16px;
+  --amavio-type-label: 12px;
+  --amavio-type-micro: 12px;
+
+  /* Spacing */
+  --amavio-space-1: 4px;
+  --amavio-space-2: 8px;
+  --amavio-space-3: 12px;
+  --amavio-space-4: 16px;
+  --amavio-space-6: 24px;
+  --amavio-space-8: 32px;
+  --amavio-space-12: 48px;
+  --amavio-space-16: 64px;
+  --amavio-space-24: 96px;
+
+  /* Layout */
+  --amavio-content-max: 1200px;
+  --amavio-stage-max: 1360px;
+  --amavio-gutter-desktop: 64px;
+  --amavio-gutter-tablet: 32px;
+  --amavio-gutter-mobile: 22px;
+  --amavio-touch-min: 44px;
+  --amavio-rule: 1px;
+
+  /* Form */
+  --amavio-radius-editorial: 0;
+  --amavio-radius-small: 4px;
+  --amavio-radius-medium: 8px;
+  --amavio-radius-round: 999px;
+  --amavio-shadow-lift: 0 14px 32px rgba(20, 24, 26, 0.07);
+
+  /* Motion */
+  --amavio-motion-micro: 220ms;
+  --amavio-motion-standard: 320ms;
+  --amavio-motion-reveal: 720ms;
+  --amavio-motion-ambient: 10000ms;
+  --amavio-ease-standard: cubic-bezier(0.4, 0, 0.1, 1);
+}
+
+@media (max-width: 1040px) {
+  :root { --amavio-gutter-desktop: var(--amavio-gutter-tablet); }
+}
+
+@media (max-width: 720px) {
+  :root { --amavio-gutter-desktop: var(--amavio-gutter-mobile); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --amavio-motion-micro: 1ms;
+    --amavio-motion-standard: 1ms;
+    --amavio-motion-reveal: 1ms;
+    --amavio-motion-ambient: 1ms;
+  }
+}

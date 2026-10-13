@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "surface": "Codex in-app browser",
+  "baseUrl": "http://127.0.0.1:4350",
+  "scope": {
+    "roles": ["professional", "housing", "partner"],
+    "languages": ["de", "en"],
+    "viewports": [
+      {"name": "desktop", "width": 1440, "height": 1024},
+      {"name": "intermediate", "width": 1180, "height": 820},
+      {"name": "mobile", "width": 390, "height": 844}
+    ]
+  },
+  "roleLanguageViewportSmokeChecks": 12,
+  "roleLanguageViewportSmokeFailures": [],
+  "checks": {
+    "runtimeConnected": true,
+    "sqliteLabelVisible": true,
+    "technicalAccBoundaryVisible": true,
+    "assistanceVisible": true,
+    "assistanceNoDecisionBoundary": true,
+    "dialogInitialFocus": true,
+    "dialogEscapeClose": true,
+    "dialogFocusReturn": true,
+    "deepLinkReloadPreserved": true,
+    "languageSwitch": true,
+    "mobileNavigation": true,
+    "horizontalOverflowFindings": 0,
+    "consoleErrors": 0,
+    "activeAccEntryPoints": 0
+  },
+  "notProven": [
+    "true 200 percent browser zoom",
+    "assistive technology screen reader behavior",
+    "physical iOS or Android device behavior"
+  ],
+  "result": "PASS_WITH_EXPLICIT_EVIDENCE_LIMITS"
+}

@@ -1,0 +1,250 @@
+/* Release L.2 · Operational Clarity
+   A restrained task surface: five destinations, one centered grid and progressive disclosure. */
+
+:root{
+  --sidebar:208px;
+  --l2-canvas:1240px;
+  --l2-rail:210px;
+  --l2-context:230px;
+  --l2-gap:28px;
+}
+
+html{font-size:15px}
+body{font-size:14px;line-height:1.5}
+body *{min-width:0}
+[data-l2-deep-route]{display:none!important}
+
+.app-shell{grid-template-columns:var(--sidebar) minmax(0,1fr)}
+.sidebar{width:var(--sidebar)}
+.brand{padding:24px 20px 20px}
+.brand img{width:152px}
+.brand span{margin-top:6px;font-size:10px;letter-spacing:.08em}
+.main-nav{padding:12px 10px}
+.nav-item{min-height:42px;padding:10px 12px;font-size:12px;letter-spacing:.01em}
+.nav-item svg{width:17px;height:17px}
+.sidebar-context{margin:18px 16px 0;padding:16px 4px 0}
+.sidebar-context span,.sidebar-context small{font-size:9px}
+.sidebar-context strong{font-size:11px}
+.sidebar-foot{padding:18px 20px 22px}
+.sidebar-foot span{font-size:9px;line-height:1.45}
+
+.topbar{min-height:62px;padding:0 28px}
+.product-name{font-size:16px}
+.role-switch button{padding:8px 13px;font-size:10px}
+.profile-copy b{font-size:11px}.profile-copy small{font-size:9px}
+
+main,
+body[data-page="cases"] main,
+body[data-page="operations"] main{
+  width:100%;
+  max-width:calc(var(--l2-canvas) + 64px);
+  margin:0 auto;
+  padding:30px 32px 36px;
+}
+.page{max-width:var(--l2-canvas);margin:0 auto}
+.page-header{padding-bottom:22px}
+.page-header h1,
+.case-portfolio-hero h1,
+.dual-hero h1,
+.program-hero h1,
+.planning-hero h1,
+.twin-header h1,
+.learning-focus-header h1,
+.evaluation-header h1{
+  font-size:clamp(2.1rem,3.2vw,2.75rem);
+  line-height:1.06;
+  letter-spacing:-.032em;
+}
+.page-header p,
+.case-portfolio-hero p,
+.dual-hero>div>p,
+.program-hero p,
+.planning-hero>div>p,
+.learning-focus-header p{
+  max-width:720px;
+  font-size:.93rem;
+  line-height:1.55;
+}
+
+button,input,select,textarea{font-size:inherit}
+.primary-action,.secondary-action{min-height:38px;padding:9px 14px;font-size:11px}
+
+/* Overview: select a priority, then enter the dedicated case journey. */
+body[data-page="today"] main{max-width:1180px}
+.today-layout{grid-template-columns:280px minmax(0,1fr);min-height:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.worklist{padding:22px 22px 26px 0}
+.case-workspace{padding:26px 0 30px 30px}
+.case-header h2{font-size:clamp(1.7rem,2.4vw,2.25rem)}
+body[data-page="today"] .work-modes,
+body[data-page="today"] .workbench{display:none}
+.overview-case-action{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:26px;padding-top:22px;border-top:1px solid var(--line)}
+.overview-case-action>div{display:grid;gap:4px}.overview-case-action b{font:500 18px/1.2 var(--serif);color:var(--navy)}
+.overview-case-action span{max-width:560px;color:var(--muted);font-size:11px;line-height:1.5}
+.overview-case-action .primary-action{flex:0 0 auto}
+
+/* Case portfolio: compact master-detail rather than a CRM table. */
+.case-portfolio-page{max-width:1180px;padding-top:0}
+.case-portfolio-hero{gap:32px;padding-bottom:22px}
+.case-portfolio-kicker{margin-bottom:7px;font-size:.66rem}
+.case-portfolio-hero p{margin-top:10px}
+.case-portfolio-boundary{flex-basis:255px}
+.case-portfolio-summary{grid-template-columns:repeat(3,1fr)}
+.case-portfolio-summary>div{padding:15px 18px}.case-portfolio-summary>div:first-child{padding-left:0}
+.case-portfolio-summary>div:nth-child(4){display:none}
+.case-portfolio-summary dd{font-size:1.45rem}
+.case-portfolio-workspace{grid-template-columns:250px minmax(0,1fr);min-height:520px;margin-top:26px}
+.case-portfolio-index{padding:20px 20px 24px}
+.case-portfolio-item{padding:14px 4px}
+.case-portfolio-detail{padding:26px 34px 34px}
+.case-preview-head{padding-bottom:20px}.case-preview-head h2{font-size:clamp(1.7rem,2.7vw,2.45rem)}
+.case-preview-focus{padding:25px 0 22px}.case-preview-focus h3{font-size:clamp(1.25rem,2vw,1.75rem)}
+.case-preview-facts>div{padding-block:16px}.case-preview-action{margin-top:24px;padding-top:22px}
+
+/* Operations: one selected case, one step, one context. */
+.operations-page{max-width:var(--l2-canvas);background:#fff}
+.operations-page .ops-runtime,
+.operations-page .role-scope-banner,
+.operations-page .brief-context{display:none!important}
+.operations-command-hero{padding:0 0 20px}
+.operations-command-hero .dual-boundary{flex-basis:240px}
+.operations-situation{min-height:58px;grid-template-columns:repeat(3,minmax(135px,.55fr)) minmax(220px,1.2fr);padding:10px 0}
+.operations-situation>div{padding-inline:17px}.operations-situation b{font-size:19px}.operations-situation>p{font-size:10px}
+.operations-page .release-g-shell{
+  grid-template-columns:var(--l2-rail) minmax(0,1fr) var(--l2-context);
+  min-height:590px;
+  margin-top:22px;
+  border:1px solid var(--line);
+}
+.operations-page .ops-case-index{padding:20px 18px 24px;background:#f8f7f3}
+.ops-index-head h2{font-size:1.1rem}.ops-index-head p{font-size:9px}
+.ops-search{margin-block:15px 5px}.ops-search span{font-size:9px}.ops-search input{height:38px;font-size:11px}
+.operations-page .ops-case-button{padding:14px 8px 14px 12px}.operations-page .ops-case-button b{font-size:11px}.operations-page .ops-case-button span,.operations-page .ops-case-button small{font-size:9px}
+.operations-page .release-g-workspace{padding:24px 26px 32px}
+.release-g-case-header{padding-bottom:17px}
+.release-g-case-header .ops-case-heading h2{max-width:650px;font-size:clamp(1.7rem,2.5vw,2.35rem)}
+.release-g-case-header .ops-case-heading>p,.release-g-case-header .ops-case-heading>span{font-size:9px}
+.ops-readiness b{font-size:10px}.ops-readiness small{font-size:8px}
+.journey-rail{grid-template-columns:repeat(5,minmax(86px,1fr));margin:16px 0 19px}
+.journey-rail button{grid-template-columns:28px 1fr;min-height:57px;padding:6px 7px 9px 0}
+.journey-rail button>span{width:28px;height:28px;font-size:10px}
+.journey-rail button:not(:last-child)::after{left:28px;top:20px}
+.journey-rail button b{font-size:9.5px}.journey-rail button small{font-size:7.5px}
+.journey-panel-head{padding:17px 17px 15px}
+.journey-panel-head h3{font-size:1.65rem}.journey-panel-head p{font-size:10.5px}
+.ops-section-heading.compact{margin:17px 0 7px}.ops-section-heading.compact h3{font-size:14px}.ops-section-heading.compact p{font-size:9px}
+.evidence-table .ops-evidence-card{padding:10px 0}.evidence-table .ops-evidence-card h4{font-size:10.5px}.evidence-table .ops-evidence-card p{font-size:9.5px}
+.journey-next{margin-top:18px;padding-top:13px}.journey-next .primary-action{min-width:175px}
+.responsibility-focus h4{font-size:1.35rem}.decision-stage{padding-top:17px}
+.operations-page .ops-context-rail{padding:21px 18px 26px;background:#f8f7f3}
+.operations-page .context-section{padding-block:0 20px;margin-bottom:20px}.operations-page .context-section h2{font-size:1rem}
+.operations-page .context-list dt{font-size:8px}.operations-page .context-list dd b{font-size:10px}.operations-page .context-list dd span{font-size:8.5px}
+.ops-contribution-inbox{margin-top:0}
+
+/* Progressive disclosure for proof and secondary analysis. */
+.l2-proof{margin-top:17px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent}
+.l2-proof>summary{padding:12px 0;color:#485d70;font-size:10px;font-weight:650;cursor:pointer;list-style-position:inside}
+.l2-proof[open]>summary{border-bottom:1px solid var(--line)}
+.l2-proof>.kernel-workbench{margin:0;padding:17px 0;border:0;background:transparent}
+.l2-proof>.kernel-workbench h4{font-size:14px}.l2-proof>.kernel-workbench p{font-size:10px}
+.context-boundary.l2-proof{padding:0!important}.context-boundary.l2-proof>p{padding:0 0 15px;font-size:9px}
+
+/* Programme: core delivery visible, analysis available on demand. */
+.program-page{max-width:var(--l2-canvas);padding:0 0 48px}
+.program-hero{padding-bottom:22px}.program-kicker{margin-bottom:7px;font-size:.66rem}.program-hero p{margin-top:10px}
+.program-boundary{min-width:225px}.program-summary{grid-template-columns:repeat(3,1fr)}
+.program-summary>div{padding:15px 18px}.program-summary>div:first-child{padding-left:0}.program-summary .l2-secondary-metric{display:none}
+.program-summary b{font-size:1.45rem}.program-summary span,.program-summary small{font-size:.65rem}
+.program-workspace{grid-template-columns:200px minmax(0,1fr) 220px;margin-top:24px}
+.program-index,.program-decision-rail{padding:20px 18px}.program-canvas{padding:24px 27px}
+.program-list-item{padding:14px 4px}.program-canvas-head{padding-bottom:19px}.program-canvas-head h2{font-size:1.5rem}
+.program-journey{margin-bottom:25px}.program-journey li{padding:13px 7px 12px}.program-journey b{font-size:.62rem}.program-journey small{font-size:.56rem}
+.program-blueprint{padding-bottom:21px}.program-section-head h3{font-size:1.05rem}
+.blueprint-grid{margin-top:12px}.blueprint-row{grid-template-columns:28px minmax(160px,1.5fr) minmax(105px,1fr) minmax(110px,1fr) auto;gap:10px;padding:10px 0}
+.blueprint-row>div>b{font-size:.66rem}.blueprint-row small{font-size:.61rem}.blueprint-row em{font-size:.58rem}
+.l2-section{margin:0;padding:0;border:0;border-top:1px solid #d9dee4}
+.l2-section>summary{padding:14px 0;color:#40576b;font-size:.68rem;font-weight:650;cursor:pointer}
+.l2-section[open]>summary{border-bottom:1px solid #e3e6e9}
+.l2-section>section{padding:21px 0}
+.l2-section.program-capacity,.l2-section.program-adjustment{padding:0}
+.capacity-chart{height:155px}.capacity-bars{height:105px}
+.program-decision{padding:14px 0}.program-decision h3{font-size:.75rem}.program-decision p{font-size:.65rem}
+
+/* Planning remains a deep work route, not a competing primary destination. */
+.planning-page{max-width:var(--l2-canvas);padding:0 0 48px}
+.planning-hero{padding-bottom:22px}.planning-hero>div>span{font-size:.66rem}.planning-hero>p{max-width:230px}
+.planning-layout{grid-template-columns:205px minmax(0,1fr) 210px;margin-top:24px}
+.planning-context,.planning-proof{padding:20px 17px}.planning-canvas{padding:24px 27px}
+.planning-context h2,.planning-proof h2{font-size:1rem}.planning-capabilities button{padding:13px 10px}.planning-capabilities b{font-size:.7rem}.planning-capabilities small{font-size:.58rem}
+.planning-proof>p{color:var(--muted);font-size:10px;line-height:1.5}
+
+/* Decisions, quality and employer collaboration share the same visual cadence. */
+.twin-page,.twin-decisions-page,.learning-page,.evaluation-page,.collaboration-page{max-width:var(--l2-canvas);margin:0 auto}
+.twin-header{gap:28px;padding-bottom:21px}.twin-kicker,.learning-kicker{font-size:.66rem}
+.twin-decision-summary{margin-block:20px}.twin-decision-list{max-width:980px}
+.learning-focus-header{padding:0 0 21px}.learning-journey{margin:19px 0}.learning-context-line{margin-bottom:20px}
+.learning-feedback-workspace{grid-template-columns:300px minmax(0,1fr)}
+.learning-quality-table,.learning-version-table{font-size:.72rem}
+.evaluation-summary{grid-template-columns:repeat(3,1fr)}.evaluation-summary>div:nth-child(4){display:none}
+.evaluation-layout{grid-template-columns:minmax(0,1fr) 280px}
+
+.collaboration-hero{padding-bottom:20px}.collaboration-page .dual-situation{min-height:58px;padding:10px 0}
+.dual-workdesk{grid-template-columns:210px minmax(0,1fr) 225px;min-height:590px;margin-top:22px;border:1px solid var(--line)}
+.dual-case-rail{padding:20px 18px 24px;background:#f8f7f3}.dual-primary{padding:22px 26px 30px}.dual-handoff{padding:21px 18px 24px;background:#f8f7f3}
+.dual-case-header h2{font-size:1.45rem}.dual-journey{margin:22px 0 26px}.dual-journey li>b{font-size:9.5px}
+.dual-action>.dual-section-head h3{font-size:1.35rem}.dual-action>p{font-size:11px}.dual-action form{padding:16px 17px}
+
+.app-footer,
+body[data-page="cases"] .app-footer,
+body[data-page="operations"] .app-footer{max-width:var(--l2-canvas);width:calc(100% - 64px);margin:0 auto;font-size:9px}
+
+@media(max-width:1180px){
+  :root{--l2-context:220px}
+  .operations-page .release-g-shell,.program-workspace,.dual-workdesk{grid-template-columns:205px minmax(0,1fr)}
+  .operations-page .ops-context-rail,.program-decision-rail,.dual-handoff{grid-column:1/-1;border-left:0;border-top:1px solid var(--line)}
+  .operations-page .ops-context-rail{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .program-decision-rail{display:grid;grid-template-columns:repeat(3,1fr)}
+  .program-decision-rail>.program-section-head{grid-column:1/-1}
+  .planning-layout{grid-template-columns:205px 1fr}.planning-proof{grid-column:1/-1;border-left:0;border-top:1px solid var(--line)}
+}
+
+@media(max-width:860px){
+  :root{--sidebar:250px}
+  html{font-size:15px}
+  .app-shell{display:block}.sidebar{width:var(--sidebar)}
+  main,body[data-page="cases"] main,body[data-page="operations"] main{padding:25px 20px 32px}
+  .today-layout,.case-portfolio-workspace,.operations-page .release-g-shell,.program-workspace,.planning-layout,.dual-workdesk{grid-template-columns:1fr}
+  .worklist,.case-portfolio-index,.operations-page .ops-case-index,.program-index,.planning-context,.dual-case-rail{border-right:0;border-bottom:1px solid var(--line)}
+  .case-workspace{padding-left:0}.operations-page .release-g-workspace,.program-canvas,.planning-canvas,.dual-primary{padding-inline:0}
+  .release-g-page .ops-case-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;padding-bottom:8px}
+  .release-g-page .ops-case-button{min-width:0}
+  .operations-page .ops-context-rail,.dual-handoff{display:block}
+  .program-decision-rail{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(220px,.65fr);column-gap:24px;align-items:start}
+  .program-decision-rail>.program-section-head{grid-column:1/-1}
+  .program-decision-rail>[data-program-decisions]{grid-column:1;grid-row:2/4}
+  .program-decision-rail>.program-work-product{grid-column:2;grid-row:2}
+  .program-decision-rail>.program-role-note{grid-column:2;grid-row:3}
+  .case-portfolio-summary,.program-summary{grid-template-columns:repeat(3,1fr)}
+  .operations-situation{grid-template-columns:repeat(3,1fr)}.operations-situation>p{grid-column:1/-1;padding:10px 0 0;margin-top:9px;border-top:1px solid var(--line)}
+  .program-hero,.planning-hero,.dual-hero{align-items:flex-start;flex-direction:column}
+  .program-boundary,.planning-hero>p,.dual-boundary{min-width:0;max-width:520px}
+  .case-portfolio-boundary,.operations-command-hero .dual-boundary,.collaboration-hero .dual-boundary{flex:0 0 auto;width:100%;min-height:0}
+  .learning-feedback-workspace{grid-template-columns:1fr}
+}
+
+@media(max-width:620px){
+  main,body[data-page="cases"] main,body[data-page="operations"] main{padding:22px 16px 28px}
+  .page-header h1,.case-portfolio-hero h1,.dual-hero h1,.program-hero h1,.planning-hero h1,.twin-header h1,.learning-focus-header h1,.evaluation-header h1{font-size:2rem}
+  .overview-case-action,.case-preview-action,.journey-next{align-items:stretch;flex-direction:column}
+  .overview-case-action .primary-action,.journey-next .primary-action{width:100%}
+  .case-portfolio-summary,.program-summary{grid-template-columns:1fr 1fr}
+  .case-portfolio-summary>div:nth-child(3),.program-summary>div:nth-child(3){border-top:1px solid var(--line)}
+  .operations-situation{grid-template-columns:1fr 1fr}.operations-situation>div:nth-child(3){grid-column:1/-1}
+  .journey-rail{margin-inline:-16px;padding-inline:16px;grid-template-columns:repeat(5,minmax(98px,1fr))}
+  .blueprint-row{grid-template-columns:28px 1fr auto}.blueprint-row>div:nth-of-type(2),.blueprint-row>div:nth-of-type(3){display:none}
+  .program-journey{grid-template-columns:repeat(2,1fr)}
+  .program-decision-rail{display:block}
+  .dual-journey{grid-template-columns:1fr 1fr}
+  .app-footer,body[data-page="cases"] .app-footer,body[data-page="operations"] .app-footer{width:calc(100% - 32px)}
+}
+
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}

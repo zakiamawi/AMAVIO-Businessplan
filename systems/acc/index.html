@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#0f2444">
+  <title>AMAVIO Arrival Control Center | True Workspaces</title>
+  <link rel="icon" href="assets/brand/amavio-favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="assets/release-q.css?v=20261013q1">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Zum Arbeitsbereich</a>
+
+  <div class="runtime-gate" data-runtime-gate role="status" aria-live="polite">
+    <div class="runtime-gate__panel">
+      <img src="assets/brand/amavio-logo-light.svg" alt="AMAVIO One" width="164" height="46">
+      <p data-runtime-status>Lokale Arbeitsumgebung wird geprüft</p>
+      <h1 data-runtime-title>Rollenarbeitsplatz wird vorbereitet</h1>
+      <p data-runtime-message>Arbeitsvorrat, Arbeitgeberperspektive und lokale synthetische Programmlage werden geprüft.</p>
+      <div class="runtime-gate__actions" data-runtime-actions></div>
+    </div>
+  </div>
+
+  <div id="app" class="app-shell" hidden></div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <noscript>Für die lokale ACC-Konzeptdemo muss JavaScript aktiviert sein.</noscript>
+  <script src="assets/release-q.js?v=20261013q1" defer></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-10T03:45:35.676Z",
+  "syntheticOnly": true,
+  "viewports": [
+    {
+      "name": "desktop-1600",
+      "width": 1600,
+      "height": 1000,
+      "bodyWidth": 1600,
+      "bodyScrollWidth": 1600,
+      "unnamedButtons": 0,
+      "statusVisible": true,
+      "rootHasContent": true,
+      "frameworkErrorOverlay": false,
+      "title": "AMAVIO One · CRM Cockpit",
+      "consoleErrors": []
+    },
+    {
+      "name": "desktop-1280",
+      "width": 1280,
+      "height": 900,
+      "bodyWidth": 1280,
+      "bodyScrollWidth": 1280,
+      "unnamedButtons": 0,
+      "statusVisible": true,
+      "rootHasContent": true,
+      "frameworkErrorOverlay": false,
+      "title": "AMAVIO One · CRM Cockpit",
+      "consoleErrors": []
+    },
+    {
+      "name": "zwischenbreite-1024",
+      "width": 1024,
+      "height": 900,
+      "bodyWidth": 1024,
+      "bodyScrollWidth": 1024,
+      "unnamedButtons": 0,
+      "statusVisible": true,
+      "rootHasContent": true,
+      "frameworkErrorOverlay": false,
+      "title": "AMAVIO One · CRM Cockpit",
+      "consoleErrors": []
+    },
+    {
+      "name": "mobile-430",
+      "width": 430,
+      "height": 932,
+      "bodyWidth": 430,
+      "bodyScrollWidth": 430,
+      "unnamedButtons": 0,
+      "statusVisible": true,
+      "rootHasContent": true,
+      "frameworkErrorOverlay": false,
+      "title": "AMAVIO One · CRM Cockpit",
+      "consoleErrors": []
+    }
+  ],
+  "keyboard": {
+    "commandShortcut": true,
+    "escapeCloses": true,
+    "focusTrap": true,
+    "focusReturn": true
+  },
+  "zoom200": {
+    "method": "Isoliertes Chrome-Profil mit 200%-Defaultzoom; 1280px Außenbreite reflowt auf 640px CSS-Breite",
+    "bodyWidth": 640,
+    "bodyScrollWidth": 640,
+    "mainVisible": true,
+    "innerWidth": 640,
+    "outerWidth": 1280,
+    "devicePixelRatio": 2,
+    "visualViewportScale": 1
+  },
+  "consoleErrors": []
+}

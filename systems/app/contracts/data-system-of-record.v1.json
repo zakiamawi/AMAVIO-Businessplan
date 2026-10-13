@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.cross-system.data-system-of-record.v1",
+  "status": "TARGET_AUTHORITY_MAP_REAL_DATA_GATES_CLOSED",
+  "defaultPolicy": "no_object_without_one_leading_system",
+  "objects": [
+    {"objectType": "CommercialOrganisation", "leadingSystem": "crm", "otherSystems": "reference_only_if_approved"},
+    {"objectType": "CommercialContact", "leadingSystem": "crm", "otherSystems": "no_automatic_replication"},
+    {"objectType": "Lead", "leadingSystem": "crm", "otherSystems": "none"},
+    {"objectType": "Opportunity", "leadingSystem": "crm", "otherSystems": "handoff_reference_only"},
+    {"objectType": "CommercialActivity", "leadingSystem": "crm", "otherSystems": "none"},
+    {"objectType": "Mandate", "leadingSystem": "acc", "otherSystems": "role_minimised_reference_only"},
+    {"objectType": "Location", "leadingSystem": "acc", "otherSystems": "role_minimised_reference_only"},
+    {"objectType": "Cohort", "leadingSystem": "acc", "otherSystems": "not_exposed_as_shared_record"},
+    {"objectType": "ArrivalCase", "leadingSystem": "acc", "otherSystems": "role_minimised_projection_only"},
+    {"objectType": "EmployerDecision", "leadingSystem": "acc", "otherSystems": "explained_result_only"},
+    {"objectType": "OperationsInternalNote", "leadingSystem": "acc", "otherSystems": "forbidden"},
+    {"objectType": "ArrivalAuditEvent", "leadingSystem": "acc", "otherSystems": "forbidden_except_approved_audit_reference"},
+    {"objectType": "ProfessionalSubmissionDraft", "leadingSystem": "app", "otherSystems": "validated_submission_message_only"},
+    {"objectType": "HousingCapacityDraft", "leadingSystem": "app", "otherSystems": "validated_submission_message_only"},
+    {"objectType": "PartnerOfferDraft", "leadingSystem": "app", "otherSystems": "validated_submission_message_only"},
+    {"objectType": "ExternalRoleProjection", "leadingSystem": "app", "otherSystems": "derived_from_approved_contract_message"}
+  ],
+  "referenceRules": [
+    "A reference never transfers ownership or access rights.",
+    "A projection is not a second canonical record.",
+    "Every future cross-system reference needs purpose, source, target, object type, revision, provenance and deletion behavior.",
+    "Contact or person data is not part of the default CRM-to-ACC handoff.",
+    "No system may query another system's database directly."
+  ],
+  "runtimeBoundary": {
+    "allowedDataClass": "synthetic_demo",
+    "realDataAllowed": false,
+    "crossSystemTransportConnected": false,
+    "productiveStorageSelectedForApp": false,
+    "productiveStorageSelectedForAcc": false,
+    "productiveStorageSelectedForCrm": false
+  }
+}

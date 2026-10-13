@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.one.production-readiness-gates.v1",
+  "status": "FOUNDATION_COMPLETE_PRODUCTIVE_GATES_CLOSED",
+  "gates": [
+    {"id": "PR-IDENTITY", "status": "CLOSED", "ownerDecisionRequired": true},
+    {"id": "PR-DATA-LEGAL", "status": "CLOSED", "ownerDecisionRequired": true},
+    {"id": "PR-ACC-LIVE", "status": "CLOSED", "ownerDecisionRequired": true},
+    {"id": "PR-AI-PROVIDER", "status": "CLOSED", "ownerDecisionRequired": true},
+    {"id": "PR-SECURITY", "status": "CLOSED", "ownerDecisionRequired": true},
+    {"id": "PR-OBSERVABILITY-OPERATIONS", "status": "CLOSED", "ownerDecisionRequired": true},
+    {"id": "PR-ACCESSIBILITY-REAL-DEVICE", "status": "CLOSED", "ownerDecisionRequired": false},
+    {"id": "PR-REAL-ROLE-RESEARCH", "status": "CLOSED", "ownerDecisionRequired": true},
+    {"id": "PR-DEPLOYMENT-RELEASE", "status": "CLOSED", "ownerDecisionRequired": true}
+  ],
+  "releaseRule": "No productive capability may be enabled unless every dependency gate for that capability is explicitly approved and evidenced.",
+  "currentAllowedMode": "local_synthetic_foundation",
+  "productiveReleaseAllowed": false
+}

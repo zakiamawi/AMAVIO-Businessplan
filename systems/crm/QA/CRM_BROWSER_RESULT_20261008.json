@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-10-08T17:20:37.918Z",
+  "checks": [
+    {
+      "name": "AMAVIO_ONE_CRM_DESKTOP_RENDER_1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "bodyFits": true,
+      "errors": [],
+      "visible": {
+        "title": true,
+        "pipeline": true,
+        "synthetic": true
+      }
+    },
+    {
+      "name": "AMAVIO_ONE_CRM_MOBILE_RENDER_430x932",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "bodyFits": true,
+      "errors": [],
+      "visible": {
+        "title": true,
+        "pipeline": true,
+        "synthetic": true
+      }
+    }
+  ]
+}

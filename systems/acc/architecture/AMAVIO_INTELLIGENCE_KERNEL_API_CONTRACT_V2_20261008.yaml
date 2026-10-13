@@ -1,0 +1,40 @@
+openapi: 3.1.0
+info:
+  title: AMAVIO Intelligence Kernel V2 Local Synthetic API
+  version: 2.0.0-local-demo
+  description: Providerunabhängige lokale Fachartefakte ohne Außenwirkung.
+servers:
+  - url: http://127.0.0.1:4200
+paths:
+  /api/kernel/v2/status:
+    get:
+      summary: Laufzeit, Capabilities und Grenzen
+  /api/kernel/v2/brief-rubric:
+    get:
+      summary: Qualitätsrubrik des Arrival Readiness Brief
+  /api/kernel/v2/artifacts/{artifactId}:
+    get:
+      summary: Tenantgebundenes Kernel-Artefakt lesen
+  /api/kernel/v2/cases/{caseId}/evidence-reconciliations:
+    post:
+      summary: Quellenkonflikte und Klärungsauftrag erzeugen
+  /api/kernel/v2/cases/{caseId}/replans:
+    post:
+      summary: Kritischen Pfad nach einem begründeten Fallereignis neu berechnen
+  /api/kernel/v2/cases/{caseId}/readiness-briefs:
+    post:
+      summary: Reproduzierbaren internen Brief erzeugen und evaluieren
+  /api/kernel/v2/artifacts/{artifactId}/review:
+    post:
+      summary: Artefakt mit Begründung annehmen oder zurückweisen
+  /api/kernel/v2/evaluations:
+    post:
+      summary: 48 deterministische Capability-Szenarien ausführen
+x-amavio-boundaries:
+  syntheticOnly: true
+  externalCalls: false
+  externalEffects: false
+  automaticDecisions: false
+  automaticApply: false
+  humanGateRequired: true
+  idempotencyRequiredForMutations: true

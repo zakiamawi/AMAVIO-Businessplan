@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <meta name="theme-color" content="#092928">
+    <title>AMAVIO ACC | Moderierter synthetischer Usability-Test</title>
+    <link rel="stylesheet" href="../assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Zum Testinhalt</a>
+    <header class="topbar">
+      <a class="brand" href="../?page=operations" aria-label="Zur ACC-Arbeitsfläche">
+        <img src="../assets/brand/amavio-logo-light.svg" alt="AMAVIO One">
+      </a>
+      <div>
+        <span class="eyebrow">Gate 04A · lokales Testinstrument</span>
+        <strong>Moderierter synthetischer Usability-Test</strong>
+      </div>
+      <a class="quiet-link" href="../?page=operations" target="acc-demo">Demo öffnen</a>
+    </header>
+
+    <div class="boundary" role="note">
+      Ausschließlich synthetische Fälle · keine Namen oder Kontaktdaten · keine Aufzeichnung · keine Außenwirkung
+    </div>
+
+    <main id="main-content">
+      <section class="intro panel" aria-labelledby="intro-title">
+        <div>
+          <span class="eyebrow">Interne Vorbereitung</span>
+          <h1 id="intro-title">Beobachten, nicht verkaufen.</h1>
+          <p>Die Konsole führt durch sechs operative Aufgaben, misst Zeit und Hilfebedarf und trennt Beobachtung, Aussage und Interpretation. Alle Eingaben bleiben lokal in diesem Browser.</p>
+        </div>
+        <dl class="status-grid">
+          <div><dt>Aufgaben</dt><dd>6</dd></div>
+          <div><dt>Zielzeit</dt><dd>30–40 Min.</dd></div>
+          <div><dt>Datenmodus</dt><dd>synthetisch</dd></div>
+        </dl>
+      </section>
+
+      <section class="setup panel" aria-labelledby="setup-title">
+        <div class="section-heading">
+          <div><span class="step">01</span><h2 id="setup-title">Session vorbereiten</h2></div>
+          <span class="state-pill" data-session-state>Nicht gestartet</span>
+        </div>
+        <div class="form-grid">
+          <label>Teilnehmercode
+            <input data-participant-code value="SYN-UT-01" maxlength="24" pattern="SYN-UT-[0-9]{2}" autocomplete="off" aria-describedby="code-help">
+            <small id="code-help">Nur Code, niemals Name, E-Mail oder Organisation.</small>
+          </label>
+          <label>Funktionsrolle
+            <select data-role>
+              <option value="employer_hr">Arbeitgeber · HR/People Operations</option>
+              <option value="employer_sponsor">Arbeitgeber · Sponsor/Management</option>
+              <option value="employer_site">Arbeitgeber · Standort/Fachbereich</option>
+              <option value="amavio_operations">AMAVIO Operations</option>
+              <option value="internal_rehearsal">Interner Probelauf</option>
+            </select>
+          </label>
+          <label>Testmodus
+            <select data-mode>
+              <option value="moderated_local">Moderiert · lokal</option>
+              <option value="moderated_remote">Moderiert · remote, ohne Aufzeichnung</option>
+              <option value="internal_rehearsal">Interner Probelauf</option>
+            </select>
+          </label>
+        </div>
+        <fieldset class="scope-checks">
+          <legend>Verbindliche Scope-Prüfung</legend>
+          <label><input type="checkbox" data-scope="synthetic"> Es werden ausschließlich die vorhandenen synthetischen Demo-Fälle genutzt.</label>
+          <label><input type="checkbox" data-scope="no-personal"> Es werden keine Namen, Kontakte, Arbeitgeber- oder Falldaten erfasst.</label>
+          <label><input type="checkbox" data-scope="no-recording"> Es findet keine Audio-, Video- oder Bildschirmaufzeichnung statt.</label>
+          <label><input type="checkbox" data-scope="no-claims"> Die Session wird nicht als Pilot-, Kunden- oder Marktvalidierung bezeichnet.</label>
+        </fieldset>
+        <div class="actions">
+          <button type="button" class="primary" data-start-session>Session starten</button>
+          <button type="button" class="secondary" data-reset-session>Lokale Testdaten zurücksetzen</button>
+        </div>
+        <p class="form-message" data-setup-message aria-live="polite"></p>
+      </section>
+
+      <section class="test-layout" data-test-workspace hidden>
+        <aside class="task-nav panel" aria-labelledby="task-nav-title">
+          <div class="section-heading compact"><div><span class="step">02</span><h2 id="task-nav-title">Aufgaben</h2></div></div>
+          <ol data-task-nav></ol>
+          <div class="session-clock">
+            <span>Sessionzeit</span>
+            <strong data-session-time>00:00</strong>
+          </div>
+        </aside>
+
+        <section class="task-panel panel" aria-labelledby="task-title">
+          <div class="task-kicker"><span data-task-number>Aufgabe 1 von 6</span><span data-task-target>Ziel ≤ 90 Sek.</span></div>
+          <h2 id="task-title" data-task-title></h2>
+          <p class="task-prompt" data-task-prompt></p>
+          <details>
+            <summary>Erfolgskriterien für die Moderation</summary>
+            <ul data-task-criteria></ul>
+          </details>
+
+          <div class="timer-card">
+            <div><span>Aufgabenzeit</span><strong data-task-time>00:00</strong></div>
+            <button type="button" class="primary" data-toggle-timer>Aufgabe starten</button>
+            <button type="button" class="secondary" data-reset-timer>Zeit zurücksetzen</button>
+          </div>
+
+          <form data-observation-form>
+            <div class="rating-grid">
+              <label>Ergebnis
+                <select data-field="outcome">
+                  <option value="not_tested">Noch nicht bewertet</option>
+                  <option value="success">Erfolgreich</option>
+                  <option value="partial">Teilweise</option>
+                  <option value="failed">Nicht erfolgreich</option>
+                  <option value="aborted">Abgebrochen</option>
+                </select>
+              </label>
+              <label>Hilfestufe
+                <select data-field="assistance">
+                  <option value="0">0 · keine Hilfe</option>
+                  <option value="1">1 · neutraler Hinweis</option>
+                  <option value="2">2 · konkreter Navigationshinweis</option>
+                  <option value="3">3 · Moderator führt aus</option>
+                </select>
+              </label>
+              <label>Aufgabenleichtigkeit (SEQ)
+                <select data-field="ease">
+                  <option value="">nicht bewertet</option>
+                  <option value="1">1 · sehr schwierig</option>
+                  <option value="2">2</option><option value="3">3</option><option value="4">4</option>
+                  <option value="5">5</option><option value="6">6</option><option value="7">7 · sehr leicht</option>
+                </select>
+              </label>
+              <label>Fehlversuche
+                <input type="number" min="0" max="20" value="0" data-field="errors">
+              </label>
+            </div>
+            <label>Beobachtung
+              <textarea rows="3" data-field="observation" placeholder="Nur sichtbares Verhalten: Was tat oder suchte die Person?"></textarea>
+            </label>
+            <label>Sinngemäße Aussage
+              <textarea rows="2" data-field="quote" placeholder="Keine Namen oder identifizierenden Angaben."></textarea>
+            </label>
+            <label>Interpretation/Hypothese
+              <textarea rows="2" data-field="interpretation" placeholder="Bewusst getrennt von der Beobachtung."></textarea>
+            </label>
+            <label>Schweregrad
+              <select data-field="severity">
+                <option value="none">kein Befund</option>
+                <option value="p0">P0 · verhindert Kernaufgabe / falsche Wirkung</option>
+                <option value="p1">P1 · erhebliche Reibung / Verständnisproblem</option>
+                <option value="p2">P2 · Optimierung / Wunsch</option>
+              </select>
+            </label>
+          </form>
+
+          <div class="actions split">
+            <button type="button" class="secondary" data-prev-task>Zurück</button>
+            <button type="button" class="primary" data-save-next>Speichern und weiter</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="summary panel" data-summary hidden aria-labelledby="summary-title">
+        <div class="section-heading"><div><span class="step">03</span><h2 id="summary-title">Lokale Auswertung</h2></div><span class="state-pill is-ready">auswertbar</span></div>
+        <div class="metric-grid" data-metrics></div>
+        <div class="findings" data-findings></div>
+        <div class="actions">
+          <button type="button" class="primary" data-export-json>JSON lokal exportieren</button>
+          <button type="button" class="secondary" data-export-csv>CSV lokal exportieren</button>
+          <button type="button" class="secondary" data-return-task>Zur letzten Aufgabe</button>
+        </div>
+        <p class="export-note">Der Export erzeugt ausschließlich eine lokale Datei. Es findet kein Upload und kein Versand statt.</p>
+      </section>
+    </main>
+
+    <footer>AMAVIO One · internes Testinstrument · Produktiv noch nicht vorhanden</footer>
+    <div class="sr-only" data-live aria-live="polite"></div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

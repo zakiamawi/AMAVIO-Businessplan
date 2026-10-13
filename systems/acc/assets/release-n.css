@@ -1,0 +1,138 @@
+/* Release N · Employer Workspace
+   Meaningful reduction through hierarchy and progressive disclosure — not through missing context. */
+
+:root{
+  --employer-warm:#f7f3ea;
+  --employer-warm-strong:#efe6d5;
+  --employer-blue:#183a56;
+  --employer-muted:#627181;
+}
+
+.nav-item .nav-copy{display:grid;gap:1px;text-align:left}
+.nav-item .nav-copy b{font:inherit;font-weight:650}
+.nav-item .nav-copy small{color:rgba(255,255,255,.62);font-size:8px;font-weight:450;letter-spacing:0;line-height:1.25}
+.nav-item.active .nav-copy small{color:rgba(255,255,255,.82)}
+body[data-role="admin"] [data-page-target="programs"] .nav-copy small{display:none}
+
+body[data-role="employer"] .employer-lens{display:grid;gap:3px;min-width:190px}
+body[data-role="employer"] .employer-lens>span{position:static;width:auto;height:auto;overflow:visible;clip:auto;color:#71808d;font-size:8px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+body[data-role="employer"] .employer-lens select{min-height:34px;padding-block:5px;border-color:#c8d0d6;color:var(--employer-blue);font-weight:650}
+
+.employer-page-kicker{display:block;margin-bottom:7px;color:#84663a;font-size:.66rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase}
+
+.employer-scope-map,
+.program-employer-focus,
+.employer-case-context{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  border-bottom:1px solid var(--line);
+}
+.employer-scope-map{margin-top:2px;background:#fbfaf7;border-top:1px solid var(--line)}
+.employer-scope-map>div,
+.program-employer-focus>div,
+.employer-case-context>div{display:grid;align-content:start;gap:4px;padding:16px 20px;border-right:1px solid var(--line)}
+.employer-scope-map>div:first-child{padding-left:0}
+.employer-scope-map>div:last-child,
+.program-employer-focus>div:last-child,
+.employer-case-context>div:last-child{border-right:0}
+.employer-scope-map span,
+.program-employer-focus span,
+.employer-case-context span{color:#7a6749;font-size:8px;font-weight:750;letter-spacing:.09em;text-transform:uppercase}
+.employer-scope-map b,
+.program-employer-focus b,
+.employer-case-context b{color:var(--employer-blue);font:560 12px/1.42 var(--serif)}
+.employer-scope-map small,
+.program-employer-focus small{color:var(--employer-muted);font-size:9px;line-height:1.45}
+
+/* The task room gets one generous work canvas. Handoff is a second, clearly separated task. */
+body[data-role="employer"] .collaboration-page .dual-workdesk{
+  grid-template-columns:230px minmax(0,1fr);
+  margin-top:26px;
+}
+body[data-role="employer"] .collaboration-page .dual-primary{padding:26px 34px 34px}
+body[data-role="employer"] .collaboration-page .dual-handoff{
+  grid-column:1/-1;
+  display:grid;
+  grid-template-columns:minmax(220px,.8fr) minmax(260px,1fr) minmax(240px,1fr);
+  gap:22px;
+  padding:24px 26px 27px;
+  border-top:1px solid var(--line);
+  border-left:0;
+  background:#faf9f6;
+}
+body[data-role="employer"] .collaboration-page .dual-handoff>h2{grid-column:1/-1;margin:0 0 2px;font-size:1.05rem}
+body[data-role="employer"] .collaboration-page .handoff-timeline,
+body[data-role="employer"] .collaboration-page .shared-status,
+body[data-role="employer"] .collaboration-page .contribution-history{margin:0;padding:0;border:0}
+
+.employer-case-context{margin:0 0 24px;border:1px solid #d8dee2;background:#fbfbf9}
+.employer-case-context>div{padding:13px 15px}
+.employer-case-context b{font-family:var(--sans);font-size:10px;font-weight:650;line-height:1.5}
+body[data-role="employer"] .dual-journey{margin-bottom:20px}
+body[data-role="employer"] .dual-action{padding-top:0}
+body[data-role="employer"] .dual-action form{margin-top:18px;border-color:#cad8db;background:#fcfdfd}
+
+/* The programme page stays deep, but the programme itself and the user's decisions no longer compete in three narrow columns. */
+body[data-role="employer"] .program-workspace{grid-template-columns:225px minmax(0,1fr)}
+body[data-role="employer"] .program-index{border-right:1px solid var(--line)}
+body[data-role="employer"] .program-canvas{padding:28px 36px 34px}
+body[data-role="employer"] .program-decision-rail{
+  grid-column:1/-1;
+  display:grid;
+  grid-template-columns:minmax(0,1.35fr) minmax(220px,.65fr) minmax(220px,.65fr);
+  column-gap:30px;
+  align-items:start;
+  padding:25px 28px 30px;
+  border-top:1px solid var(--line);
+  border-left:0;
+  background:#f7f3ea;
+}
+body[data-role="employer"] .program-decision-rail>.program-section-head{grid-column:1/-1}
+body[data-role="employer"] .program-decision-rail>[data-program-decisions]{grid-column:1;grid-row:2/5}
+body[data-role="employer"] .program-decision-rail>.program-role-note{grid-column:auto;margin-top:0;padding-top:18px}
+body[data-role="employer"] .program-decision-rail>.execution-program-impact{grid-column:3}
+
+.program-employer-focus{margin:0 0 27px;border:1px solid #d9d3c8;background:var(--employer-warm)}
+.program-employer-focus>div{padding:14px 16px}
+.program-employer-focus b{font-family:var(--sans);font-size:10px;font-weight:700;line-height:1.45}
+.program-employer-focus small{font-size:8.5px}
+
+body[data-role="employer"] .program-blueprint{padding-top:2px}
+body[data-role="employer"] .program-section-head h3{font-size:1.15rem}
+body[data-role="employer"] .blueprint-row>div:nth-of-type(2)>span,
+body[data-role="employer"] .blueprint-row>div:nth-of-type(3)>span{color:#7b8490;font-size:7px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+
+@media(max-width:1080px){
+  body[data-role="employer"] .collaboration-page .dual-workdesk,
+  body[data-role="employer"] .program-workspace{grid-template-columns:205px minmax(0,1fr)}
+  body[data-role="employer"] .collaboration-page .dual-primary,
+  body[data-role="employer"] .program-canvas{padding-inline:26px}
+  body[data-role="employer"] .collaboration-page .dual-handoff{grid-template-columns:1fr 1fr}
+  body[data-role="employer"] .collaboration-page .dual-handoff>h2,
+  body[data-role="employer"] .collaboration-page .handoff-timeline{grid-column:1/-1}
+}
+
+@media(max-width:860px){
+  body[data-role="employer"] .employer-lens{width:100%;min-width:0}
+  body[data-role="employer"] .collaboration-page .dual-workdesk,
+  body[data-role="employer"] .program-workspace{grid-template-columns:1fr}
+  body[data-role="employer"] .collaboration-page .dual-primary,
+  body[data-role="employer"] .program-canvas{padding-inline:0}
+  body[data-role="employer"] .collaboration-page .dual-handoff,
+  body[data-role="employer"] .program-decision-rail{display:grid;grid-template-columns:1fr 1fr;padding-inline:20px}
+  body[data-role="employer"] .program-decision-rail>[data-program-decisions]{grid-column:1/-1;grid-row:auto}
+  body[data-role="employer"] .program-decision-rail>.program-role-note,
+  body[data-role="employer"] .program-decision-rail>.execution-program-impact{grid-column:auto}
+}
+
+@media(max-width:620px){
+  .employer-scope-map,.program-employer-focus,.employer-case-context{grid-template-columns:1fr}
+  .employer-scope-map>div,.program-employer-focus>div,.employer-case-context>div{padding:13px 0;border-right:0;border-bottom:1px solid var(--line)}
+  .program-employer-focus>div,.employer-case-context>div{padding-inline:13px}
+  .employer-scope-map>div:last-child,.program-employer-focus>div:last-child,.employer-case-context>div:last-child{border-bottom:0}
+  body[data-role="employer"] .collaboration-page .dual-handoff,
+  body[data-role="employer"] .program-decision-rail{display:block;padding-inline:16px}
+  body[data-role="employer"] .collaboration-page .shared-status,
+  body[data-role="employer"] .collaboration-page .contribution-history,
+  body[data-role="employer"] .program-decision-rail>.program-role-note{margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+}

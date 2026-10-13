@@ -1,0 +1,17 @@
+{
+  "contractId": "amavio-one.app-acc-status-mapping",
+  "version": "1.0.0-local-synthetic",
+  "rule": "App and ACC states are bounded-context states. No row authorises direct database mapping or automatic ACC mutation.",
+  "mappings": [
+    { "appState": "draft", "boundaryEvent": null, "externalMeaning": "Locally editable; not submitted.", "accMeaning": null },
+    { "appState": "submitted", "boundaryEvent": "external_submission_received", "externalMeaning": "Version handed to AMAVIO for validation.", "accMeaning": "A reviewable input may be created after contract validation." },
+    { "appState": "under_review", "boundaryEvent": "review_started", "externalMeaning": "AMAVIO is reviewing the confirmed version.", "accMeaning": "Internal review ownership remains an ACC concern." },
+    { "appState": "changes_requested", "boundaryEvent": "external_change_requested", "externalMeaning": "A scoped external change is required.", "accMeaning": "Internal reason and notes remain excluded." },
+    { "appState": "approved", "boundaryEvent": "external_step_approved", "externalMeaning": "Approved only for the named next step.", "accMeaning": "Does not imply booking, payment, allocation or case closure." },
+    { "appState": "acknowledged", "boundaryEvent": "external_response_acknowledged", "externalMeaning": "Response received without allocation or booking.", "accMeaning": "Further internal work may remain open." },
+    { "appState": "ready", "boundaryEvent": "external_handover_ready", "externalMeaning": "The named handover prerequisite is confirmed.", "accMeaning": "Case readiness must be evaluated separately." },
+    { "appState": "expired", "boundaryEvent": "external_window_expired", "externalMeaning": "The visible service window elapsed.", "accMeaning": "Fallback and internal escalation remain ACC responsibilities." },
+    { "appState": "closed", "boundaryEvent": "external_item_closed", "externalMeaning": "The named external item is closed.", "accMeaning": "Does not automatically close an Arrival Case." },
+    { "appState": "archived", "boundaryEvent": "external_item_archived", "externalMeaning": "No longer active in the external workspace.", "accMeaning": "Retention and deletion remain separate lifecycle decisions." }
+  ]
+}

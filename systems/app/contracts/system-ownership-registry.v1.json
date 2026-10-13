@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.cross-system.ownership-registry.v1",
+  "status": "LOCAL_GOVERNANCE_REFERENCE_NO_INTEGRATION",
+  "principle": "One product architecture, three autonomous products, explicit versioned boundaries and no shared database.",
+  "observedSnapshots": {
+    "app": {
+      "release": "2.4.3-r2-contract-closure.1",
+      "path": "09_App/20261010_AMAVIO_One_R2_Production_Readiness_Contract_Closure_Working"
+    },
+    "acc": {
+      "release": "J.5 Dual-Sided Workflow",
+      "path": "10_Control_Center/20261010_AMAVIO_ACC_Release_J_5_Dual_Sided_Workflow_Working"
+    },
+    "crm": {
+      "release": "R3.4 Founder Decision",
+      "path": "09_Unternehmenssystem/07_AMAVIO_One_CRM/20261010_AMAVIO_One_CRM_R3_4_Founder_Decision_Working"
+    }
+  },
+  "products": [
+    {
+      "id": "app",
+      "name": "AMAVIO One App",
+      "roles": ["professional", "housing", "partner"],
+      "authority": ["external_role_experience", "role_minimised_projection", "external_submission_draft", "structured_support_request"],
+      "notAuthority": ["employer_decision", "operations_case_control", "commercial_relationship", "sales_opportunity", "arrival_audit_truth"]
+    },
+    {
+      "id": "acc",
+      "name": "AMAVIO Arrival Control Center",
+      "roles": ["operations", "employer_sponsor", "employer_hr", "employer_location", "employer_budget"],
+      "authority": ["mandate", "location", "cohort", "arrival_case", "risk", "operational_task", "employer_decision", "operations_decision", "arrival_audit_truth"],
+      "notAuthority": ["external_role_account", "commercial_pipeline", "crm_contact_history"]
+    },
+    {
+      "id": "crm",
+      "name": "AMAVIO One CRM",
+      "roles": ["crm_admin", "commercial_owner", "commercial_editor", "operations_viewer", "privacy_reviewer"],
+      "authority": ["commercial_organisation", "commercial_contact", "lead", "opportunity", "commercial_activity", "outreach_draft", "commercial_handoff_review_marker"],
+      "notAuthority": ["arrival_case", "app_role_account", "employer_decision", "operations_case_control", "arrival_audit_truth"]
+    }
+  ],
+  "mandatorySeparation": {
+    "separateCodebases": true,
+    "separateDatastores": true,
+    "separateRoleModels": true,
+    "sharedDatabaseAllowed": false,
+    "directCrossDatabaseAccessAllowed": false,
+    "directAppCrmRouteAllowed": false,
+    "referenceImpliesAuthority": false
+  },
+  "definedBoundaries": [
+    {
+      "source": "app",
+      "target": "acc",
+      "purpose": "external_submission_for_human_review",
+      "status": "CONTRACT_DEFINED_TRANSPORT_NOT_CONNECTED"
+    },
+    {
+      "source": "acc",
+      "target": "app",
+      "purpose": "role_minimised_status_and_next_step_projection",
+      "status": "CONTRACT_DEFINED_TRANSPORT_NOT_CONNECTED"
+    },
+    {
+      "source": "crm",
+      "target": "acc",
+      "purpose": "commercial_handoff_review_marker",
+      "status": "FACHLICH_DEFINED_TECHNICAL_INTEGRATION_BLOCKED"
+    }
+  ],
+  "forbiddenBoundaries": [
+    "app_to_crm_direct",
+    "crm_to_app_direct",
+    "shared_frontend",
+    "shared_session_without_new_gate",
+    "shared_database",
+    "automatic_crm_win_to_arrival_case",
+    "automatic_acc_decision_to_external_app_effect"
+  ]
+}

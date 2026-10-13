@@ -1,0 +1,25 @@
+{
+  "gate": "02A",
+  "date": "2026-10-07",
+  "status": "passed_local_synthetic",
+  "routes": 20,
+  "mutations": 13,
+  "tests": 78,
+  "externalRequests": 0,
+  "realData": false,
+  "externalEffects": false,
+  "classes": {
+    "fuzz": "passed_all_routes",
+    "concurrency": "passed_all_mutations",
+    "idempotency": "passed_all_mutations",
+    "failureInjection": "passed_all_routes",
+    "tenantNegatives": "passed_all_protected_resource_routes",
+    "recovery": "passed_restart_and_transaction_rollbacks"
+  },
+  "evidence": [
+    "QA/gate-02-assurance.test.mjs",
+    "QA/ACC_ROUTE_RESILIENCE_MATRIX_V2_20261007.md",
+    "QA/ACC_PRODUCTIZATION_GATE_02A_QA_20261007.md"
+  ],
+  "nextGate": "moderated_synthetic_usability_test"
+}

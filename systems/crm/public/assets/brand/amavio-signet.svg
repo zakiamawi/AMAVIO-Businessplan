@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200" role="img" aria-labelledby="title desc">
+  <title id="title">AMAVIO Signet</title>
+  <desc id="desc">Compact AMAVIO One signet: the A with its arrival-ring crown, for small digital surfaces</desc>
+  <rect width="160" height="200" fill="#f7f4ec"/>
+  <path d="M105.1 37.3 A26 26 0 1 1 82.3 18.1" fill="none" stroke="#c6a35a" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="96.7" cy="24.1" r="8" fill="#c6a35a"/>
+  <text x="80" y="165" fill="#0b1f3a" font-family="'Fraunces', Georgia, serif" font-size="130" font-weight="600" text-anchor="middle">A</text>
+</svg>

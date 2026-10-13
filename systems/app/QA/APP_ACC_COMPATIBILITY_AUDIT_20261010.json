@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-10-10T05:27:11.056Z",
+  "auditType": "read_only_cross_codebase_contract_audit",
+  "appRelease": "2.4.4-cross-system-alignment.1",
+  "appInterfaceContractVersion": "1.1.0-local-r2-foundation",
+  "accReference": {
+    "release": "J.5",
+    "path": "/Users/zakia/Desktop/Businessplan AKTUELL/10_Control_Center/20261010_AMAVIO_ACC_Release_J_5_Dual_Sided_Workflow_Working",
+    "modified": false,
+    "sources": [
+      {
+        "relativePath": "README.md",
+        "sha256": "90b3f71b52f9a5c1f9f3201d9e2f27150d977f22f8847da7a122dc6fd91addb9"
+      },
+      {
+        "relativePath": "APP_ACC_INTERFACE_BOUNDARY_20260930.md",
+        "sha256": "bd6e8fa077559f225917607868a226596a917baa8d9ae012a031b227bf18860c"
+      },
+      {
+        "relativePath": "architecture/ADR-008_RELEASE_J5_DUAL_SIDED_WORKFLOW_20261010.md",
+        "sha256": "bd7fb7593248e00fc61c0731d108bc30d802526d6b97c48f15312e3c4f864186"
+      },
+      {
+        "relativePath": "architecture/AMAVIO_ACC_ROLE_CONTRACT_V1_20261008.md",
+        "sha256": "af5e4e9eba60036a41323765b67d3e57efd912db66ea43f76f9de81ddf3b4abf"
+      },
+      {
+        "relativePath": "QA/ACC_RELEASE_J5_DUAL_SIDED_WORKFLOW_QA_20261010.md",
+        "sha256": "d86ec09a1561ad7d7bd7c26470caec66b4458af036d1a892359d4feba3478920"
+      },
+      {
+        "relativePath": "backend/server.mjs",
+        "sha256": "c54a5d0094640c8b6cdd5e957f72f750c5e2320a420954f208d117193a5e1c9c"
+      },
+      {
+        "relativePath": "backend/collaboration.mjs",
+        "sha256": "d0b36005452d301294ec5d79fdfe0ad71274649fa72df65da53352cf09713a5d"
+      },
+      {
+        "relativePath": "QA/collaboration.test.mjs",
+        "sha256": "6de0bb7e99bed0e781d3b7e63aec2e67181a4be981d8078efa6d036d2079068a"
+      }
+    ]
+  },
+  "sharedFoundationsObserved": {
+    "syntheticOnly": true,
+    "externalEffects": false,
+    "sqlitePersistence": true,
+    "humanGate": true,
+    "idempotency": true,
+    "auditTrace": true,
+    "separateRoleProjections": true
+  },
+  "capabilityChecks": {
+    "versioned_message_envelope": false,
+    "correlation_id": false,
+    "idempotency_key": true,
+    "expected_revision": true,
+    "app_to_acc_consumer": false,
+    "acc_to_app_sender": false,
+    "negative_rights_enforcement": true,
+    "role_minimised_projection": true,
+    "audit_trace": true,
+    "replay_and_reconciliation_behavior": false
+  },
+  "peerProfile": {
+    "release": "J.5",
+    "interfaceContractVersion": null,
+    "syntheticOnly": true,
+    "externalEffects": false,
+    "capabilities": [
+      "idempotency_key",
+      "expected_revision",
+      "negative_rights_enforcement",
+      "role_minimised_projection",
+      "audit_trace"
+    ]
+  },
+  "assessment": {
+    "compatible": false,
+    "status": "NOT_COMPATIBLE_YET",
+    "reasons": [
+      "interface_contract_version_mismatch",
+      "required_capabilities_missing"
+    ],
+    "missingCapabilities": [
+      "versioned_message_envelope",
+      "correlation_id",
+      "app_to_acc_consumer",
+      "acc_to_app_sender",
+      "replay_and_reconciliation_behavior"
+    ],
+    "requiredInterfaceContractVersion": "1.1.0-local-r2-foundation",
+    "observedInterfaceContractVersion": null
+  },
+  "conclusion": "The products share foundations but live App–ACC compatibility is not yet proven. No transport or release claim is permitted."
+}
