@@ -58,6 +58,7 @@ Vollstaendiger Ausgangsaudit: `90_QA/AMAVIO_GITHUB_VOLLSTAENDIGKEITSAUDIT_202610
 | 13.10.2026 | Sicherung vor moeglicher Git-Konfigurationsaenderung erstellt | `_Codex_Tooling_Backups/20261013_github_konsolidierung_pre/` |
 | 13.10.2026 | Bestehende GitHub-Altstaende ohne Loeschung nach `archive/pre-20261013/` verschoben | Inhalts-Commit `f9bdede` |
 | 13.10.2026 | Kuratierte Master-Struktur erstellt; Abhaengigkeits-Symlink und `.bak`-Konfigurationskopien vor dem Push entfernt | Inhalts-Commit `f9bdede` |
+| 13.10.2026 | Remote-Branch und Pull Request read-only verifiziert | PR `#17`, Head `c04065c`, AgentShield Security Scan erfolgreich |
 
 ## Abschlusspruefungen
 
@@ -69,7 +70,7 @@ Vor Abschluss zu dokumentieren:
 - [x] Systemquellen mit ihren jeweiligen QA-Kommandos geprueft
 - [x] Git-Status und Diff vor Commit kontrolliert; `git diff --cached --check` ohne Fehler
 - [x] Inhalts-Commit und Zielbranch dokumentiert: `f9bdede` auf `master-project-20260919`
-- [ ] Pull Request nach Push erneut geprueft
+- [x] Pull Request nach Push erneut geprueft: `#17` offen, Draft, `mergeable_state: clean`; Head beim Inhalts-Readback `c04065c`
 - [ ] Website-Repository ohne unbeabsichtigtes Produktionsdeployment behandelt
 
 ## System-QA am 13.10.2026
