@@ -2,7 +2,7 @@
 
 Datum: 13.10.2026  
 Projektquelle: `/Users/zakia/Desktop/Businessplan AKTUELL`  
-Status: Master-Repository abgeschlossen; Website im geprueften Preview-PR, Produktionsmerge offen
+Status: Master-Repository abgeschlossen; Website V17.8 gemergt, produktiv veroeffentlicht und live verifiziert
 
 ## Ziel
 
@@ -43,11 +43,13 @@ Vollstaendiger Ausgangsaudit: `90_QA/AMAVIO_GITHUB_VOLLSTAENDIGKEITSAUDIT_202610
 | Finanztool Original | `finanztool-2024-02-22-data-4.xlsx` | `finance/current/original/` | uebernommen; der im Projektregelwerk genannte Dateiname ohne `-4` fehlt lokal |
 | Investorenplan | `AMAVIO_Investoren_Businessplan.docx` | `investor/current/` | uebernommen |
 | Brandbook | `08_Website/brand/AMAVIO_One_Brandbook_Master_V2_Designveredelung_20260930` | `brand/current/` | uebernommen |
-| Website | `08_Website/amavio-living-site/20261013_V17_8_Public_Release` | `amavio-living-site` | auf Branch und in Draft-PR `#7`; Preview READY; Produktionsmerge bewusst offen |
+| Website | `08_Website/amavio-living-site/20261013_V17_8_Public_Release` | `amavio-living-site` | PR `#7` gemergt; Merge-Commit `ac3a6c3`; Production-Deployment `dpl_64aJpNGrVdULCsMEcunspySi8UBj` READY; Live-QA bestanden |
 | App | `09_App/20261010_AMAVIO_One_Cross_System_Ownership_Contract_Alignment_Working` | `systems/app/` | uebernommen |
 | ACC | `10_Control_Center/20261013_AMAVIO_ACC_Release_Q_True_Workspaces_Working` | `systems/acc/` | uebernommen |
 | CRM | `09_Unternehmenssystem/07_AMAVIO_One_CRM/20261013_AMAVIO_One_CRM_R3_17_Unified_Global_Search_Working` | `systems/crm/` | uebernommen; CRM-Echtdaten und lokale Datenartefakte ausgeschlossen |
 | Praesentationen | `07_Praesentationen/20260925_App_Prototype_Integration/output` | `presentations/current/` | uebernommen |
+| Finanz-Governance | drei Steuerungsdokumente unter `00_START_HIER/` plus QA | `governance/finance/20260930/` | als interne Governance uebernommen; kein Ersatz fuer den aktuellen S2-Kernanker |
+| NEXT-Finalunterlagen | finale Executive Summary und finaler Business Model Canvas vom 30.09.2026 | `funding/current/next-digital-tech/final/` | inklusive QA uebernommen; signiertes/persoenliches Bewerbungsformular ausgeschlossen |
 
 ## Aenderungsprotokoll
 
@@ -63,6 +65,9 @@ Vollstaendiger Ausgangsaudit: `90_QA/AMAVIO_GITHUB_VOLLSTAENDIGKEITSAUDIT_202610
 | 13.10.2026 | Website V17.8 in separaten Branch und Draft-PR uebernommen | PR `#7`, Head `aaf248e`; Altstand unter `archive/pre-v17-8/` erhalten |
 | 13.10.2026 | Vercel-Preview und Produktionsgrenze verifiziert | Preview `dpl_BvAqaadrjzZ5db6zv47gQodahmtV` READY, `target: null`; Produktion unveraendert auf `dpl_GZohxgJNHxZvfmnfKQDA3xakeXkM` |
 | 13.10.2026 | Vier eindeutig historische Top-Level-Arbeitsstaende und zwei Installationsdateien lokal archivierend aus dem Projektwurzelverzeichnis entfernt | `99_Archiv/20261013_Top_Level_Konsolidierung/README_ARCHIVMANIFEST_20261013.md`; keine Loeschung |
+| 13.10.2026 | Website-PR nach ausdruecklicher Freigabe normal gemergt | PR `#7`; Merge-Commit `ac3a6c3b95f5975def28a6bc3893d77844f4d28d` |
+| 13.10.2026 | Automatisches Vercel-Production-Deployment und Livezustand verifiziert | `dpl_64aJpNGrVdULCsMEcunspySi8UBj` READY; 60/60 Browserpruefungen und 24/24 Byte-Vergleiche bestanden |
+| 13.10.2026 | Chat-zu-Quellstand-Nachaudit fuer Website, App, ACC, CRM, Businessplan, Brandbook, Foerderung und Praesentationen abgeschlossen | `90_QA/AMAVIO_GITHUB_AKTUALITAETS_NACHAUDIT_20261013.md` |
 
 ## Abschlusspruefungen
 
@@ -75,7 +80,7 @@ Vor Abschluss zu dokumentieren:
 - [x] Git-Status und Diff vor Commit kontrolliert; `git diff --cached --check` ohne Fehler
 - [x] Inhalts-Commit und Zielbranch dokumentiert: `f9bdede` auf `master-project-20260919`
 - [x] Pull Request nach Push erneut geprueft und zusammengefuehrt: `#17`; Merge-Commit `c305468` auf `main`
-- [x] Website-Repository ohne unbeabsichtigtes Produktionsdeployment behandelt: Branch und Draft-PR `#7` vorhanden, Preview READY, Produktionsdeployment unveraendert
+- [x] Website-Repository nach ausdruecklicher Freigabe gemergt und produktiv verifiziert: PR `#7`, Production READY, Live-Browser-QA 60/60, Byte-Abgleich 24/24
 
 ## System-QA am 13.10.2026
 
@@ -90,7 +95,7 @@ Die Tests belegen lokale Quell- und Funktionsqualitaet. Sie belegen keine produk
 
 ## Offene Punkte
 
-1. Der Website-Stand ist auf GitHub vollstaendig im geprueften Draft-PR `#7` gesichert. Das Zusammenfuehren nach `main` bleibt gesperrt, bis die damit moeglicherweise verbundene produktive Vercel-Veroeffentlichung ausdruecklich freigegeben ist.
-2. Der ECC-Tools-PR-Audit fuer das private Website-Repository wurde nicht ausgefuehrt, weil der Dienst fuer private Repositories Pro oder Enterprise verlangt und die benoetigte Checks-Schreibberechtigung fehlt. Die lokale QA und der Vercel-Preview sind davon unabhaengig erfolgreich.
-3. Die eindeutigen lokalen Altstaende und Installationsdateien sind archivierend bereinigt. Unklare oder sensible Dateien bleiben fuer eine spaetere fachliche Zuordnung bewusst unangetastet.
+1. Der ECC-Tools-PR-Audit fuer das private Website-Repository wurde nicht ausgefuehrt, weil der Dienst fuer private Repositories Pro oder Enterprise verlangt und die benoetigte Checks-Schreibberechtigung fehlt. Die lokale QA, der Merge, das Vercel-Production-Deployment und die Live-QA sind davon unabhaengig erfolgreich.
+2. Die eindeutigen lokalen Altstaende und Installationsdateien sind archivierend bereinigt. Unklare oder sensible Dateien bleiben fuer eine spaetere fachliche Zuordnung bewusst unangetastet.
+3. CRM-Echtdaten, Kontaktlisten, Import-Staging, lokale Datenbanken, Backups und private Nachweise bleiben absichtlich ausserhalb von GitHub. Diese Schutzgrenze ist kein Vollstaendigkeitsfehler, sondern Teil der verbindlichen Daten- und Sicherheitsarchitektur.
 

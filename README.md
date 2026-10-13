@@ -20,7 +20,8 @@ Dieses Repository ist eine kuratierte GitHub-Sicherung. Es ersetzt weder die lok
 |---|---|
 | `businessplan/current/` | aktueller Businessplan-Arbeitsstand |
 | `finance/current/` | aktuelles S2-Finanzmodell und gekennzeichnete Originalbasis |
-| `funding/current/` | kuratierte Foerderradare und NEXT-/Digital-Tech-Unterlagen |
+| `governance/finance/20260930/` | interne Finanz- und KPI-Governance; ersetzt nicht den aktuellen S2-Kernanker |
+| `funding/current/` | kuratierte Foerderradare, NEXT-/Digital-Tech-Unterlagen sowie finale, nicht signierte Executive Summary und Business Model Canvas |
 | `founder/current/` | freigegebene gruenderbezogene Geschaeftsunterlage |
 | `customer/current/` | One-Pager sowie Kundenpraesentationen |
 | `investor/current/` | aktueller Investoren-Businessplan |
@@ -29,7 +30,7 @@ Dieses Repository ist eine kuratierte GitHub-Sicherung. Es ersetzt weder die lok
 | `systems/app/` | App-Quellstand; eigenstaendiges Produkt |
 | `systems/acc/` | Arrival Control Center; eigenstaendiges Produkt |
 | `systems/crm/` | lokales CRM; eigenstaendiges Produkt, ohne Echtdaten/DB-Dateien |
-| `manifests/` | Master-Index, Vollstaendigkeitsaudit und Konsolidierungs-QA |
+| `manifests/` | Master-Index, Vollstaendigkeitsaudit, Konsolidierungs-QA und Aktualitaets-Nachaudit |
 | `governance/` | Sicherheits- und historische Migrationsregeln |
 | `archive/pre-20261013/` | bereits zuvor versionierte Altstaende; nicht aktuelle Quelle |
 
@@ -43,7 +44,7 @@ Nicht versioniert werden Zugangsdaten, `.env`-Dateien, Tokens, Auth-Artefakte, C
 
 ## Website
 
-Der aktuelle Website-Quellstand gehoert ausschliesslich in das separate private Repository `zakiamawi/amavio-living-site`. Historische Website-Dateien in `archive/pre-20261013/` sind keine Deployment-Quelle.
+Der aktuelle Website-Quellstand gehoert ausschliesslich in das separate private Repository `zakiamawi/amavio-living-site`. V17.8 wurde am 13.10.2026 ueber PR `#7` in `main` gemergt und anschliessend produktiv verifiziert. Historische Website-Dateien in `archive/pre-20261013/` sind keine Deployment-Quelle.
 
 ## Status
 
