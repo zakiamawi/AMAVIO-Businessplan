@@ -9,6 +9,8 @@ Umfang: Website-Veroeffentlichung sowie Chat-zu-Quelle-Abgleich fuer Website, Ap
 
 Der kuratierte GitHub-Stand enthaelt die aktuellsten **implementierten und fachlich als Anker festgelegten** Quellstaende fuer Website, App, Arrival Control Center und CRM. Zusaetzlich sind die aktuellen kuratierten Kernunterlagen fuer Businessplan, Finanzmodell, Brandbook, Foerderung, Kunden, Investoren und Praesentationen enthalten oder in diesem Nachaudit ergaenzt worden.
 
+Master-Repository `zakiamawi/AMAVIO-Businessplan`: Nachaudit-Ergaenzung `70745f3`, anschliessende reine Markdown-Normalisierung `87801c8` auf `main`.
+
 Nicht uebernommen werden Chat-Transkripte als solche, historische Zwischenstaende, bloss vorgeschlagene Folge-Releases, reproduzierbare Laufzeit-/Buildartefakte sowie sensible oder personenbezogene Daten. GitHub ist damit eine kuratierte Versions- und Quellsicherung, keine ungefilterte Kopie des gesamten Projektordners.
 
 ## 2. Website V17.8: Merge und Produktion
