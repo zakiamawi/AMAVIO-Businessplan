@@ -1,6 +1,6 @@
 # AMAVIO One KPI Dictionary
 
-**Stichtag:** 30.09.2026  
+**Stichtag:** 30.09.2026
 **Status:** Interne Governance-Arbeitsfassung; keine externe Zahlenfreigabe
 
 ## Statuslabels

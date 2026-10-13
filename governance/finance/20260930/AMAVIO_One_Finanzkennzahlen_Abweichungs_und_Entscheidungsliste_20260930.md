@@ -1,6 +1,6 @@
 # AMAVIO One Finanzkennzahlen: Abweichungs- und Entscheidungsliste
 
-**Stichtag:** 30.09.2026  
+**Stichtag:** 30.09.2026
 **Status:** P0-Entscheidungsvorlage vor weiterer Investorenkommunikation
 
 ## 1. Festgestellte Abweichungen

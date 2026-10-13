@@ -1,6 +1,6 @@
 # QA: AMAVIO One Finance Source Lock und KPI Dictionary
 
-**Datum:** 30.09.2026  
+**Datum:** 30.09.2026
 **Pruefstatus:** Interner QA-Pass abgeschlossen; externe Zahlenfreigabe nicht erteilt
 
 ## 1. Gepruefte und erstellte Artefakte
@@ -86,7 +86,7 @@ Bestanden:
 
 ## 8. QA-Ergebnis
 
-**Interne Governance-Unterlagen: bestanden.**  
+**Interne Governance-Unterlagen: bestanden.**
 **Externe Zahlenfreigabe: nicht bestanden / noch nicht erteilt.**
 
 Naechster kontrollierter Schritt: P0-Entscheidungen aus der Abweichungsliste schliessen; erst danach Investorendeck oder Executive Summary mit Zahlen aktualisieren.

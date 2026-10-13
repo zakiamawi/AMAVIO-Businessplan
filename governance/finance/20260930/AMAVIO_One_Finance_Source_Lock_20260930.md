@@ -1,7 +1,7 @@
 # AMAVIO One Finance Source Lock
 
-**Stichtag:** 30.09.2026  
-**Status:** Interner Quellen- und Zahlenfreeze; keine externe Freigabe  
+**Stichtag:** 30.09.2026
+**Status:** Interner Quellen- und Zahlenfreeze; keine externe Freigabe
 **Zweck:** Verbindliche Arbeitsbasis fuer Investorendeck, Executive Summary, Businessplan- und Foerderunterlagen. Dieser Freeze aendert keine Quelldatei und ersetzt keine fachliche Freigabe.
 
 ## 1. Fuehrende Quellen
