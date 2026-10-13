@@ -1,7 +1,7 @@
 # AMAVIO Master-Index
 
 Stand: 13.10.2026  
-Status: verbindlicher Arbeits- und Ablageindex fuer den Projektordner `Businessplan AKTUELL`
+Status: verbindlicher Arbeits- und Ablageindex fuer den Projektordner `Businessplan AKTUELL`; Master-Repository konsolidiert, Website-Produktionsmerge separat freizugeben
 
 ## 1. Verbindliche Quelle
 
@@ -19,6 +19,8 @@ Zur Vermeidung weiterer Ablageinseln werden nur zwei private GitHub-Repositories
    Kuratierter Master fuer Governance, Businessplan, Finanzen, Foerderung, Marke, Kunden- und Investorenunterlagen, Praesentationen sowie klar getrennte Quellstaende von App, ACC und CRM.
 2. `zakiamawi/amavio-living-site`  
    Ausschliesslich Website-Quellstand und websitebezogene Release-Dokumentation.
+
+Aktueller GitHub-Stand am 13.10.2026: Der kuratierte Master ist ueber PR `#17` in `main` zusammengefuehrt. Die Website V17.8 ist auf dem Branch `codex/website-v17-8-source-20261013` und in Draft-PR `#7` vollstaendig gesichert. Der gepruefte Vercel-Preview ist READY; der Merge nach `main` bleibt bis zur ausdruecklichen Produktionsfreigabe offen.
 
 App, Arrival Control Center und CRM bleiben getrennte Produkte und getrennte Quellbereiche. Die gemeinsame Ablage im Master-Repository behauptet weder eine technische Integration noch einen gemeinsamen Datenbestand.
 
@@ -84,4 +86,6 @@ Nicht nach GitHub uebernommen werden:
 ## 7. Ordnung und Archivierung
 
 Aufraeumen bedeutet archivieren, nicht loeschen. Vor dem Verschieben werden Quelle, Ziel und Grund in einer Manifest- oder QA-Datei festgehalten. Unklare oder sensible Dateien werden nicht automatisch umsortiert, bis ihre fachliche Zuordnung sicher ist.
+
+Top-Level-Bereinigung vom 13.10.2026: Vier eindeutig historische Arbeitsstaende und zwei Installationsdateien wurden ohne Loeschung unter `99_Archiv/20261013_Top_Level_Konsolidierung/` archiviert. Das dortige `README_ARCHIVMANIFEST_20261013.md` dokumentiert jeden verschobenen Pfad und den aktuellen fachlichen Anker.
 

@@ -2,7 +2,7 @@
 
 Datum: 13.10.2026  
 Projektquelle: `/Users/zakia/Desktop/Businessplan AKTUELL`  
-Status: in Arbeit
+Status: Master-Repository abgeschlossen; Website im geprueften Preview-PR, Produktionsmerge offen
 
 ## Ziel
 
@@ -22,7 +22,7 @@ Vollstaendiger Ausgangsaudit: `90_QA/AMAVIO_GITHUB_VOLLSTAENDIGKEITSAUDIT_202610
 | Werkzeug | Status |
 |---|---|
 | Git | installiert, callable, Remote-Lesezugriff smoke-tested |
-| GitHub-Connector | installiert, aktiviert, callable, authentifiziert, read-only smoke-tested |
+| GitHub-Connector | installiert, aktiviert, callable, authentifiziert, Lese- und Schreibpfad smoke-tested |
 | GitHub CLI `gh` | nicht installiert |
 | Git LFS | nicht installiert; fuer die aktuell ausgewaehlten Dateien nur zulaessig, wenn keine Datei das normale GitHub-Einzeldateilimit erreicht |
 
@@ -38,16 +38,16 @@ Vollstaendiger Ausgangsaudit: `90_QA/AMAVIO_GITHUB_VOLLSTAENDIGKEITSAUDIT_202610
 
 | Bereich | Lokale Quelle | GitHub-Ziel | Status |
 |---|---|---|---|
-| Businessplan | `AMAVIO_AKTUELLSTER NEUdocx Kopie.docx` | `businessplan/current/` | vorgesehen |
-| Finanzmodell | `02_Finanztool/AMAVIO_Finanztool_Monatsmodell_S2_Tragbare_Preislogik_Arbeitskopie_20260822.xlsx` | `finance/current/` | vorgesehen |
+| Businessplan | `AMAVIO_AKTUELLSTER NEUdocx Kopie.docx` | `businessplan/current/` | uebernommen |
+| Finanzmodell | `02_Finanztool/AMAVIO_Finanztool_Monatsmodell_S2_Tragbare_Preislogik_Arbeitskopie_20260822.xlsx` | `finance/current/` | uebernommen |
 | Finanztool Original | `finanztool-2024-02-22-data-4.xlsx` | `finance/current/original/` | uebernommen; der im Projektregelwerk genannte Dateiname ohne `-4` fehlt lokal |
-| Investorenplan | `AMAVIO_Investoren_Businessplan.docx` | `investor/current/` | vorgesehen |
-| Brandbook | `08_Website/brand/AMAVIO_One_Brandbook_Master_V2_Designveredelung_20260930` | `brand/current/` | vorgesehen |
-| Website | `08_Website/amavio-living-site/20261013_V17_8_Public_Release` | `amavio-living-site` | gesondert zu pruefen |
-| App | `09_App/20261010_AMAVIO_One_Cross_System_Ownership_Contract_Alignment_Working` | `systems/app/` | vorgesehen |
-| ACC | `10_Control_Center/20261013_AMAVIO_ACC_Release_Q_True_Workspaces_Working` | `systems/acc/` | vorgesehen |
-| CRM | `09_Unternehmenssystem/07_AMAVIO_One_CRM/20261013_AMAVIO_One_CRM_R3_17_Unified_Global_Search_Working` | `systems/crm/` | vorgesehen, harte Datenausschluesse |
-| Praesentationen | `07_Praesentationen/20260925_App_Prototype_Integration/output` | `presentations/current/` | vorgesehen |
+| Investorenplan | `AMAVIO_Investoren_Businessplan.docx` | `investor/current/` | uebernommen |
+| Brandbook | `08_Website/brand/AMAVIO_One_Brandbook_Master_V2_Designveredelung_20260930` | `brand/current/` | uebernommen |
+| Website | `08_Website/amavio-living-site/20261013_V17_8_Public_Release` | `amavio-living-site` | auf Branch und in Draft-PR `#7`; Preview READY; Produktionsmerge bewusst offen |
+| App | `09_App/20261010_AMAVIO_One_Cross_System_Ownership_Contract_Alignment_Working` | `systems/app/` | uebernommen |
+| ACC | `10_Control_Center/20261013_AMAVIO_ACC_Release_Q_True_Workspaces_Working` | `systems/acc/` | uebernommen |
+| CRM | `09_Unternehmenssystem/07_AMAVIO_One_CRM/20261013_AMAVIO_One_CRM_R3_17_Unified_Global_Search_Working` | `systems/crm/` | uebernommen; CRM-Echtdaten und lokale Datenartefakte ausgeschlossen |
+| Praesentationen | `07_Praesentationen/20260925_App_Prototype_Integration/output` | `presentations/current/` | uebernommen |
 
 ## Aenderungsprotokoll
 
@@ -58,7 +58,11 @@ Vollstaendiger Ausgangsaudit: `90_QA/AMAVIO_GITHUB_VOLLSTAENDIGKEITSAUDIT_202610
 | 13.10.2026 | Sicherung vor moeglicher Git-Konfigurationsaenderung erstellt | `_Codex_Tooling_Backups/20261013_github_konsolidierung_pre/` |
 | 13.10.2026 | Bestehende GitHub-Altstaende ohne Loeschung nach `archive/pre-20261013/` verschoben | Inhalts-Commit `f9bdede` |
 | 13.10.2026 | Kuratierte Master-Struktur erstellt; Abhaengigkeits-Symlink und `.bak`-Konfigurationskopien vor dem Push entfernt | Inhalts-Commit `f9bdede` |
-| 13.10.2026 | Remote-Branch und Pull Request read-only verifiziert | PR `#17`, Head `c04065c`, AgentShield Security Scan erfolgreich |
+| 13.10.2026 | Remote-Branch und Pull Request verifiziert | PR `#17`, Head `c04065c`, AgentShield Security Scan erfolgreich |
+| 13.10.2026 | Finale Master-Dokumentation gepusht und PR `#17` normal zusammengefuehrt | Head vor Merge `8683b3c`; Merge-Commit `c305468` auf `main` |
+| 13.10.2026 | Website V17.8 in separaten Branch und Draft-PR uebernommen | PR `#7`, Head `aaf248e`; Altstand unter `archive/pre-v17-8/` erhalten |
+| 13.10.2026 | Vercel-Preview und Produktionsgrenze verifiziert | Preview `dpl_BvAqaadrjzZ5db6zv47gQodahmtV` READY, `target: null`; Produktion unveraendert auf `dpl_GZohxgJNHxZvfmnfKQDA3xakeXkM` |
+| 13.10.2026 | Vier eindeutig historische Top-Level-Arbeitsstaende und zwei Installationsdateien lokal archivierend aus dem Projektwurzelverzeichnis entfernt | `99_Archiv/20261013_Top_Level_Konsolidierung/README_ARCHIVMANIFEST_20261013.md`; keine Loeschung |
 
 ## Abschlusspruefungen
 
@@ -70,8 +74,8 @@ Vor Abschluss zu dokumentieren:
 - [x] Systemquellen mit ihren jeweiligen QA-Kommandos geprueft
 - [x] Git-Status und Diff vor Commit kontrolliert; `git diff --cached --check` ohne Fehler
 - [x] Inhalts-Commit und Zielbranch dokumentiert: `f9bdede` auf `master-project-20260919`
-- [x] Pull Request nach Push erneut geprueft: `#17` offen, Draft, `mergeable_state: clean`; Head beim Inhalts-Readback `c04065c`
-- [ ] Website-Repository ohne unbeabsichtigtes Produktionsdeployment behandelt
+- [x] Pull Request nach Push erneut geprueft und zusammengefuehrt: `#17`; Merge-Commit `c305468` auf `main`
+- [x] Website-Repository ohne unbeabsichtigtes Produktionsdeployment behandelt: Branch und Draft-PR `#7` vorhanden, Preview READY, Produktionsdeployment unveraendert
 
 ## System-QA am 13.10.2026
 
@@ -86,7 +90,7 @@ Die Tests belegen lokale Quell- und Funktionsqualitaet. Sie belegen keine produk
 
 ## Offene Punkte
 
-1. Der Website-Remote muss deployment-sicher aktualisiert werden; die Git-Verknuepfung mit Vercel ist vor einem Branch-Push zu pruefen.
-2. Der Draft-PR `#17` ist erst nach Inhalts-, Sicherheits- und Dateigroessenpruefung zusammenfuehrungsbereit.
-3. Lokale Aufraeumarbeiten erfolgen ausschliesslich archivierend und mit Manifest.
+1. Der Website-Stand ist auf GitHub vollstaendig im geprueften Draft-PR `#7` gesichert. Das Zusammenfuehren nach `main` bleibt gesperrt, bis die damit moeglicherweise verbundene produktive Vercel-Veroeffentlichung ausdruecklich freigegeben ist.
+2. Der ECC-Tools-PR-Audit fuer das private Website-Repository wurde nicht ausgefuehrt, weil der Dienst fuer private Repositories Pro oder Enterprise verlangt und die benoetigte Checks-Schreibberechtigung fehlt. Die lokale QA und der Vercel-Preview sind davon unabhaengig erfolgreich.
+3. Die eindeutigen lokalen Altstaende und Installationsdateien sind archivierend bereinigt. Unklare oder sensible Dateien bleiben fuer eine spaetere fachliche Zuordnung bewusst unangetastet.
 
