@@ -56,6 +56,8 @@ Vollstaendiger Ausgangsaudit: `90_QA/AMAVIO_GITHUB_VOLLSTAENDIGKEITSAUDIT_202610
 | 13.10.2026 | Vollstaendigkeitsaudit erstellt | `90_QA/AMAVIO_GITHUB_VOLLSTAENDIGKEITSAUDIT_20261013.md` |
 | 13.10.2026 | Master-Index erstellt | `00_START_HIER/AMAVIO_MASTER_INDEX_20261013.md` |
 | 13.10.2026 | Sicherung vor moeglicher Git-Konfigurationsaenderung erstellt | `_Codex_Tooling_Backups/20261013_github_konsolidierung_pre/` |
+| 13.10.2026 | Bestehende GitHub-Altstaende ohne Loeschung nach `archive/pre-20261013/` verschoben | Inhalts-Commit `f9bdede` |
+| 13.10.2026 | Kuratierte Master-Struktur erstellt; Abhaengigkeits-Symlink und `.bak`-Konfigurationskopien vor dem Push entfernt | Inhalts-Commit `f9bdede` |
 
 ## Abschlusspruefungen
 
@@ -65,8 +67,8 @@ Vor Abschluss zu dokumentieren:
 - [x] Dateinamen auf moegliche Geheimnis-/Datenartefakte geprueft; nur fachliche Design-Token- und Secret-Strategie-Dokumentnamen als erklaerte Fehlalarme
 - [x] CRM `local-data`, SQLite, Backups und Exporte ausgeschlossen
 - [x] Systemquellen mit ihren jeweiligen QA-Kommandos geprueft
-- [ ] Git-Status und Diff vor Commit kontrolliert
-- [ ] Commit-ID und Remote-Branch dokumentiert
+- [x] Git-Status und Diff vor Commit kontrolliert; `git diff --cached --check` ohne Fehler
+- [x] Inhalts-Commit und Zielbranch dokumentiert: `f9bdede` auf `master-project-20260919`
 - [ ] Pull Request nach Push erneut geprueft
 - [ ] Website-Repository ohne unbeabsichtigtes Produktionsdeployment behandelt
 
