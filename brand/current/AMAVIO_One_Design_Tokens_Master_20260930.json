@@ -1,0 +1,131 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "brand": "AMAVIO One",
+    "version": "2026-09-30",
+    "status": "Master-Arbeitsfassung",
+    "external_release": false,
+    "source_root": "/Users/zakia/Desktop/Businessplan AKTUELL",
+    "note": "Founder Gates bleiben offen; Produktreife und Claims muessen je Artefakt separat geprueft werden."
+  },
+  "color": {
+    "brand": {
+      "navy": { "$type": "color", "$value": "#0B1F3A", "$description": "Primaere Markenfarbe und Logo-Navy." },
+      "stageNavy": { "$type": "color", "$value": "#081527", "$description": "Dunkle filmische Buehne und Hero-Flaeche." },
+      "appNavy": { "$type": "color", "$value": "#10253D", "$description": "App-Fokusflaeche und UI-Tiefe." },
+      "cream": { "$type": "color", "$value": "#F7F4EC", "$description": "Ruhiger primaerer Hintergrund." },
+      "white": { "$type": "color", "$value": "#FFFFFF" },
+      "ink": { "$type": "color", "$value": "#222222", "$description": "Primaerer Fliesstext." },
+      "neutralGray": { "$type": "color", "$value": "#6F7680", "$description": "Sekundaertext; nicht fuer kleinen kritischen Text auf Cream." },
+      "gold": { "$type": "color", "$value": "#C6A35A", "$description": "Arrival Line und Akzent auf Navy." },
+      "goldDeep": { "$type": "color", "$value": "#9C7D3F", "$description": "Dekorativer/grosser Akzent auf hell; nicht fuer kleinen Normaltext." },
+      "bronzeText": { "$type": "color", "$value": "#7D6130", "$description": "Barriereaermerer Akzenttext auf hell." }
+    },
+    "neutral": {
+      "stone": { "$type": "color", "$value": "#D9D0C3" },
+      "line": { "$type": "color", "$value": "#E2DCC9" },
+      "surfaceAlt": { "$type": "color", "$value": "#EFE9D9" }
+    },
+    "status": {
+      "confirmedText": { "$type": "color", "$value": "#234C78" },
+      "confirmedStrong": { "$type": "color", "$value": "#2F5C8C" },
+      "confirmedSoft": { "$type": "color", "$value": "#E8EEF5" },
+      "attentionText": { "$type": "color", "$value": "#A94F45" },
+      "attentionStrong": { "$type": "color", "$value": "#D95E52" },
+      "attentionSoft": { "$type": "color", "$value": "#FFF0ED" },
+      "warningText": { "$type": "color", "$value": "#7D6130" },
+      "warningSoft": { "$type": "color", "$value": "#FBEFD7" }
+    },
+    "semantic": {
+      "text": { "$type": "color", "$value": "{color.brand.ink}" },
+      "textStrong": { "$type": "color", "$value": "{color.brand.navy}" },
+      "textOnDark": { "$type": "color", "$value": "{color.brand.cream}" },
+      "background": { "$type": "color", "$value": "{color.brand.cream}" },
+      "surface": { "$type": "color", "$value": "{color.brand.white}" },
+      "surfaceDark": { "$type": "color", "$value": "{color.brand.stageNavy}" },
+      "border": { "$type": "color", "$value": "{color.neutral.stone}" },
+      "accent": { "$type": "color", "$value": "{color.brand.gold}" },
+      "accentTextOnLight": { "$type": "color", "$value": "{color.brand.bronzeText}" },
+      "focus": { "$type": "color", "$value": "{color.brand.gold}" }
+    },
+    "legacy": {
+      "deepInk": { "$type": "color", "$value": "#101414", "$description": "Historischer Brandbook-Wert; nicht neu als Primaerfarbe einfuehren." },
+      "signalCoral": { "$type": "color", "$value": "#F2765B", "$description": "Abgeloest durch funktionale Attention-Familie." },
+      "appBronze": { "$type": "color", "$value": "#B58A45", "$description": "Bestehender Prototypwert; fuer neuen normalen Text nicht verwenden." }
+    }
+  },
+  "font": {
+    "family": {
+      "digitalSans": { "$type": "fontFamily", "$value": ["Geist", "Segoe UI", "Arial", "sans-serif"] },
+      "digitalSerif": { "$type": "fontFamily", "$value": ["Fraunces", "Georgia", "serif"] },
+      "digitalMono": { "$type": "fontFamily", "$value": ["Geist Mono", "SFMono-Regular", "Consolas", "monospace"] },
+      "appSans": { "$type": "fontFamily", "$value": ["Geist", "Inter", "system-ui", "Segoe UI", "Arial", "sans-serif"] },
+      "office": { "$type": "fontFamily", "$value": ["Arial", "Aptos", "Calibri", "sans-serif"] },
+      "officeAccent": { "$type": "fontFamily", "$value": ["Georgia", "Times New Roman", "serif"] }
+    },
+    "weight": {
+      "regular": { "$type": "fontWeight", "$value": 400 },
+      "medium": { "$type": "fontWeight", "$value": 500 },
+      "semibold": { "$type": "fontWeight", "$value": 600 },
+      "bold": { "$type": "fontWeight", "$value": 700 }
+    },
+    "size": {
+      "webBody": { "$type": "dimension", "$value": "16px" },
+      "webLead": { "$type": "dimension", "$value": "18px" },
+      "appBody": { "$type": "dimension", "$value": "16px" },
+      "appMeta": { "$type": "dimension", "$value": "12px" },
+      "docBody": { "$type": "dimension", "$value": "10.5pt" },
+      "docTable": { "$type": "dimension", "$value": "9pt" },
+      "docFoot": { "$type": "dimension", "$value": "8.5pt" }
+    }
+  },
+  "space": {
+    "1": { "$type": "dimension", "$value": "4px" },
+    "2": { "$type": "dimension", "$value": "8px" },
+    "3": { "$type": "dimension", "$value": "12px" },
+    "4": { "$type": "dimension", "$value": "16px" },
+    "6": { "$type": "dimension", "$value": "24px" },
+    "8": { "$type": "dimension", "$value": "32px" },
+    "12": { "$type": "dimension", "$value": "48px" },
+    "16": { "$type": "dimension", "$value": "64px" },
+    "24": { "$type": "dimension", "$value": "96px" }
+  },
+  "size": {
+    "contentMax": { "$type": "dimension", "$value": "1200px" },
+    "stageMax": { "$type": "dimension", "$value": "1360px" },
+    "touchMin": { "$type": "dimension", "$value": "44px" },
+    "rule": { "$type": "dimension", "$value": "1px" }
+  },
+  "radius": {
+    "editorial": { "$type": "dimension", "$value": "0px" },
+    "small": { "$type": "dimension", "$value": "4px" },
+    "medium": { "$type": "dimension", "$value": "8px" },
+    "round": { "$type": "dimension", "$value": "999px", "$description": "Nur fuer Kreis, Avatar, Schrittpunkt oder kompakten Status." }
+  },
+  "shadow": {
+    "none": { "$type": "shadow", "$value": { "color": "#00000000", "offsetX": "0px", "offsetY": "0px", "blur": "0px", "spread": "0px" } },
+    "lift": { "$type": "shadow", "$value": { "color": "#14181A12", "offsetX": "0px", "offsetY": "14px", "blur": "32px", "spread": "0px" } }
+  },
+  "motion": {
+    "duration": {
+      "micro": { "$type": "duration", "$value": "220ms" },
+      "standard": { "$type": "duration", "$value": "320ms" },
+      "reveal": { "$type": "duration", "$value": "720ms" },
+      "ambient": { "$type": "duration", "$value": "10000ms" }
+    },
+    "easing": {
+      "standard": { "$type": "cubicBezier", "$value": [0.4, 0, 0.1, 1] }
+    },
+    "reducedMotion": {
+      "$type": "string",
+      "$value": "All information remains visible and understandable without animation."
+    }
+  },
+  "logo": {
+    "primary": { "$type": "asset", "$value": "../amavio-living-site/assets/brand/amavio-logo-primary.svg" },
+    "light": { "$type": "asset", "$value": "../amavio-living-site/assets/brand/amavio-logo-light.svg" },
+    "dark": { "$type": "asset", "$value": "../amavio-living-site/assets/brand/amavio-logo-dark.svg" },
+    "signet": { "$type": "asset", "$value": "../amavio-living-site/assets/brand/amavio-signet.svg" },
+    "favicon": { "$type": "asset", "$value": "../amavio-living-site/assets/brand/amavio-favicon.svg" }
+  }
+}

@@ -1,0 +1,187 @@
+/* Release M extends the accepted L.2 visual system without introducing a new surface. */
+.execution-workdesk,
+.execution-decision,
+.execution-result,
+.execution-employer-task {
+  margin-top: 18px;
+}
+
+.execution-workdesk {
+  padding: 22px;
+  border: 1px solid color-mix(in srgb, var(--ink, #18332f) 14%, transparent);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--surface, #fff) 96%, var(--sage, #dfe9e4));
+}
+
+.execution-section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.execution-section-head span,
+.execution-employer-task > span,
+.execution-gate > span,
+.execution-outcome > span,
+.execution-program-impact article > span {
+  display: block;
+  color: var(--muted, #64716f);
+  font-size: .72rem;
+  font-weight: 760;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.execution-section-head h3,
+.execution-order h4,
+.execution-employer-task h4,
+.execution-gate h4,
+.execution-outcome h4 {
+  margin: 4px 0 0;
+  color: var(--ink, #18332f);
+}
+
+.execution-section-head p {
+  max-width: 270px;
+  margin: 0;
+  color: var(--muted, #64716f);
+  font-size: .82rem;
+  text-align: right;
+}
+
+[data-execution-orders] {
+  display: grid;
+  gap: 0;
+}
+
+.execution-order {
+  position: relative;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px 0;
+  border-top: 1px solid color-mix(in srgb, var(--ink, #18332f) 10%, transparent);
+}
+
+.execution-order:first-child { border-top: 0; padding-top: 0; }
+.execution-order:last-child { padding-bottom: 0; }
+
+.execution-order-sequence {
+  display: grid;
+  place-content: center;
+  align-self: start;
+  width: 36px;
+  height: 36px;
+  border: 1px solid color-mix(in srgb, var(--ink, #18332f) 17%, transparent);
+  border-radius: 50%;
+  color: var(--ink, #18332f);
+  font-weight: 760;
+}
+
+.execution-order-sequence small { font-size: .58rem; font-weight: 650; }
+.execution-order.is-completed .execution-order-sequence { border-color: #5f806f; background: #e8f0eb; color: #365e4d; }
+.execution-order.is-ready .execution-order-sequence,
+.execution-order.is-in_progress .execution-order-sequence { border-color: #b48846; background: #fbf4e6; color: #6d4a16; }
+.execution-order.is-blocked { opacity: .67; }
+
+.execution-order-copy > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.execution-order-copy > div:first-child span,
+.execution-order-copy > div:first-child em {
+  color: var(--muted, #64716f);
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 680;
+}
+
+.execution-order-copy h4 { font-size: .98rem; }
+.execution-order-copy p { margin: 5px 0; color: #435653; font-size: .86rem; line-height: 1.52; }
+.execution-order-copy > small { display: block; color: var(--muted, #64716f); font-size: .73rem; }
+
+.execution-order form,
+.execution-employer-task form,
+.execution-gate form {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .78);
+}
+
+.execution-order label,
+.execution-employer-task label,
+.execution-gate label { display: grid; gap: 6px; }
+.execution-order label span,
+.execution-employer-task label span,
+.execution-gate label span { color: var(--muted, #64716f); font-size: .74rem; font-weight: 700; }
+.execution-order textarea,
+.execution-employer-task textarea,
+.execution-gate textarea,
+.execution-gate select { width: 100%; box-sizing: border-box; font: inherit; }
+.execution-order form .primary-action,
+.execution-gate form .primary-action { justify-self: start; }
+
+.execution-employer-task {
+  padding: 18px;
+  border: 1px solid #d8c49e;
+  border-radius: 14px;
+  background: #fbf7ee;
+}
+
+.execution-employer-task p { margin: 8px 0; color: #42514f; line-height: 1.55; }
+.execution-employer-task > small { display: block; margin-top: 12px; color: var(--muted, #64716f); }
+.execution-employer-task form > div { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.execution-gate,
+.execution-outcome {
+  padding: 20px;
+  border: 1px solid color-mix(in srgb, var(--ink, #18332f) 14%, transparent);
+  border-radius: 15px;
+  background: #f7faf8;
+}
+
+.execution-gate.is-blocked { opacity: .72; }
+.execution-gate.is-reviewed,
+.execution-outcome:not(.is-pending) { border-color: #a8c1b3; background: #edf4f0; }
+.execution-gate > p,
+.execution-outcome > p { color: #425451; line-height: 1.58; }
+.execution-gate dl,
+.execution-outcome dl { display: grid; gap: 10px; margin: 16px 0 0; }
+.execution-gate dl div,
+.execution-outcome dl div { display: grid; grid-template-columns: minmax(92px, .32fr) minmax(0, 1fr); gap: 12px; padding-top: 10px; border-top: 1px solid rgba(24, 51, 47, .1); }
+.execution-gate dt,
+.execution-outcome dt { color: var(--muted, #64716f); font-size: .73rem; font-weight: 730; }
+.execution-gate dd,
+.execution-outcome dd { margin: 0; color: #2d4340; font-size: .84rem; line-height: 1.45; }
+.execution-outcome > small { display: block; margin-top: 14px; color: var(--muted, #64716f); }
+.execution-empty { margin: 0; color: var(--muted, #64716f); font-size: .86rem; line-height: 1.55; }
+
+.execution-program-impact article { display: grid; gap: 7px; margin-top: 10px; }
+.execution-program-impact article p,
+.execution-program-impact article small { margin: 0; color: #485956; line-height: 1.45; }
+.execution-program-impact article b { color: var(--ink, #18332f); font-size: .82rem; }
+.execution-program-impact article small { font-size: .74rem; }
+
+@media (max-width: 760px) {
+  .execution-workdesk { padding: 17px; }
+  .execution-section-head { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .execution-section-head p { max-width: none; text-align: left; }
+  .execution-order { grid-template-columns: 34px minmax(0, 1fr); gap: 10px; }
+  .execution-order-sequence { width: 30px; height: 30px; }
+  .execution-order-copy > div:first-child { align-items: flex-start; flex-direction: column; gap: 2px; }
+  .execution-gate dl div,
+  .execution-outcome dl div { grid-template-columns: 1fr; gap: 4px; }
+  .execution-employer-task form > div { align-items: stretch; flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .execution-workdesk *, .execution-decision *, .execution-result *, .execution-employer-task * { scroll-behavior: auto !important; transition: none !important; }
+}

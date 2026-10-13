@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.cross-system.identity-authority-boundaries.v1",
+  "status": "DESIGNED_NOT_PRODUCTIVE",
+  "principle": "Authentication, role assignment and session authority remain product-specific until a separate federation decision is approved.",
+  "authorities": [
+    {
+      "system": "app",
+      "subjectTypes": ["professional_subject", "housing_organisation_member", "partner_organisation_member"],
+      "roles": ["professional", "housing", "partner"],
+      "currentMode": "local_synthetic_role_context"
+    },
+    {
+      "system": "acc",
+      "subjectTypes": ["amavio_operations_member", "employer_organisation_member"],
+      "roles": ["operations", "employer_sponsor", "employer_hr", "employer_location", "employer_budget"],
+      "currentMode": "local_synthetic_sessions"
+    },
+    {
+      "system": "crm",
+      "subjectTypes": ["amavio_internal_commercial_member"],
+      "roles": ["crm_admin", "commercial_owner", "commercial_editor", "operations_viewer", "privacy_reviewer"],
+      "currentMode": "local_single_workspace_without_productive_identity"
+    }
+  ],
+  "crossSystemRules": {
+    "sharedIdentityProviderApproved": false,
+    "sessionFederationApproved": false,
+    "roleReuseAcrossProductsAllowed": false,
+    "crmContactMayAuthenticateToApp": false,
+    "crmContactMayAuthenticateToAcc": false,
+    "appRoleMayAuthenticateToCrm": false,
+    "employerOrOperationsMayAuthenticateToApp": false,
+    "futureCorrelationRequiresPurposeBoundReference": true,
+    "futureCorrelationRequiresLegalSecurityGate": true
+  },
+  "openDecisions": [
+    "product_specific_identity_provider_or_shared_provider_with_separate_clients",
+    "organisation_invitation_and_verification",
+    "mfa_and_reauthentication_by_risk_class",
+    "recovery_and_break_glass",
+    "offboarding_and_access_revocation",
+    "pseudonymous_cross_system_reference_policy",
+    "identity_audit_and_incident_ownership"
+  ]
+}

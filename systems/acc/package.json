@@ -1,0 +1,32 @@
+{
+  "name": "amavio-acc-release-q-true-workspaces",
+  "private": true,
+  "version": "0.25.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend/server.mjs",
+    "test": "node --test QA/backend.test.mjs QA/gate-01-5.test.mjs QA/gate-02-assurance.test.mjs QA/intelligence-kernel.test.mjs QA/intelligence-kernel-v2.test.mjs QA/intelligence-kernel-v3.test.mjs QA/release-h-role-contract.test.mjs QA/operations-twin.test.mjs QA/operational-learning.test.mjs QA/collaboration.test.mjs QA/program-delivery.test.mjs QA/execution-loop.test.mjs QA/release-n-role-language.test.mjs QA/release-o-core.test.mjs QA/release-p2-role-separation.test.mjs",
+    "test:kernel": "node --test QA/intelligence-kernel.test.mjs QA/intelligence-kernel-v2.test.mjs QA/intelligence-kernel-v3.test.mjs",
+    "qa:static": "node QA/release-q-static-check.js",
+    "qa:l1": "node QA/release-l1-static-check.js",
+    "qa:l2": "node QA/release-l2-static-check.js",
+    "qa:browser": "node QA/release-q-browser-check.js",
+    "qa:runtime": "node QA/runtime-integrity-browser-check.js",
+    "qa:release-i": "node --test QA/operations-twin.test.mjs && node QA/release-i-browser-check.js",
+    "qa:release-j": "node --test QA/operational-learning.test.mjs && node QA/release-j-browser-check.js",
+    "qa:release-n": "node --test QA/release-n-role-language.test.mjs && node QA/release-n-static-check.js && node QA/release-n-browser-check.js",
+    "qa:brandbook": "node QA/release-q-brandbook-check.js",
+    "qa:release-g": "npm run qa:browser",
+    "qa:usability": "node QA/usability-browser-check.js && node QA/program-usability-browser-check.js",
+    "qa:release-o": "node --test QA/release-o-core.test.mjs && node QA/release-o-static-check.js && node QA/release-o-brandbook-check.js && node QA/release-o-browser-check.js",
+    "qa:release-p": "node --test QA/release-p-reliability.test.mjs && node QA/release-p-static-check.js && node QA/release-p-brandbook-check.js && node QA/release-p-browser-check.js",
+    "qa:release-p1": "node --test QA/release-p1-service-delivery.test.mjs && node QA/release-p1-static-check.js && node QA/release-p1-brandbook-check.js && node QA/release-p1-browser-check.js",
+    "qa:release-p2": "node --test QA/release-p2-role-separation.test.mjs && node QA/release-p2-static-check.js && node QA/release-p2-brandbook-check.js && node QA/release-p2-browser-check.js",
+    "qa:release-p3": "node --test QA/release-p2-role-separation.test.mjs && node QA/release-p3-static-check.js && node QA/release-p3-brandbook-check.js && node QA/release-p3-browser-check.js",
+    "qa:release-q": "node --test QA/release-p2-role-separation.test.mjs && node QA/release-q-static-check.js && node QA/release-q-brandbook-check.js && node QA/release-q-browser-check.js",
+    "qa:all": "npm run test && npm run qa:static && npm run qa:brandbook && npm run qa:browser"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

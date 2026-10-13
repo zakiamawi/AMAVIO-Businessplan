@@ -1,0 +1,33 @@
+{
+  "release": "J",
+  "date": "2026-10-08",
+  "status": "passed_local_synthetic",
+  "routesTotal": 51,
+  "mutationsTotal": 29,
+  "nodeTests": 196,
+  "assuranceTests": 165,
+  "learningRoutes": 10,
+  "learningFixtures": 24,
+  "qualityDimensions": 5,
+  "externalRequests": 0,
+  "providerCalls": 0,
+  "realData": false,
+  "providerCosts": false,
+  "automaticActivation": false,
+  "externalEffects": false,
+  "classes": {
+    "static": "passed",
+    "browserDesktop": "passed",
+    "browserMobile": "passed",
+    "accessibilityBasis": "passed",
+    "fuzz": "passed_all_routes",
+    "concurrency": "passed_all_mutations",
+    "idempotency": "passed_all_mutations",
+    "failureInjection": "passed_all_routes",
+    "tenantNegatives": "passed",
+    "roleNegatives": "passed",
+    "humanGate": "passed",
+    "reproducibility": "passed_24_fixtures",
+    "providerBoundary": "disabled_zero_calls"
+  }
+}

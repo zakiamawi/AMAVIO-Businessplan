@@ -1,0 +1,28 @@
+{
+  "fixtureId": "SYN-ARRIVAL-0417-CONTRACT-V1",
+  "sourceGoldenCase": "SYN-ARRIVAL-0417",
+  "version": "1.0.0-local-synthetic",
+  "scope": "Contract compatibility only; no live ACC connection.",
+  "externalRoles": ["professional", "housing", "partner"],
+  "boundaryResponsibilities": ["acc_responsibility", "employer_decision"],
+  "phases": ["mandate", "access", "before_arrival", "arrival", "work_start", "stabilisation", "closure"],
+  "disruptions": ["changes_requested", "version_conflict", "timeout", "manual_fallback"],
+  "compatibilityAssertions": [
+    "The App never receives an internal ACC role projection.",
+    "The ACC never receives an unrestricted external role workspace.",
+    "Every accepted external command includes an object version and idempotency key.",
+    "A rejected stale or duplicate command changes no business state.",
+    "Internal notes, budgets, scores and other-role data never cross the boundary.",
+    "A transport acknowledgement never appears as approval, booking or allocation.",
+    "Timeout and manual fallback remain visible without false success."
+  ],
+  "referenceMessages": [
+    { "sequence": 1, "direction": "coreToApp", "messageType": "next_step", "recipientRole": "professional", "objectType": "ProfessionalTask", "status": "open" },
+    { "sequence": 2, "direction": "appToCore", "messageType": "external_submission", "senderRole": "professional", "objectType": "ProfessionalTask", "status": "submitted" },
+    { "sequence": 3, "direction": "appToCore", "messageType": "external_submission", "senderRole": "housing", "objectType": "HousingCapacity", "status": "submitted" },
+    { "sequence": 4, "direction": "coreToApp", "messageType": "review_result", "recipientRole": "housing", "objectType": "HousingCapacity", "status": "changes_requested" },
+    { "sequence": 5, "direction": "appToCore", "messageType": "external_submission", "senderRole": "partner", "objectType": "PartnerOffer", "status": "submitted" },
+    { "sequence": 6, "direction": "coreToApp", "messageType": "review_result", "recipientRole": "partner", "objectType": "PartnerDemand", "status": "expired", "fallback": "manual" },
+    { "sequence": 7, "direction": "coreToApp", "messageType": "next_step", "recipientRole": "professional", "objectType": "RoleMessage", "status": "unread" }
+  ]
+}

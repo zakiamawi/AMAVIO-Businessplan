@@ -1,0 +1,6 @@
+const fs=require("fs");const path=require("path");const root=path.resolve(__dirname,"..");const css=fs.readFileSync(path.join(root,"assets/release-l.css"),"utf8").toLowerCase();const html=fs.readFileSync(path.join(root,"index.html"),"utf8");const failures=[];
+for(const[pattern,label]of[[/linear-gradient|radial-gradient|conic-gradient/i,"Verlauf"],[/#(?:0f766e|14b8a6|2dd4bf|5eead4|99f6e4|ccfbf1)\b|\bteal\b|\bmint\b/i,"Teal-/Mintfarbe"]])if(pattern.test(css))failures.push(label);
+for(const token of["var(--navy)","var(--gold)","var(--gold-soft)","var(--serif)","var(--sans)"])if(!css.includes(token))failures.push(`Brandtoken fehlt: ${token}`);
+for(const copy of["Planungsentscheidung","Lieferbelege abgleichen","Kritischen Pfad neu planen","Programmbrief erstellen","keine automatische Änderung","Synthetische Daten"])if(!html.includes(copy))failures.push(`Pflichttext fehlt: ${copy}`);
+if(!/<button[^>]*data-page-target="planning"[^>]*data-ops-internal-only/.test(html))failures.push("Planungsentscheidung ist nicht intern begrenzt");
+if(failures.length){console.error("AMAVIO ACC Release L – Brandbook QA: FEHLER");failures.forEach((item)=>console.error(`- ${item}`));process.exit(1);}console.log("AMAVIO ACC Release L – Brandbook QA: OK (ruhige Planungsoberfläche, Navy/Gold, Geist/Fraunces, kein KI-Spektakel)");

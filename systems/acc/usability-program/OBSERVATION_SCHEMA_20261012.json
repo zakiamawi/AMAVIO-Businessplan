@@ -1,0 +1,12 @@
+{
+  "schema": "amavio.usability.program.v1",
+  "syntheticOnly": true,
+  "externalValidation": false,
+  "required": ["participant", "role", "tasks"],
+  "taskObservation": {
+    "required": ["taskId", "outcome", "severity", "observation"],
+    "outcome": ["completed", "assisted", "failed"],
+    "severity": ["none", "p2", "p1", "p0"],
+    "prohibited": ["real_person_data", "real_employer_data", "real_property_data", "credentials", "secrets"]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "release": "I",
+  "date": "2026-10-08",
+  "status": "passed_local_synthetic",
+  "routesTotal": 41,
+  "mutationsTotal": 24,
+  "nodeTests": 161,
+  "twinRoutes": 7,
+  "externalRequests": 0,
+  "realData": false,
+  "providerCosts": false,
+  "externalEffects": false,
+  "classes": {
+    "static": "passed",
+    "browserDesktop": "passed",
+    "browserMobile": "passed",
+    "accessibilityBasis": "passed",
+    "fuzz": "passed_all_routes",
+    "concurrency": "passed_all_mutations",
+    "idempotency": "passed_all_mutations",
+    "failureInjection": "passed_all_routes",
+    "tenantNegatives": "passed",
+    "roleNegatives": "passed",
+    "humanGate": "passed"
+  }
+}

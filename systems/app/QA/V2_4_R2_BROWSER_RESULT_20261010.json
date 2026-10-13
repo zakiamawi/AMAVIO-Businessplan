@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-10-10T05:29:24.476Z",
+  "baseUrl": "http://127.0.0.1:4350",
+  "engines": [
+    "Chromium",
+    "WebKit",
+    "Firefox"
+  ],
+  "roles": [
+    "professional",
+    "housing",
+    "partner"
+  ],
+  "languages": [
+    "de",
+    "en"
+  ],
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1024
+    },
+    "intermediate": {
+      "width": 1180,
+      "height": 820
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "matrixChecks": 36,
+  "dialogInteraction": {
+    "opened": true,
+    "initialFocus": true,
+    "escapeClosed": true,
+    "focusReturned": true
+  },
+  "mobileNavigation": {
+    "previousRoute": "H-01",
+    "currentRoute": "H-02",
+    "changed": true
+  },
+  "assistanceInteraction": {
+    "visible": true,
+    "noDecisionBoundary": true,
+    "text": "Ihr nächster Schritt – verständlich erklärt\n\nAls Nächstes ist die Arbeitgeberseite verantwortlich: Mandat, Verantwortungen und Startgrenze bestätigt. Sie müssen aktuell nichts erneut einreichen.\n\nDiese Assistenz erklärt nur den sichtbaren synthetischen Stand. Sie bewertet keine Person und trifft keine Entscheidung."
+  },
+  "consoleErrors": [],
+  "failures": [
+    "Firefox: browserType.launch: Executable doesn't exist at /Users/zakia/Library/Caches/ms-playwright/firefox-1555/firefox/Nightly.app/Contents/MacOS/firefox\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+  ],
+  "result": "FAIL"
+}

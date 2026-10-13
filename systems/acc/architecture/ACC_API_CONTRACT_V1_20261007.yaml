@@ -1,0 +1,161 @@
+openapi: 3.1.0
+info:
+  title: AMAVIO ACC Productization Gate 01 API
+  version: 0.1.0
+  description: >-
+    Lokaler, ausschließlich synthetischer Entwicklungsvertrag. Keine produktive
+    Authentifizierung, kein Versand, keine Buchung und keine externe KI.
+servers:
+  - url: http://127.0.0.1:4192
+    description: Lokaler Entwicklungsserver
+security:
+  - demoSession: []
+paths:
+  /api/health:
+    get:
+      security: []
+      summary: Lokalen Backend- und Datenbankstatus prüfen
+      responses:
+        '200':
+          description: Lokaler Dienst ist verfügbar
+  /api/v1/bootstrap:
+    get:
+      summary: Tenantgebundene synthetische Startsitzung laden
+      responses:
+        '200':
+          description: Mandant, Nutzer, Fall, Providergrenze und Audit
+        '401':
+          description: Demo-Sitzung fehlt
+  /api/v1/assistant/runs:
+    post:
+      summary: Strukturierten Assistenzlauf für einen tenantgebundenen Fall speichern
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [caseId, objective]
+              properties:
+                caseId:
+                  type: string
+                  pattern: '^SYN-CASE-'
+                objective:
+                  type: string
+                  minLength: 1
+                  maxLength: 1500
+      responses:
+        '201':
+          description: Strukturierter Lauf wurde persistent gespeichert
+        '404':
+          description: Fall ist im aktiven Mandanten nicht sichtbar
+        '503':
+          description: Externer Provider wurde nicht separat freigegeben
+  /api/v1/assistant/runs/{runId}/review:
+    post:
+      summary: Menschliche Prüfung persistent speichern
+      parameters:
+        - in: path
+          name: runId
+          required: true
+          schema: { type: string }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [decision, note]
+              properties:
+                decision:
+                  type: string
+                  enum: [approved, rejected]
+                note:
+                  type: string
+                  minLength: 1
+                  maxLength: 1000
+      responses:
+        '200':
+          description: Human Gate wurde gespeichert
+        '404':
+          description: Lauf ist im aktiven Mandanten nicht sichtbar
+  /api/v1/outbox/preview:
+    post:
+      summary: Wirkungslose Nachrichtenvorschau nach positiver Prüfung speichern
+      requestBody:
+        $ref: '#/components/requestBodies/EffectPreview'
+      responses:
+        '201':
+          description: Status sink_only; keine Nachricht versendet
+        '409':
+          description: Positive menschliche Prüfung fehlt
+  /api/v1/bookings/preview:
+    post:
+      summary: Wirkungslose Buchungsvorschau nach positiver Prüfung speichern
+      requestBody:
+        $ref: '#/components/requestBodies/EffectPreview'
+      responses:
+        '201':
+          description: Status sink_only; keine Buchung ausgelöst
+        '409':
+          description: Positive menschliche Prüfung fehlt
+  /api/v1/audit:
+    get:
+      summary: Letzte tenantgebundene Audit-Ereignisse lesen
+      responses:
+        '200':
+          description: Audit-Ereignisse in absteigender Reihenfolge
+components:
+  securitySchemes:
+    demoSession:
+      type: apiKey
+      in: header
+      name: x-demo-session
+      description: >-
+        Vorhersehbare lokale Demo-Sitzung; ausdrücklich keine produktive
+        Authentifizierung und nicht für Hosting geeignet.
+  requestBodies:
+    EffectPreview:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            required: [caseId, runId]
+            properties:
+              caseId: { type: string }
+              runId: { type: string }
+  schemas:
+    AssistanceOutput:
+      type: object
+      required:
+        - schemaVersion
+        - summary
+        - recommendation
+        - evidence
+        - confidence
+        - uncertainty
+        - forbiddenActions
+        - proposedSteps
+      properties:
+        schemaVersion: { const: acc.assistance.v1 }
+        summary: { type: string }
+        recommendation: { type: string }
+        evidence:
+          type: array
+          items: { type: string }
+        confidence: { type: string }
+        uncertainty: { type: string }
+        forbiddenActions:
+          type: array
+          items: { type: string }
+        proposedSteps:
+          type: array
+          items:
+            type: object
+            required: [order, action, ownerRole, humanGate]
+            properties:
+              order: { type: integer, minimum: 1 }
+              action: { type: string }
+              ownerRole: { type: string }
+              humanGate: { const: true }

@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-13T01:01:17.023Z",
+  "syntheticOnly": true,
+  "viewports": [
+    {
+      "name": "desktop-1600",
+      "width": 1600,
+      "height": 1000,
+      "workspaces": [
+        "Arbeitstag",
+        "Cockpit",
+        "Pipeline",
+        "Auswertungen",
+        "System & Freigaben",
+        "Kontaktfreigabe"
+      ],
+      "consoleErrors": []
+    },
+    {
+      "name": "desktop-1280",
+      "width": 1280,
+      "height": 900,
+      "workspaces": [
+        "Arbeitstag",
+        "Cockpit",
+        "Pipeline",
+        "Auswertungen",
+        "System & Freigaben",
+        "Kontaktfreigabe"
+      ],
+      "consoleErrors": []
+    },
+    {
+      "name": "zwischenbreite-1024",
+      "width": 1024,
+      "height": 900,
+      "workspaces": [
+        "Arbeitstag",
+        "Cockpit",
+        "Pipeline",
+        "Auswertungen",
+        "System & Freigaben",
+        "Kontaktfreigabe"
+      ],
+      "consoleErrors": []
+    },
+    {
+      "name": "tablet-768",
+      "width": 768,
+      "height": 1024,
+      "workspaces": [
+        "Arbeitstag",
+        "Cockpit",
+        "Pipeline",
+        "Auswertungen",
+        "System & Freigaben",
+        "Kontaktfreigabe"
+      ],
+      "consoleErrors": []
+    },
+    {
+      "name": "mobile-430",
+      "width": 430,
+      "height": 932,
+      "workspaces": [
+        "Arbeitstag",
+        "Cockpit",
+        "Pipeline",
+        "Auswertungen",
+        "System & Freigaben",
+        "Kontaktfreigabe"
+      ],
+      "consoleErrors": []
+    },
+    {
+      "name": "mobile-390",
+      "width": 390,
+      "height": 844,
+      "workspaces": [
+        "Arbeitstag",
+        "Cockpit",
+        "Pipeline",
+        "Auswertungen",
+        "System & Freigaben",
+        "Kontaktfreigabe"
+      ],
+      "consoleErrors": []
+    }
+  ],
+  "keyboard": {
+    "skipLink": true,
+    "commandShortcut": true,
+    "escapeCloses": true,
+    "focusTrap": true,
+    "focusReturn": true
+  },
+  "reportMode": {
+    "internalBriefHidden": true,
+    "sanitizedNoticeVisible": true
+  },
+  "zoom200": {
+    "method": "Isoliertes Chromium-Profil mit 200%-Defaultzoom; 1280px Außenbreite reflowt auf ungefähr 640px CSS-Breite",
+    "bodyWidth": 640,
+    "bodyScrollWidth": 640,
+    "mainVisible": true,
+    "innerWidth": 640,
+    "outerWidth": 1280,
+    "devicePixelRatio": 2,
+    "visualViewportScale": 1
+  },
+  "consoleErrors": []
+}

@@ -1,0 +1,18 @@
+Prioritaet,Programm,Status_2026_09_24,Foerderart,Maximaler_Umfang,AMAVIO_Passung,Frist_Zyklus,Startverbot_Naechster_Schritt
+A,NEXT Award Duesseldorf,Offen,Preis_Dienstleistungsgutschein,"Preispool bis 10000 EUR",Hoch,"27.09.2026 23:59","Sofort anmelden und Unterlagen einreichen"
+A,MID Digitalisierung,Offen_Losverfahren,Zuschuss,"50 Prozent max 15000 EUR",Mittel_bis_Hoch,Monatlich,"Kein bindender Vertrag oder Projektstart vor Bescheid; Produkt und Schluesseltechnologie abgrenzen"
+A,MID Digitale Sicherheit,Offen_Losverfahren,Zuschuss,"50 Prozent max 15000 EUR",Hoch,Monatlich,"Kein bindender Vertrag oder Projektstart vor Bescheid; Security Scope und Anbieter vorbereiten"
+A,BAFA Unternehmensberatung KMU,Offen,Zuschuss,"NRW max 1750 EUR je Beratung",Hoch,"Antrag bis 31.12.2026","Erst Antrag/Inaussichtstellung dann Beratungsvertrag und Beginn"
+A,Zukunftszentrum KI NRW,Laufend,Kostenfreie_Beratung,"Kostenfrei",Hoch,Laufend,"Erstberatung zu Prozessen KI und Qualifizierung buchen"
+B,Eingliederungszuschuss,Laufend_kandidatenspezifisch,Lohnkostenzuschuss,"Regelfall bis 50 Prozent bis 12 Monate",Hoch_bei_passender_Person,Laufend,"Antrag vor Arbeitsvertrag; Arbeitgeber-Service einschalten"
+B,Paragraph_16e_SGB_II,Laufend_kandidatenspezifisch,Lohnkostenzuschuss,"75 Prozent Jahr 1; 50 Prozent Jahr 2",Mittel_bis_Hoch,Laufend,"Jobcenter-Zusage vor Arbeitsvertrag"
+B,Paragraph_16i_SGB_II,Laufend_kandidatenspezifisch,Lohnkostenzuschuss,"100/100/90/80/70 Prozent bis 5 Jahre",Mittel_bei_passender_Rolle,Laufend,"Enge Personenmerkmale; Jobcenter-Zusage vor Arbeitsvertrag"
+B,Probebeschaeftigung_Reha_SB,Laufend_kandidatenspezifisch,Personalkostenerstattung,"Bis zu 3 Monate",Mittel,Laufend,"Antrag vor Beginn; Status und Eingliederungsziel pruefen"
+B,Beschaeftigtenqualifizierung,Laufend_nach_Einstellung,Zuschuss,"Bei Kleinstunternehmen ggf bis 100 Prozent Kurs und 75 Prozent Ausfallentgelt",Mittel,Laufend,"Bestehendes Arbeitsverhaeltnis; AZAV; Antrag vor Weiterbildung"
+C,Gruendungsstipendium_NRW,Fortsetzung_ab_01_10_2026,Stipendium,"1200 EUR monatlich bis 12 Monate",Hoch,"Ab 01.10.2026","Keine zeitgleiche Lebensunterhaltsfoerderung; Reihenfolge mit Gruendungszuschuss klaeren"
+W,MID Digitale Prozesse,Geschlossen,Zuschuss,"Bis 15000 EUR",Hoch_aber_nicht_beantragbar,Aufruf_2026_ausgeschoepft,"Nur Bereitschaftspaket pflegen"
+W,MID Assistent_in,Geschlossen_Wartesaal,Zuschuss,"Bis 48000 EUR oder 33000 EUR",Sehr_Hoch_aber_nicht_beantragbar,Bis_auf_Weiteres,"Vorhabensskizze Rollenprofil und Monitoring vorbereiten"
+W,NRW_BANK_Impuls_KI,Geschlossen,Zuschuss,"50 Prozent max 25000 EUR",Hoch_aber_nicht_beantragbar,Portal_geschlossen,"KI Skizze erhalten; Wiedereroeffnung beobachten"
+L,INQA_Coaching,Spaeter_bei_Zugang,Zuschuss_Beratung,"80 Prozent bis 12 Beratungstage",Spaeter,"Programm 2023 bis 2028","Mindestens 2 Jahre Markt und 1 SV Vollzeitstelle im Vorjahr"
+L,KOMPASS,Spaeter_bei_Zugang,Zuschuss_Weiterbildung,"Bis 4500 EUR",Spaeter,"Bis 29.02.2028","Mindestens 2 Jahre am Markt; Solo-Selbststaendigkeit pruefen"
+

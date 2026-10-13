@@ -1,0 +1,9 @@
+provider,model,region_mode,input_usd_per_mtoken,output_usd_per_mtoken,scenario_300_runs_usd,scenario_1500_runs_usd,price_validity,gate_02_role
+OpenAI,GPT-6 Luna,EU regional,0.11,0.55,0.297,1.485,current as of 2026-10-07,cost baseline only
+Mistral,Mistral Large 3,EU regional,0.55,1.65,1.155,5.775,current as of 2026-10-07,cost challenger
+Google Cloud,Gemini 3.8 Flash,non-global,0.825,4.125,2.2275,11.1375,through 2026-12-31,enterprise alternative
+Mistral,Mistral Medium 3.5,EU regional,1.65,8.25,4.455,22.275,current as of 2026-10-07,finalist quality path
+Anthropic,Claude Sonnet 5,global,2.00,10.00,5.40,27.00,current as of 2026-10-07,synthetic quality challenger only
+OpenAI,GPT-6.1 Sol,EU regional,2.20,11.00,5.94,29.70,current as of 2026-10-07,finalist quality path
+Google Cloud,Gemini 3.8 Flash,non-global,1.65,8.25,4.455,22.275,from 2027-01-01,enterprise alternative
+Microsoft Foundry/Azure,model and deployment not selected,EU Data Zone,,,,,calculator required,enterprise alternative

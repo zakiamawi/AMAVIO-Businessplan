@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.one.ai-human-oversight.v1",
+  "status": "PROVIDER_NEUTRAL_LOCAL_POLICY_ONLY",
+  "providerDecision": {
+    "approvedProvider": null,
+    "externalProviderEnabled": false,
+    "credentialsAllowed": false,
+    "externalCallsAllowed": false,
+    "costsApproved": false
+  },
+  "allowedPurposes": [
+    "explain_next_step",
+    "summarize_visible_status",
+    "draft_support_question"
+  ],
+  "allowedAutonomy": "assistive_only",
+  "mandatoryHumanControl": [
+    "user_intentionally_requests_assistance",
+    "output_is_clearly_labelled_as_assistance",
+    "source_is_role_minimised_projection",
+    "output_cannot_mutate_case_state",
+    "output_cannot_approve_reject_rank_or_score",
+    "user_can_continue_without_ai",
+    "provider_and_policy_version_are_auditable",
+    "unsafe_or_unsupported_request_is_refused"
+  ],
+  "prohibitedPurposes": [
+    "person_assessment",
+    "matching",
+    "ranking",
+    "scoring",
+    "eligibility_decision",
+    "housing_allocation",
+    "employment_decision",
+    "risk_prediction_about_a_person",
+    "automatic_case_mutation",
+    "automatic_external_communication"
+  ],
+  "prohibitedDataClasses": [
+    "identity_contact",
+    "special_category_or_high_risk",
+    "audit_security",
+    "cross_tenant_data",
+    "internal_acc_notes",
+    "employer_budget"
+  ],
+  "providerGateRequirements": [
+    "approved_use_case_inventory",
+    "data_protection_and_contract_review",
+    "processing_region_and_transfer_decision",
+    "retention_and_training_use_decision",
+    "subprocessor_review",
+    "security_review",
+    "quality_and_bias_evaluation",
+    "prompt_injection_and_data_exfiltration_tests",
+    "human_oversight_design",
+    "fallback_and_outage_behavior",
+    "cost_budget_and_rate_limits",
+    "logging_redaction_and_deletion",
+    "release_and_rollback_approval"
+  ],
+  "currentImplementation": {
+    "provider": "local_policy_assistant",
+    "deterministic": true,
+    "syntheticOnly": true,
+    "decisionEffect": false,
+    "caseMutation": false
+  }
+}

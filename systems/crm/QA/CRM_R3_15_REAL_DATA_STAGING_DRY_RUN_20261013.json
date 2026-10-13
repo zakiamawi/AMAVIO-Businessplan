@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "mode": "dry_run_no_write",
+  "mappingVersion": "amavio-real-data-staging-r3.15-v1",
+  "sourceHashes": {
+    "v5": "87d405f21c7e91947d18ee60b99ada89e8e14028c4c421f84a2f475a0c67e29d",
+    "confirmed": "88c17fe63a8eb41c3a8d83b4370effb788dba98f419aaf341fd1b2e5fa03398b",
+    "dryrun": "58bff20d35976f1407e3cd58a6ea852d25fbc3cba3a296796a73dfe7ec856201"
+  },
+  "counts": {
+    "poolOrganizations": 2242,
+    "poolContacts": 3213,
+    "verifiedOrganizations": 192,
+    "verifiedContacts": 166,
+    "verifiedRelationships": 238,
+    "reviewQueue": 407,
+    "legacyReview": 169,
+    "multiGroups": 31,
+    "multiAssignments": 103,
+    "nameReviewContacts": 48,
+    "nameReviewRelationships": 73,
+    "quarantineItems": 93,
+    "duplicateSignals": 6
+  },
+  "reviewBuckets": {
+    "confirmed_current": 238,
+    "official_dated": 58,
+    "historical_open": 8,
+    "changed_legacy": 89,
+    "ambiguous": 14
+  },
+  "controls": {
+    "pool_organizations": true,
+    "pool_contacts": true,
+    "verified_organizations": true,
+    "verified_contacts": true,
+    "verified_relationships": true,
+    "quarantine_items": true,
+    "duplicate_signals": true,
+    "pool_org_external_ids_unique": true,
+    "pool_contact_external_ids_unique": true,
+    "verified_org_external_ids_unique": true,
+    "verified_contact_external_ids_unique": true,
+    "all_verified_do_not_contact": true,
+    "all_verified_outreach_blocked": true,
+    "multi_groups_31": true,
+    "multi_assignments_103": true,
+    "name_review_contacts_48": true,
+    "name_review_relationships_73": true,
+    "review_legacy_169": true,
+    "relationship_contacts_resolve": true,
+    "relationship_organizations_resolve": true
+  },
+  "outboundEnabled": false,
+  "cloudSyncEnabled": false,
+  "supabaseEnabled": false
+}

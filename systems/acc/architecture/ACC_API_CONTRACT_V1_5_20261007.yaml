@@ -1,0 +1,159 @@
+contract: acc.api.v1.5
+status: local_founder_evaluation_candidate
+date: 2026-10-07
+effect_mode: local_only
+data_class: synthetic_only
+authentication:
+  mode: demo_session_header
+  production_ready: false
+  header: x-demo-session
+tenancy:
+  authority: server_session
+  client_tenant_ids_accepted: false
+  unknown_or_foreign_resource: 404
+providers:
+  active: local
+  external_default: gate_closed
+  capability_contract: acc.capability.v1
+  allowed_capabilities:
+    - summarize_evidence
+    - explain_conflict
+    - draft_work_product
+    - explain_simulation
+  forbidden_effects:
+    - person_scoring
+    - automatic_release
+    - message_send
+    - booking
+    - upload
+    - payment
+common_errors:
+  invalid_input: 400
+  unknown_or_foreign_resource: 404
+  human_gate_required: 409
+  provider_gate_closed: 409
+resources:
+  bootstrap:
+    method: GET
+    path: /api/v1.5/bootstrap
+    returns:
+      - portfolio
+      - selected_case_detail
+      - provider_status
+  portfolio:
+    method: GET
+    path: /api/v1.5/portfolio
+    returns:
+      - tenant_bound_cases
+      - cohort_context
+      - mandate_context
+  case_detail:
+    method: GET
+    path: /api/v1.5/cases/{case_id}
+    returns:
+      - canonical_case
+      - milestones
+      - dependencies
+      - critical_path
+      - tasks
+      - evidence
+      - exceptions
+      - decisions
+      - events
+      - rules
+      - simulations
+      - work_products
+  transition:
+    method: POST
+    path: /api/v1.5/cases/{case_id}/transitions
+    body:
+      required: [target_state, expected_version, note]
+    effects:
+      - increments_case_version
+      - appends_case_event
+      - appends_audit_entry
+      - local_only
+  task_complete:
+    method: POST
+    path: /api/v1.5/tasks/{task_id}/complete
+    body:
+      required: [note]
+    effects: [updates_task, appends_case_event, local_only]
+  evidence_review:
+    method: POST
+    path: /api/v1.5/evidence/{evidence_id}/review
+    body:
+      required: [status, note]
+      status_enum: [confirmed, rejected, conflicting, unreviewed]
+    effects: [updates_review_status, appends_case_event, local_only]
+  decision_review:
+    method: POST
+    path: /api/v1.5/decisions/{decision_id}/review
+    body:
+      required: [option, rationale]
+    effects: [creates_decision, closes_request, appends_case_event, local_only]
+  simulation_create:
+    method: POST
+    path: /api/v1.5/cases/{case_id}/simulations
+    body:
+      required: [arrival_date]
+    guarantees:
+      - canonical_case_not_mutated
+      - basis_version_recorded
+      - five_milestone_delta_returned
+  simulation_apply:
+    method: POST
+    path: /api/v1.5/simulations/{simulation_id}/apply
+    body:
+      required: [selected_changes, note]
+      selected_changes_enum: [arrivalDate]
+    guarantees:
+      - human_note_required
+      - canonical_version_incremented
+      - local_only
+  work_product_create:
+    method: POST
+    path: /api/v1.5/cases/{case_id}/work-products
+    body:
+      required: [type]
+      type_enum:
+        - arrival_readiness_brief
+        - decision_memo
+        - exception_resolution_plan
+        - employer_handover_brief
+        - stabilization_plan
+        - communication_draft
+        - case_closure_record
+    guarantees:
+      - status_sink_only
+      - source_references_required
+      - no_external_effect
+  capability_run:
+    method: POST
+    path: /api/v1.5/capabilities/runs
+    body:
+      required: [case_id, capability, provider, instruction]
+      provider_enum: [local, openai, mistral]
+    guarantees:
+      - structured_output_schema
+      - evidence_citations
+      - forbidden_actions
+      - human_gated_steps
+      - external_provider_rejected_while_gate_closed
+  evaluation_run:
+    method: POST
+    path: /api/v1.5/evaluations/runs
+    guarantees:
+      - 24_canonical_scenarios
+      - schema_conformance_report
+      - forbidden_action_count
+      - cross_tenant_finding_count
+  provider_status:
+    method: GET
+    path: /api/v1.5/providers/status
+    returns:
+      - active_provider
+      - adapter_implementation_state
+      - activation_gate
+      - live_smoke_test_state
+

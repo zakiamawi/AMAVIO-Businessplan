@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.crm-acc-handoff-profile.v1",
+  "status": "FACHLICH_DEFINED_TECHNICAL_INTEGRATION_BLOCKED",
+  "sourceAuthority": "AMAVIO One CRM R3.4 handoff contract",
+  "targetAuthority": "AMAVIO ACC must separately accept a future versioned consumer contract",
+  "trigger": {
+    "opportunityStatus": "won",
+    "commercialProductOwnerMarkerRequired": true,
+    "operationsMarkerRequired": true,
+    "automaticTriggerAllowed": false
+  },
+  "minimalFuturePayload": [
+    "contractVersion",
+    "crmOpportunityReference",
+    "organisationReference",
+    "approvedCommercialScope",
+    "serviceOrPilotLabel",
+    "responsibleInternalRole",
+    "plannedStartWindow",
+    "documentedOpenPoints",
+    "approvalStatusAndTimes",
+    "dataMinimisationReview",
+    "idempotencyKey"
+  ],
+  "forbiddenByDefault": [
+    "contactPersonalData",
+    "appAccountCreation",
+    "appRoleAssignment",
+    "automaticArrivalCaseCreation",
+    "productiveAccId",
+    "email",
+    "notification",
+    "webhook",
+    "documentTransfer"
+  ],
+  "currentRuntime": {
+    "localReviewMarkersOnly": true,
+    "payloadExists": false,
+    "accIdExists": false,
+    "transportConnected": false,
+    "externalEffect": false
+  },
+  "requiredBeforeTechnicalImplementation": [
+    "acc_side_acceptance",
+    "versioned_message_schema",
+    "field_validation",
+    "integration_authentication",
+    "responsibility_transfer_and_reversal",
+    "retry_replay_and_reconciliation",
+    "audit_evidence",
+    "privacy_and_security_review",
+    "consumer_driven_contract_tests"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.one.data-governance.v1",
+  "status": "DESIGNED_WITH_LEGAL_AND_PRODUCT_DECISIONS_OPEN",
+  "scope": "AMAVIO One App and its versioned boundary messages",
+  "defaultPolicy": "deny_unclassified_data",
+  "dataClasses": [
+    {
+      "id": "synthetic_demo",
+      "productiveUse": false,
+      "currentUseAllowed": true,
+      "externalAiAllowed": false,
+      "retentionDecision": "local_resettable_test_data"
+    },
+    {
+      "id": "identity_contact",
+      "productiveUse": false,
+      "currentUseAllowed": false,
+      "externalAiAllowed": false,
+      "retentionDecision": "OPEN_LEGAL_PRODUCT_DECISION"
+    },
+    {
+      "id": "arrival_operational",
+      "productiveUse": false,
+      "currentUseAllowed": false,
+      "externalAiAllowed": false,
+      "retentionDecision": "OPEN_LEGAL_PRODUCT_DECISION"
+    },
+    {
+      "id": "document_metadata",
+      "productiveUse": false,
+      "currentUseAllowed": false,
+      "externalAiAllowed": false,
+      "retentionDecision": "OPEN_LEGAL_PRODUCT_DECISION"
+    },
+    {
+      "id": "support_case",
+      "productiveUse": false,
+      "currentUseAllowed": false,
+      "externalAiAllowed": false,
+      "retentionDecision": "OPEN_LEGAL_PRODUCT_DECISION"
+    },
+    {
+      "id": "special_category_or_high_risk",
+      "productiveUse": false,
+      "currentUseAllowed": false,
+      "externalAiAllowed": false,
+      "retentionDecision": "PROHIBITED_UNTIL_SEPARATE_LEGAL_SECURITY_GATE"
+    },
+    {
+      "id": "audit_security",
+      "productiveUse": false,
+      "currentUseAllowed": false,
+      "externalAiAllowed": false,
+      "retentionDecision": "OPEN_SECURITY_LEGAL_DECISION"
+    },
+    {
+      "id": "ai_prompt_output",
+      "productiveUse": false,
+      "currentUseAllowed": false,
+      "externalAiAllowed": false,
+      "retentionDecision": "OPEN_AI_DATA_DECISION"
+    }
+  ],
+  "mandatoryControls": [
+    "data_classification_before_collection",
+    "purpose_binding",
+    "field_level_minimisation",
+    "tenant_and_object_scope",
+    "encryption_in_transit",
+    "encryption_at_rest",
+    "access_logging",
+    "retention_and_deletion_schedule",
+    "export_and_rectification_workflow",
+    "backup_deletion_alignment",
+    "incident_response",
+    "processor_and_subprocessor_register",
+    "environment_separation",
+    "synthetic_test_data_policy"
+  ],
+  "forbiddenUntilGate": [
+    "real_data_in_local_demo",
+    "production_data_in_development",
+    "unstructured_sensitive_free_text",
+    "cross_tenant_analytics",
+    "external_ai_transfer",
+    "silent_secondary_use",
+    "indefinite_retention",
+    "manual_database_access_without_audit"
+  ],
+  "requiredRecordsBeforeProduction": [
+    "processing_purpose_and_legal_basis",
+    "data_subject_information",
+    "controller_and_processor_roles",
+    "approved_storage_regions",
+    "retention_schedule",
+    "deletion_and_backup_procedure",
+    "data_subject_request_process",
+    "transfer_and_subprocessor_assessment",
+    "technical_and_organisational_measures",
+    "breach_and_incident_process"
+  ],
+  "currentRuntime": {
+    "allowedDataClasses": ["synthetic_demo"],
+    "realDataAllowed": false,
+    "externalTransferAllowed": false,
+    "deploymentAllowed": false
+  }
+}

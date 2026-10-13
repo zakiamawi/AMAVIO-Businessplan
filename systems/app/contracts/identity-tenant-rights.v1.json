@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.one.identity-tenant-rights.v1",
+  "status": "DESIGNED_NOT_PRODUCTIVE",
+  "scope": "AMAVIO One App only",
+  "principle": "A verified identity does not imply access; every request also requires role, tenant, object, purpose and state checks.",
+  "authentication": {
+    "implemented": false,
+    "identityProviderSelected": false,
+    "productiveSessionsAllowed": false,
+    "mfaDecision": "OPEN",
+    "recoveryDecision": "OPEN"
+  },
+  "appRoles": [
+    {
+      "id": "professional",
+      "tenantType": "professional_subject",
+      "ownershipScope": "self",
+      "allowedActions": [
+        "projection.read.own",
+        "task.command.own",
+        "support_request.create.own",
+        "role_message.read.own"
+      ]
+    },
+    {
+      "id": "housing",
+      "tenantType": "housing_organisation",
+      "ownershipScope": "own_organisation",
+      "allowedActions": [
+        "projection.read.own",
+        "housing_capacity.command.own",
+        "housing_need_response.command.own",
+        "handover_signal.command.own",
+        "role_message.read.own"
+      ]
+    },
+    {
+      "id": "partner",
+      "tenantType": "partner_organisation",
+      "ownershipScope": "own_organisation",
+      "allowedActions": [
+        "projection.read.own",
+        "partner_offer.command.own",
+        "partner_demand_response.command.own",
+        "role_message.read.own"
+      ]
+    }
+  ],
+  "boundaryOnlyRoles": [
+    {
+      "id": "employer",
+      "appSessionAllowed": false,
+      "reason": "Employer views and decisions remain in the separate ACC product."
+    },
+    {
+      "id": "operations",
+      "appSessionAllowed": false,
+      "reason": "AMAVIO Operations remains in the separate ACC product."
+    }
+  ],
+  "requiredSessionClaims": [
+    "subjectId",
+    "roleId",
+    "tenantId",
+    "tenantType",
+    "assuranceLevel",
+    "issuedAt",
+    "expiresAt",
+    "sessionId"
+  ],
+  "authorizationChecks": [
+    "authenticated_subject",
+    "allowed_app_role",
+    "tenant_membership",
+    "resource_tenant_match",
+    "object_ownership_or_assignment",
+    "purpose_allowed",
+    "state_transition_allowed",
+    "expected_revision",
+    "idempotency_key",
+    "negative_rights"
+  ],
+  "negativeRights": [
+    "no_free_role_switch",
+    "no_cross_tenant_read",
+    "no_cross_role_projection",
+    "no_employer_or_operations_session_in_app",
+    "no_self_approval",
+    "no_self_publication",
+    "no_internal_note_access",
+    "no_budget_or_management_kpi_access",
+    "no_automatic_person_decision"
+  ],
+  "currentRuntime": {
+    "mode": "local_synthetic_role_context",
+    "productiveAuthentication": false,
+    "productiveAuthorization": false,
+    "realIdentityData": false
+  },
+  "openDecisions": [
+    "identity_provider",
+    "legal_account_ownership",
+    "invitation_and_verification_flow",
+    "mfa_by_risk_class",
+    "session_duration_and_reauthentication",
+    "account_recovery",
+    "organisation_administration",
+    "support_impersonation_policy",
+    "offboarding_and_access_revocation"
+  ]
+}

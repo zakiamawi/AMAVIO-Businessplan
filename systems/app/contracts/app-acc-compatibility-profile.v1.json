@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractVersion": "amavio.one.app-acc-compatibility.v1",
+  "status": "LOCAL_CONTRACT_DEFINED_LIVE_COMPATIBILITY_NOT_PROVEN",
+  "productBoundary": {
+    "separateProducts": true,
+    "separateRoles": true,
+    "separateSurfaces": true,
+    "separateCodebases": true,
+    "sharedDomainTruth": true
+  },
+  "requiredPeerProfile": {
+    "interfaceContractVersion": "1.1.0-local-r2-foundation",
+    "syntheticOnly": true,
+    "externalEffects": false,
+    "requiredCapabilities": [
+      "versioned_message_envelope",
+      "correlation_id",
+      "idempotency_key",
+      "expected_revision",
+      "app_to_acc_consumer",
+      "acc_to_app_sender",
+      "negative_rights_enforcement",
+      "role_minimised_projection",
+      "audit_trace",
+      "replay_and_reconciliation_behavior"
+    ]
+  },
+  "requiredEnvelopeFields": [
+    "messageId",
+    "contractVersion",
+    "correlationId",
+    "idempotencyKey",
+    "messageType",
+    "senderRole",
+    "commandId",
+    "expectedRevision",
+    "synthetic"
+  ],
+  "liveCompatibilityConditions": [
+    "both_products_implement_same_interface_contract_version",
+    "consumer_driven_contract_tests_pass_in_both_codebases",
+    "status_and_object_mapping_is_identical",
+    "negative_rights_tests_pass",
+    "replay_revision_and_reconciliation_tests_pass",
+    "identity_and_tenant_context_is_verified",
+    "security_and_data_gates_are_approved",
+    "failure_and_recovery_behavior_is_observed",
+    "deployment_and_rollback_are_approved"
+  ],
+  "currentAssessment": {
+    "observedAccRelease": "J.5 Dual-Sided Workflow",
+    "liveCompatible": false,
+    "technicalTransportConnected": false,
+    "appReferenceEndpoint": true,
+    "accConsumerVerified": false,
+    "observedCapabilities": [
+      "idempotency_key",
+      "expected_revision",
+      "negative_rights_enforcement",
+      "role_minimised_projection",
+      "audit_trace"
+    ],
+    "missingCapabilities": [
+      "versioned_message_envelope",
+      "correlation_id",
+      "app_to_acc_consumer",
+      "acc_to_app_sender",
+      "replay_and_reconciliation_behavior"
+    ],
+    "reason": "ACC J.5 adds an internal employer-operations contribution flow but does not declare or implement the App interface contract version and App transport routes."
+  }
+}

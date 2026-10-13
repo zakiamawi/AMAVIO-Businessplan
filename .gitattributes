@@ -1,0 +1,23 @@
+# Office, media and font files are binary artifacts.
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.zip binary
+
+# Imported source and historical documents retain their authored formatting.
+archive/** -whitespace
+brand/current/** -whitespace
+funding/current/** -whitespace
+systems/** -whitespace
+manifests/** -whitespace

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>AMAVIO · Moderierter Programmtest</title><link rel="stylesheet" href="../assets/fonts/fonts.css"><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <header><div><span>AMAVIO · lokale Testkonsole</span><h1>Moderierter Programmtest</h1><p>Geführte Prüfung von Release K und L mit ausschließlich synthetischen Fällen.</p></div><p><b>Keine Außenwirkung</b><span>Keine echten Personen, Arbeitgeber, Objekte oder Partner · keine Aufzeichnung · kein Versand</span></p></header>
+  <main>
+    <aside>
+      <h2>Testsitzung</h2>
+      <label><span>Funktionsrolle</span><select data-role><option value="operations">AMAVIO Operations</option><option value="employer_sponsor">Arbeitgeber · Sponsor</option><option value="employer_hr">Arbeitgeber · HR</option><option value="founder">Founder-Beobachtung</option></select></label>
+      <label><span>Synthetische Kennung</span><input data-participant value="SYN-TEST-001"></label>
+      <dl><div><dt>Testumfang</dt><dd>Programmsteuerung und Planungsentscheidung</dd></div><div><dt>Daten</dt><dd>Ausschließlich synthetisch</dd></div><div><dt>Ausgeschlossen</dt><dd>Identity, echte Daten, Provider, Versand, Deployment</dd></div></dl>
+      <button type="button" data-start>Testsitzung starten</button>
+      <a href="../?page=programs" target="_blank" rel="noopener">Lokale Demo öffnen</a>
+    </aside>
+    <section class="test-area" aria-live="polite">
+      <div class="progress"><span data-progress>0 von 8 Aufgaben</span><i><b data-progress-bar></b></i></div>
+      <article data-task-card><span>Vorbereitung</span><h2>Bereit für die moderierte Prüfung</h2><p>Die Testperson denkt laut. Die Moderation hilft nicht bei der Navigation und notiert nur beobachtbares Verhalten.</p></article>
+      <form data-observation-form>
+        <fieldset disabled data-observation-fields><legend>Beobachtung zur aktuellen Aufgabe</legend><label><span>Ergebnis</span><select data-outcome><option value="completed">Ohne Hilfe abgeschlossen</option><option value="assisted">Mit Hinweis abgeschlossen</option><option value="failed">Nicht abgeschlossen</option></select></label><label><span>Beobachtbares Verhalten</span><textarea rows="4" data-observation placeholder="Was war sichtbar? Wo wurde gesucht, gezögert oder falsch verstanden?"></textarea></label><label><span>Schweregrad</span><select data-severity><option value="none">Kein Problem</option><option value="p2">P2 · Optimierung</option><option value="p1">P1 · relevante Hürde</option><option value="p0">P0 · Journey blockiert</option></select></label><label><span>Beleg</span><input data-evidence placeholder="Zum Beispiel: Aufgabe 3, Navigationslabel missverstanden"></label></fieldset>
+        <div class="actions"><button type="button" class="secondary" data-prev disabled>Zurück</button><button type="submit" data-next disabled>Beobachtung speichern &amp; weiter</button></div>
+      </form>
+    </section>
+    <aside class="results"><h2>Sitzungsstand</h2><div data-results><p>Noch keine Beobachtung erfasst.</p></div><button type="button" class="secondary" data-export disabled>JSON-Protokoll exportieren</button><button type="button" class="secondary" data-reset>Lokalen Test zurücksetzen</button><p>Der Export enthält nur die synthetische Kennung und lokale Beobachtungen. Es findet keine Übertragung statt.</p></aside>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

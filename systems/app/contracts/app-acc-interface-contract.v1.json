@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "contractId": "amavio-one.app-acc-interface",
+  "version": "1.1.0-local-r2-foundation",
+  "status": "IMPLEMENTED_LOCAL_TECHNICAL_ENDPOINT",
+  "authority": "UPAEC 1.0 and Product Truth V2 authority split",
+  "principle": "Shared domain contracts and synthetic truth; separate products, roles, surfaces and codebases.",
+  "surfaces": {
+    "app": ["professional", "housing", "partner"],
+    "acc": ["operations", "employer_sponsor", "employer_hr", "employer_location", "employer_budget"]
+  },
+  "boundaryResponsibilities": ["acc_responsibility", "employer_decision"],
+  "directions": {
+    "appToCore": [
+      {
+        "messageType": "external_submission",
+        "objectTypes": ["ProfessionalTask", "HousingCapacity", "HousingNeedResponse", "HandoverSignal", "PartnerOffer", "PartnerDemandResponse"],
+        "requiredEnvelope": ["messageId", "contractVersion", "correlationId", "idempotencyKey", "objectId", "objectType", "objectVersion", "actorRole", "purpose", "occurredAtUtc", "payload"],
+        "effect": "Requests validation and review; never proves approval, booking, allocation or publication."
+      },
+      {
+        "messageType": "structured_question",
+        "objectTypes": ["SupportRequest", "RoleMessage"],
+        "requiredEnvelope": ["messageId", "contractVersion", "correlationId", "idempotencyKey", "objectId", "objectVersion", "actorRole", "purpose", "occurredAtUtc", "payload"],
+        "effect": "Creates a scoped question; never opens a general chat."
+      }
+    ],
+    "coreToApp": [
+      {
+        "messageType": "review_result",
+        "requiredPayload": ["outcome", "externalReasonCategory", "explainedStatus", "nextResponsibility", "allowedNextAction", "effectiveAtUtc"],
+        "effect": "Updates only the permitted external projection."
+      },
+      {
+        "messageType": "next_step",
+        "requiredPayload": ["explainedStatus", "nextResponsibility", "allowedNextAction"],
+        "optionalPayload": ["dueWindow"],
+        "effect": "Explains responsibility without exposing internal routing or workflow control."
+      }
+    ]
+  },
+  "transportSemantics": {
+    "idempotencyRequired": true,
+    "optimisticVersionRequired": true,
+    "correlationRequired": true,
+    "silentOverwriteAllowed": false,
+    "lastWriteWinsAllowed": false,
+    "deliveryEqualsBusinessSuccess": false,
+    "replayProtectionRequiredForProduction": true,
+    "consumerContractTestsRequiredForProduction": true
+  },
+  "forbiddenFields": ["personName", "privateProfile", "employerBudget", "internalNote", "performanceScore", "otherRoleData", "passport", "healthData", "bankData", "secret", "token"],
+  "localTechnicalFoundation": {
+    "backendConnected": true,
+    "databaseConnected": true,
+    "databaseType": "SQLite local synthetic",
+    "accContractEndpointAvailable": true,
+    "aiGatewayAvailable": true,
+    "externalAiProviderEnabled": false
+  },
+  "nonProductionGates": {
+    "productiveAuthentication": false,
+    "productiveArrivalGraph": false,
+    "productiveAccIntegration": false,
+    "realDataAllowed": false,
+    "realRoleTestsAllowed": false,
+    "productiveAiAllowed": false,
+    "matchingAllowed": false,
+    "scoringAllowed": false,
+    "automatedDecisionAllowed": false,
+    "deploymentAllowed": false,
+    "publicationAllowed": false
+  }
+}

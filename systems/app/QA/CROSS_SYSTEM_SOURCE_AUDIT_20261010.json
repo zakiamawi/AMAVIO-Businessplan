@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-10-10T05:27:10.987Z",
+  "auditType": "read_only_app_acc_crm_source_alignment",
+  "status": "SOURCE_BOUNDARIES_ALIGNED",
+  "modifiedExternalProducts": false,
+  "sources": [
+    {
+      "product": "acc",
+      "path": "/Users/zakia/Desktop/Businessplan AKTUELL/10_Control_Center/20261010_AMAVIO_ACC_Release_J_5_Dual_Sided_Workflow_Working",
+      "release": "J.5 Dual-Sided Workflow",
+      "files": [
+        {
+          "relativePath": "README.md",
+          "sha256": "90b3f71b52f9a5c1f9f3201d9e2f27150d977f22f8847da7a122dc6fd91addb9"
+        },
+        {
+          "relativePath": "APP_ACC_INTERFACE_BOUNDARY_20260930.md",
+          "sha256": "bd6e8fa077559f225917607868a226596a917baa8d9ae012a031b227bf18860c"
+        },
+        {
+          "relativePath": "architecture/ADR-008_RELEASE_J5_DUAL_SIDED_WORKFLOW_20261010.md",
+          "sha256": "bd7fb7593248e00fc61c0731d108bc30d802526d6b97c48f15312e3c4f864186"
+        },
+        {
+          "relativePath": "architecture/AMAVIO_ACC_ROLE_CONTRACT_V1_20261008.md",
+          "sha256": "af5e4e9eba60036a41323765b67d3e57efd912db66ea43f76f9de81ddf3b4abf"
+        },
+        {
+          "relativePath": "backend/collaboration.mjs",
+          "sha256": "d0b36005452d301294ec5d79fdfe0ad71274649fa72df65da53352cf09713a5d"
+        },
+        {
+          "relativePath": "QA/ACC_RELEASE_J5_DUAL_SIDED_WORKFLOW_QA_20261010.md",
+          "sha256": "d86ec09a1561ad7d7bd7c26470caec66b4458af036d1a892359d4feba3478920"
+        }
+      ]
+    },
+    {
+      "product": "crm",
+      "path": "/Users/zakia/Desktop/Businessplan AKTUELL/09_Unternehmenssystem/07_AMAVIO_One_CRM/20261010_AMAVIO_One_CRM_R3_4_Founder_Decision_Working",
+      "release": "R3.4 Founder Decision",
+      "files": [
+        {
+          "relativePath": "README.md",
+          "sha256": "56a50d32707d5455d93cd255553a9ae011205484bc26f9bf401a509ce6ec9e44"
+        },
+        {
+          "relativePath": "CRM_CANONICAL_DOMAIN_MODEL.md",
+          "sha256": "96aa255c675e6626f78142933fb7bdf988eafa0a82119addd16386126e7ef8dd"
+        },
+        {
+          "relativePath": "CRM_PERMISSIONS_AND_VISIBILITY_DRAFT.md",
+          "sha256": "c6989ae31c7025c596c03cd044a17708cef117e301724b47d23b3df55ddfb588"
+        },
+        {
+          "relativePath": "CRM_ACC_HANDOFF_CONTRACT_DRAFT.md",
+          "sha256": "6ae7cf4068faa0ccc563e4f56a915c53d3093a3087b8a7911ad0db69ce3b6781"
+        },
+        {
+          "relativePath": "CRM_PRODUCT_OWNER_DECISIONS.md",
+          "sha256": "5b60720bd4608e3456c5e20fa7774ca9e0ec93bd9fe2bf58ec63b913de9eda40"
+        },
+        {
+          "relativePath": "CRM_R3_4_PRODUCT_EXPERIENCE_AND_AI_MASTER_PROMPT_20261010.md",
+          "sha256": "a8c8bdc61aef2e2ed8de5161d2d5b2c30c9c07fc987018007fcb83388e64ee43"
+        },
+        {
+          "relativePath": "package.json",
+          "sha256": "9483c11a352ff9f9f5303bff1447179a9ae051e9ce7be988bb9f49654a5f772b"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "accJ5DualSidedWorkflowObserved": true,
+    "accInternalContributionFlowObserved": true,
+    "accAppInterfaceStillNotImplemented": true,
+    "crmR34Observed": true,
+    "crmAccIntegrationBlocked": true,
+    "crmDirectAppRelationshipBlocked": true,
+    "crmAccMarkerPayloadFree": true,
+    "threeProductsRemainSeparate": true
+  },
+  "failedChecks": [],
+  "conclusion": "The App package reflects the observed ACC J.5 and CRM R3.4 boundaries without changing or merging either product."
+}

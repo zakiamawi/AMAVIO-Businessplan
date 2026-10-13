@@ -12,3 +12,40 @@
 # Local OS / editor noise
 .DS_Store
 Thumbs.db
+
+# Dependencies, builds and local runtime state
+node_modules/
+dist/
+.runtime/
+.playwright/
+.cache/
+coverage/
+
+# Secrets and authentication artifacts
+.env
+.env.*
+*.pem
+*.key
+auth.json
+credentials.json
+
+# Local databases, real-data staging and exports
+local-data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+exports/
+backups/
+*.bak
+
+# Render and screenshot evidence remains local unless curated explicitly
+QA/Screenshots/
+QA/*-screens/
+QA/screens/
+rendercheck/
+rendered_pages/page-*.png
+__pycache__/
+*.pyc

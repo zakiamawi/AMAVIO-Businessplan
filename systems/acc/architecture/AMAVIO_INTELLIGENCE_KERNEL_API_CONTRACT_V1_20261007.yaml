@@ -1,0 +1,114 @@
+openapi: 3.1.0
+info:
+  title: AMAVIO Intelligence Kernel API
+  version: 1.0.0-local-synthetic
+  description: >-
+    Providerunabhängiger, tenantgebundener und ausschließlich synthetischer Kernel-Vertrag.
+    Keine Route besitzt Außenwirkung oder produktive Authentifizierung.
+servers:
+  - url: http://127.0.0.1:4199
+    description: Lokale Konzeptdemo
+paths:
+  /api/kernel/v1/status:
+    get:
+      summary: Modul-, Provider- und Wirkungsgrenzen lesen
+      responses:
+        "200": { description: Kernelstatus }
+        "401": { description: Lokale Demo-Sitzung fehlt }
+  /api/kernel/v1/capabilities:
+    get:
+      summary: Versionierte Capability Registry lesen
+      responses:
+        "200": { description: Vier advisory-only Capabilities }
+  /api/kernel/v1/cases/{caseId}/context:
+    get:
+      summary: Evidence-Graph- und Orchestrierungskontext für eine Fallreise lesen
+      parameters:
+        - name: caseId
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200": { description: Providerunabhängiger Fallkontext }
+        "404": { description: Fall im aktiven Mandanten nicht gefunden }
+  /api/kernel/v1/runs:
+    post:
+      summary: Eine registrierte Capability lokal und beratend ausführen
+      parameters:
+        - $ref: "#/components/parameters/IdempotencyKey"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [caseId, capabilityId]
+              properties:
+                caseId: { type: string }
+                capabilityId:
+                  type: string
+                  enum: [case.orchestrate, evidence.resolve_conflict, simulation.explain_impact, brief.compose]
+                provider: { type: string, enum: [local, openai, mistral], default: local }
+                instruction: { type: string, maxLength: 1500 }
+      responses:
+        "201": { description: Persistierter Lauf im Status awaiting_human_review }
+        "409": { description: Policy verweigert Provider oder Ausführung }
+  /api/kernel/v1/runs/{runId}/review:
+    post:
+      summary: Beratendes Ergebnis menschlich prüfen, ohne Folgeaktion
+      parameters:
+        - $ref: "#/components/parameters/IdempotencyKey"
+        - name: runId
+          in: path
+          required: true
+          schema: { type: string }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [decision, note, version]
+              properties:
+                decision: { type: string, enum: [approved, rejected] }
+                note: { type: string, minLength: 1 }
+                version: { type: integer, minimum: 1 }
+      responses:
+        "200": { description: Review gespeichert; externalEffect bleibt false }
+        "409": { description: Review bereits oder parallel abgeschlossen }
+  /api/kernel/v1/evaluations:
+    post:
+      summary: Lokale 34-Szenarien-Kernel-Evaluation ausführen
+      parameters:
+        - $ref: "#/components/parameters/IdempotencyKey"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [caseId]
+              properties:
+                caseId: { type: string }
+      responses:
+        "201": { description: Persistiertes Evaluationsergebnis ohne externen Call }
+components:
+  parameters:
+    IdempotencyKey:
+      name: idempotency-key
+      in: header
+      required: true
+      schema: { type: string, minLength: 8, maxLength: 120 }
+  securitySchemes:
+    LocalDemoSession:
+      type: apiKey
+      in: header
+      name: x-demo-session
+security:
+  - LocalDemoSession: []
+x-amavio-boundaries:
+  syntheticOnly: true
+  externalEffects: false
+  automaticDecisions: false
+  providerCosts: false
+  productionAuthentication: false
